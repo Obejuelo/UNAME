@@ -55,6 +55,7 @@
                                 <a href="../oferta/superior" class="dropdown-item">Licenciaturas</a>
                                 <a href="../oferta/bachillerato" class="dropdown-item">Bachillerato general</a>
                                 <a href="../oferta/spam" class="dropdown-item">Secundaria y Preparatoria Abierta</a>
+                                <a href="#" class="dropdown-item">Internacionalización</a>
                             </div>
                         </li>
                     <li class="nav-item">
@@ -88,14 +89,15 @@
         </div>
     </div>
     -->
-    <div class="container-fluid" style="background: rgba(12,83,59, 1);height: 240px; color: #fff">
+    
+    <div class="container-fluid titulo">
         <div class="row justify-content-center">
             <div class="col-12 align-bach"><p class="h1 text-center">Internacionalización</p></div>
         </div>
     </div>
 
-    <section class="container">
-        <div class="row mb-3">
+    <section class="container ">
+        <div class="row my-3">
             <div class="col-12">
                 <p class="text-justify text-muted">La Visión de la Universidad Nacionalista México, es ser una institución educativa ejemplar de nivel superior, lo que implica que se lleven a cabo una serie de estrategias académicas que permitan formar profesionales con capacidades, habilidades y destrezas personales con alto sentido humano y compromiso social; descubridores y poseedores de la verdad alcanzada. En ese camino trazado la Universidad ha establecido lazos a nivel internacional con Cuba, un país que pese a sus condiciones económicas, considera a la educación como uno de sus pilares principales. El Estado Cubano, con la participación y respaldo de las organizaciones sociales y no gubernamentales es el encargado de la estructuración y funcionamiento de un sistema nacional de educación orientado al desarrollo y formación de las nuevas generaciones en un proceso docente educativo integral, sistemático, participativo y en constante desarrollo, que se apoya en un conjunto de principios, que forman un sistema íntimamente relacionado; por lo que los resultados alcanzados permiten conocer que se trata de un país con alta calidad educativa.</p>
                 <p class="text-justify text-muted">Por ello, se logró el contacto con las principales universidades cubanas y firmar los Convenios de Colaboración Académica con la finalidad de elaborar un programa de movilidad estudiantil que permita reforzar las actividades académicas de nuestra Universidad.</p>

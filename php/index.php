@@ -108,7 +108,7 @@
                 <div class="opacidad"></div>
             </div>
             <div class="carousel-item img-4" id="head2">
-            	<img src="image/slider/cuba.png" alt="">
+            	<img src="image/slider/conferencia.jpg" alt="">
                 <div class="opacidad"></div>
             </div>
             <div class="carousel-item img-4" id="head2">

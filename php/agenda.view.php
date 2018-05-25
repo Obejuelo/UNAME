@@ -56,6 +56,7 @@
                                 <a href="oferta/superior" class="dropdown-item">Licenciaturas</a>
                                 <a href="oferta/bachillerato" class="dropdown-item">Bachillerato general</a>
                                 <a href="oferta/spam" class="dropdown-item">Secundaria y Preparatoria Abierta</a>
+                                <a href="inter" class="dropdown-item">Internacionalización</a>
                             </div>
                         </li>
                     <li class="nav-item">
