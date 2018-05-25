@@ -130,7 +130,7 @@
                                             <p class="h3">Requisitos</p>
                                             <li>Acta de nacimiento (original y 2 copias)</li>
                                             <li>Certificado de Licenciatura (original y 2 copias)</li>
-                                            <li class="text-danger"><a data-toggle="tooltip" data-placement="top"  title="Si cuenta con ellos">Copia del Título y Cédula profesional (original y dos copias)</a></li>
+                                            <li>Copia del Título y Cédula profesional (si cuenta conellos)</li>
                                             <li>4 fotografías en blanco y negro, terminado mate, tamaño infantil, tomadas de frente, con orejas descubiertas, no instantáneas, tomadas con ropa color blanco. (mujeres, sin aretes, cabello recogido).</li>
                                             <li>Entrevista con el Coordinador de la Maestría</li>
                                         </div>
