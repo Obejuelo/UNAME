@@ -1,0 +1,155 @@
+.modulos tr td{
+	font-size: .8em;
+	height: 70px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.thead-dark{background: #0c273d;color: #fff;}
+
+th{text-align: center;}
+
+td p{font-style: italic;}
+
+td{text-align: center;}
+
+iframe{ width: 100%;}
+
+.escudo{width: 100%;}
+
+.btn-primary{
+    width: 120px;
+    margin: auto;
+    cursor: pointer;
+}
+/* COLOR DE BOTONES DE LICENCIATURAS */
+.btn-admon {background: rgb(32, 120, 34);border: none;}
+.btn-pedag{background: rgb(29, 166, 224);border: none;}
+.btn-sistem{background: rgb(185, 188, 189);border: none;}
+.btn-psic{background: rgb(154, 47, 204);border: none;}
+.btn-conta{background: rgb(32, 120, 34);border: none;}
+.btn-fisica{background: rgb(25, 196, 187);border: none;}
+.btn-nut{background: rgb(202, 199, 25);border: none;}
+.btn-der{background: rgb(250, 4, 4);border: none;}
+.btn-filo{background: rgb(9, 178, 201);border: none;}
+.btn-crim{background: rgb(250, 4, 4);border: none;}
+.btn-admon:hover{background: rgb(75, 163, 76);}
+.btn-pedag:hover{background: rgb(42, 182, 241);}
+.btn-sistem:hover{ background: rgb(162, 164, 165);}
+.btn-psic:hover{background: rgb(201, 86, 255);}
+.btn-conta:hover{background: rgb(75, 163, 76);}
+.btn-fisica:hover{background: rgb(54, 219, 211);}
+.btn-nut:hover{background: rgb(226, 224, 79);}
+.btn-der:hover{background: rgb(247, 77, 77);}
+.btn-filo:hover{background: rgb(37, 197, 218);}
+.btn-crim:hover{background: rgb(247, 77, 77);}
+
+/*COLOR DE LICENCIATURAS MODAL*/
+.close{color: #FEFCFC;cursor: pointer;}
+.close:hover{color: #7D7B7B;transition-duration: .2s;}
+.modal-admon{background: rgb(32, 120, 34);color: #fff;}
+.modal-pedag{background: rgb(29, 166, 224);color: #fff;}
+.modal-sistem{background: rgb(214, 223, 227);}
+.modal-psic{background: rgb(154, 47, 204);color: #fff;}
+.modal-conta{background: rgb(32, 120, 34);color: #fff;}
+.modal-fisica{background: rgb(25, 196, 187);color: #fff;}
+.modal-nut{background: rgb(202, 199, 25);color: #fff;}
+.modal-der{background: rgb(250, 4, 4);color: #fff;}
+.modal-filosofia{background: rgb(9, 178, 201);color: #fff;}
+.modal-crim{background: rgb(250, 4, 4);color: #fff;}
+
+/*||||||||||||||||||||||||||||||||||||COLOR DE MAESTRIAS|||||||||||||||||||||||||||||||||||||||||*/
+.btn-doc {background: rgb(25, 196, 187);border: none;}
+.btn-dca {background: rgb(255, 0, 0);border: none;}
+.btn-fiscal{background: rgb(255, 0, 0);border: none;}
+.btn-dir {background: rgb(32, 120, 34);border: none;}
+.modal-doc {background: rgb(31, 230, 220);color: #fff;}
+.modal-dca {background: rgb(255, 0, 0);color: #fff;}
+.modal-fiscal{background: rgb(255, 0, 0);color: #fff;}
+.modal-dir{background: rgb(32, 120, 34);color: #fff;}
+.btn-doc:hover{background: rgb(31, 230, 220);}
+.btn-dca:hover{background: rgb(255, 34, 34);}
+.btn-fiscal:hover{background: rgb(255, 34, 34);}
+.btn-dir:hover{background: rgb(40, 146, 42);}
+
+.posgrados .card:hover{
+    box-shadow: -1px 2px 15px 2px rgba(138, 132, 132, 0.5);
+    transition-duration: .25s;
+}
+
+.card-nota{
+    transform:translateY(-5px);
+    transition-duration: .2s;
+}
+.card-img:hover{
+    box-shadow: -1px 2px 20px 2px rgba(138, 132, 132, 0.5);
+    transition-duration: .2s;
+}
+.nomeclatura1{
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background: #000;
+    display: inline-block;
+}
+.nomeclatura2{
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background: red;
+    display: inline-block;
+}
+.nomeclatura3{
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background: #226E20;
+    display: inline-block;
+}
+/*|||||||||||||||||||||||INSTALACIONES|||||||||||||||||||||||||*/
+.modal-instalaciones{
+}
+.modal-instalaciones p{
+}
+/*||||||||||||||||||||||MATERIAS COLEGIO MÉXICO|||||||||||||||||||||||||*/
+.cnm-img,.cnm-img2,.cnm-img3,.cnm-img4,.cnm-img5,.cnm-img6,.cnm-img7{
+    position: absolute;
+    width: 25px;
+}
+.cnm-img{top: 568px;left: 120px;}
+.cnm-img2{top: 568px;left: 265px;}
+.cnm-img3{top: 665px;left: 120px;}
+.cnm-img4{top: 665px;left: 265px;}
+.cnm-img5{top: 665px;left: 695px;}
+.cnm-img6{top: 735px;left: 695px;}
+.cnm-img7{top: 735px;left: 905px;}
+
+.cnm-img img,
+.cnm-img2 img,
+.cnm-img3 img,
+.cnm-img4 img,
+.cnm-img5 img,
+.cnm-img6 img,
+.cnm-img7 img{
+    width: 100%;
+}
+@media screen and (min-width: 200px){
+    .h1.text-center{
+        font-size: 2.3em;
+    }
+    .align-bach{
+        margin:100px 0;
+    }
+}
+@media screen and (min-width: 600px){
+    .h1.text-center{
+        font-size: 3em;
+    }
+    .align-bach{
+        margin:130px 0;
+    }
+    
+}
+@media screen and (min-width: 992px){
+    
+}

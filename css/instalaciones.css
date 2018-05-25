@@ -1,0 +1,140 @@
+.img-unm{
+  margin-top: 10px;
+  background: url('../image/inicio/unm_aereo.jpg');
+  height: 200px;
+  background-position: center;
+  background-size: cover;
+  display: none;
+  border-radius: 5px;
+}
+.img-unm div:nth-child(1),
+.img-unm div:nth-child(2),
+.img-unm div:nth-child(3),
+.img-unm div:nth-child(4),
+.img-unm div:nth-child(5),
+.img-unm div:nth-child(6),
+.img-unm div:nth-child(7),
+.img-unm div:nth-child(8),
+.img-unm div:nth-child(9),
+.img-unm div:nth-child(10){
+  position: relative;
+  width: 10px;
+  height: 10px;
+  background:rgb(12,83,59);
+  border-radius: 5px;
+  cursor: pointer;
+}
+.img-unm div:nth-child(1){animation: 1.35s pulse infinite;}
+.img-unm div:nth-child(2){animation: 1.4s pulse infinite;}
+.img-unm div:nth-child(3){animation: 1.45s pulse infinite;}
+.img-unm div:nth-child(4){animation: 1.5s pulse infinite;}
+.img-unm div:nth-child(5){animation: 1.55s pulse infinite;}
+.img-unm div:nth-child(6){animation: 1.6s pulse infinite;}
+.img-unm div:nth-child(7){animation: 1.65s pulse infinite;}
+.img-unm div:nth-child(8){animation: 1.7s pulse infinite;}
+.img-unm div:nth-child(9){animation: 1.38s pulse infinite;}
+.img-unm div:nth-child(10){animation: 1.43s pulse infinite;}
+
+.img-unm div:nth-child(1) a,
+.img-unm div:nth-child(2) a,
+.img-unm div:nth-child(3) a,
+.img-unm div:nth-child(4) a,
+.img-unm div:nth-child(5) a,
+.img-unm div:nth-child(6) a,
+.img-unm div:nth-child(7) a,
+.img-unm div:nth-child(8) a,
+.img-unm div:nth-child(9) a,
+.img-unm div:nth-child(10) a{
+  position: relative;
+  top: -11px;
+  padding: 5px;
+  color: white;
+}
+.img-unm div:nth-child(1) a a,
+.img-unm div:nth-child(2) a a,
+.img-unm div:nth-child(3) a a,
+.img-unm div:nth-child(4) a a,
+.img-unm div:nth-child(5) a a,
+.img-unm div:nth-child(6) a a,
+.img-unm div:nth-child(7) a a,
+.img-unm div:nth-child(8) a a,
+.img-unm div:nth-child(9) a a,
+.img-unm div:nth-child(10) a a{
+  position: absolute;
+  top: -30px;
+  left: -50px;
+  background: red;
+}
+
+
+/*-----------------MEDIA SCREEN PARA RESPONSIVE DESING-----------------------*/
+@media screen and (min-width: 575px) {
+  #acordion{display: none;}
+  .img-unm{height: 350px; display: block;}
+  .img-unm div:nth-child(1){top: 55px;left: 35px;}
+  .img-unm div:nth-child(2){top: 50px;left: 130px;}
+  .img-unm div:nth-child(3){top: 46px;left: 200px;}
+  .img-unm div:nth-child(4){top: 40px;left: 290px;}
+  .img-unm div:nth-child(5){top: 30px;left: 328px;}
+  .img-unm div:nth-child(6){top: 40px;left: 336px;}
+  .img-unm div:nth-child(7){top: 120px;left: 380px;}
+  .img-unm div:nth-child(8){top: 55px;left: 365px;}
+  .img-unm div:nth-child(9){display: none;}
+  .img-unm div:nth-child(10){top: 10px;left: 201px;}
+}
+@media screen and (min-width: 767px){
+  .img-unm{height: 450px;}
+  .img-unm div:nth-child(1){top: 69px;left: 75px;}
+  .img-unm div:nth-child(2){top: 66px;left: 180px;}
+  .img-unm div:nth-child(3){top: 60px;left: 280px;}
+  .img-unm div:nth-child(4){top: 52px;left: 390px;}
+  .img-unm div:nth-child(5){top: 45px;left: 445px;}
+  .img-unm div:nth-child(6){top: 60px;left: 455px;}
+  .img-unm div:nth-child(7){top: 170px;left: 510px;}
+  .img-unm div:nth-child(8){top: 80px;left: 490px;}
+  .img-unm div:nth-child(9){top: -11px;left: 45px;display: block;}
+  .img-unm div:nth-child(10){top: 25px;left: 279px;}
+}
+@media screen and (min-width: 991px) {
+  .img-unm{height: 600px;}
+  .img-unm div:nth-child(1){top: 97px;left: 95px;}
+  .img-unm div:nth-child(2){top: 92px;left: 250px;}
+  .img-unm div:nth-child(3){top: 87px;left: 375px;}
+  .img-unm div:nth-child(4){top: 82px;left: 525px;}
+  .img-unm div:nth-child(5){top: 70px;left: 600px;}
+  .img-unm div:nth-child(6){top: 90px;left: 613px;}
+  .img-unm div:nth-child(7){top: 250px;left: 690px;}
+  .img-unm div:nth-child(8){top: 120px;left: 658px;}
+  .img-unm div:nth-child(9){top: 17px;left: 65px;}
+  .img-unm div:nth-child(10){top: 65px;left: 373px;}
+}
+@media screen and (min-width: 1199px) {
+  .img-unm{ height: 700px;}
+  .img-unm div:nth-child(1){top: 105px;left: 115px;}
+  .img-unm div:nth-child(2){top: 105px;left: 300px;}
+  .img-unm div:nth-child(3){top: 100px;left: 445px;}
+  .img-unm div:nth-child(4){top: 96px;left: 640px;}
+  .img-unm div:nth-child(5){top: 85px;left: 720px;}
+  .img-unm div:nth-child(6){top: 120px;left: 738px;}
+  .img-unm div:nth-child(7){top: 300px;left: 825px;}
+  .img-unm div:nth-child(8){top: 150px;left: 785px;}
+  .img-unm div:nth-child(9){top: 25px;left: 85px;}
+  .img-unm div:nth-child(10){top: 75px;left: 445px;}
+}
+/*||||||||||||KEYFRAMES|||||||||||||*/
+@keyframes pulse {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.4);
+    transform: scale(1.4);
+    background: #fff;
+    opacity: .7;
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}

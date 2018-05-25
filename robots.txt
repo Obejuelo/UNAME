@@ -1,0 +1,2 @@
+Sitemap: http://localhost/pagina_unm/sitemap.xml
+Disallow: /admin/

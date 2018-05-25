@@ -1,0 +1,4 @@
+ErrorDocument 404 http://localhost/pagina_unm/error.php
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
