@@ -102,6 +102,9 @@
                                     <a class="dropdown-item eight" data-toggle="list" href="#elemento8" role="tab" aria-controls="elemento8">Sistemas</a>
                                 </div>
                             </div>
+                            <div class="boton-group">
+                                <a class="btn btn-secondary bach text-white" id="bachillerato">Bachillerato</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -140,6 +143,11 @@
                     </div>
                     <div class="tab-pane fade show" id="elemento8" role="tabpanel" aria-labelledby="elemento8">
                         <div class="row justify-content-center" id="sistemas">
+                        </div>
+                    </div>
+                    <div class="tab-pane fade show" id="elemento9" role="tabpanel" aria-labelledby="elemento9">
+                        <div class="row justify-content-center">
+                            <h3>Aqui deben de ir los maestros de bachillerato</h3>
                         </div>
                     </div>
                 </div>
@@ -232,6 +240,9 @@ let dropdown5 = document.querySelector('.dropdown-item.five');
 let dropdown6 = document.querySelector('.dropdown-item.six');
 let dropdown7 = document.querySelector('.dropdown-item.seven');
 let dropdown8 = document.querySelector('.dropdown-item.eight');
+let bachillerato = document.getElementById('bachillerato');
+let bach = document.getElementById('elemento9');
+
 //console.log(dropdown);
 dropdown1.addEventListener('click', function(){
   $(dropdown2).removeClass('active show');
@@ -304,6 +315,25 @@ dropdown8.addEventListener('click', function(){
   $(dropdown6).removeClass('active show');
   $(dropdown7).removeClass('active show');
   $(dropdown2).removeClass('active show');
+});
+bachillerato.addEventListener('click', function () {
+    $(bach).addClass('show active');
+    $('#elemento1').removeClass('active');
+    $('#elemento2').removeClass('active');
+    $('#elemento3').removeClass('active');
+    $('#elemento4').removeClass('active');
+    $('#elemento5').removeClass('active');
+    $('#elemento6').removeClass('active');
+    $('#elemento7').removeClass('active');
+    $('#elemento8').removeClass('active');
+    $(dropdown1).removeClass('active show');
+    $(dropdown3).removeClass('active show');
+    $(dropdown4).removeClass('active show');
+    $(dropdown5).removeClass('active show');
+    $(dropdown6).removeClass('active show');
+    $(dropdown7).removeClass('active show');
+    $(dropdown2).removeClass('active show');
+    $(dropdown8).removeClass('active show');
 });
 
 </script>

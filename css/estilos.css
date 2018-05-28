@@ -444,6 +444,10 @@ textarea {
     text-align: justify;
 }
 
+.boton-group {
+    display: inline;
+}
+
 
 /*|||||||||||||||CONVENIOS||||||||||||||||||*/
 
