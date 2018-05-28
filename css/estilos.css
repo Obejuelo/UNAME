@@ -166,6 +166,7 @@ header {
     border-right: 1px solid rgb(184, 179, 179);
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.3);
     border-radius: 0px 3px 0px 0px;
+    text-align: center;
 }
 
 .menu-sub2 {
@@ -205,7 +206,6 @@ header {
 .menu-sub:hover a,
 .menu-sub2:hover a {
     text-decoration: none;
-    width: 150px;
 }
 
 .menu-sub a,
@@ -213,8 +213,9 @@ header {
     position: relative;
     cursor: pointer;
     color: #000;
-    padding: 10px;
+    padding: 3px;
     top: 3px;
+    width: 100%;
 }
 
 .dropdown-menu .dropdown-item:hover {
@@ -247,7 +248,7 @@ ol li {
 }
 
 .tarjeta:hover {
-    transform: translateY(-3px);
+    /* transform: translateY(-3px); */
     transition-duration: .2s;
     box-shadow: 0 5px 10px 0 rgba(138, 132, 132, 0.5);
 }

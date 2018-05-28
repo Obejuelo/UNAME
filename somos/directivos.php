@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Historia-Universidad Nacionalista México</title>
+    <title>Directivos-Universidad Nacionalista México</title>
     <meta name="author" content="Obed Vicente Hernández Ramírez">
     <meta name="owner" content="Universidad Nacionalista México">
     <meta name="theme-color" content="rgb(12,83,59)">
@@ -78,28 +78,7 @@
 
     <div class="container-fluid titulo">
         <div class="row justify-content-center">
-            <div class="col-12 align-bach"><p class="h1 text-center">HISTORIA</p></div>
+            <div class="col-12 align-bach"><p class="h1 text-center">Directivos</p></div>
         </div>
     </div>
-    
-    <section class="container">
-        <div class="row mt-3">
-            <div class="col">
-                <p class="text-justify">En el año de 1995 se funda en el Estado de Oaxaca una Institución Educativa para atender las necesidades de preparación de un sector de la sociedad que no puede asistir al Sistema Educativo Tradicional por sus compromisos de tipo laboral o familiar.
-                </p>
-                <p class="text-justify">Nace así la Escuela Preparatoria Abierta  Intensiva México, S.C., ofreciendo a sus estudiantes la posibilidad de asesorías académicas para cursar el bachillerato asistiendo dos horas diarias o sábados únicamente.</p>
-                <p class="text-justify">Posteriormente, y como consecuencia de la necesidad de apoyar a las personas que no han concluido su educación secundaria, esta misma Institución abre sus puertas a los estudiantes de tal nivel.</p>
-                <p class="text-justify">En Octubre del año 2002 este Centro educativo ahora ya con la denominación social de COLEGIO NACIONALISTA DE ESTUDIOS SUPERIORES MÉXICO, propone ante la Dirección de General de Educación Superior Universitaria de la Secretaría de Educación Pública, la incorporación de los planes y programas académicos de varias licenciaturas en modalidad mixta, y con la obtención de los reconocimientos  de validez oficial de estudios inicia actividades académicas el 5 de Febrero del año 2005. Además, con la  innovación muy importante de que se puede estudiar sin dejar de trabajar, se da una interrelación estrecha entre la teoría y práctica laboral pues se incorporan experiencias profesionales y de vida a las actividades educativas en el aula, favoreciendo el estudio independiente, con un aprovechamiento real del tiempo y catedráticos especializados por área.</p>
-                <p class="text-justify">El 13 de Diciembre del año 2010 (a cinco años de haber iniciado actividades académicas) con oficio emitido por la Secretaría de Educación Pública No. DIPES/SR/17500/10, se le otorga al Colegio Nacionalista de Estudios Superiores México la categoría de UNIVERSIDAD y la denominación de Universidad Nacionalista México, gracias a que logra cumplir los requisitos para alcanzar tal denominación, entre los que se encuentran (además de otros):</p>
-                <ol type="1" start="1">
-                    <li class="text-justify">Ofrecer programas de Posgrado.</li>
-                    <li class="text-justify">Contar con programas de estudio en tres áreas distintas del conocimiento (Físico – Matemáticas, Ciencia Económico-Administrativas, Ciencias Sociales y Humanidades).</li>
-                    <li class="text-justify">De manera especial, titulados de la primera generación a escaso tiempo de haberse graduado.</li>
-                    <li class="text-justify">Actividades académicas, docentes y complementarias que otras Instituciones Educativas de reciente creación no  ofrecen: Talleres, Cursos, Diplomado en Latín, Programa de Formación de Docentes, etc.</li>
-                </ol>
-                <p class="text-justify">El 30 de Enero del año 2013, la Dirección General del Bachillerato de la Secretaría de Educación Pública otorgó al Colegio Nacionalista de Estudios Superiores México el Reconocimiento de Validez Oficial de Estudios, con número de acuerdo 13-980 para el nivel Bachillerato, con la denominación de Colegio Nacionalista México, autorizando así, a nuestra Institución, a ofrecer estudios de este nivel a los jóvenes interesados en cursarlos; comprometiéndose en el fortalecimiento del quehacer educativo en nuestra sociedad, y con los padres de familia en la formación integral de sus hijos.</p>
-            </div>
-        </div>
-    </section>
-
-     <?php require '../oferta/footer.php' ?>
+<?php require '../oferta/footer.php' ?>

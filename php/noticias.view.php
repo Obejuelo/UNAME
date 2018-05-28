@@ -42,7 +42,8 @@
                         <a href="somos/somos" class="nav-link dropdown-toggle" id="mi_menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">¿Quienes somos?</a>
                         <div class="dropdown-menu" aria-labelledby="mi_menu">
                             <div class="sub-menu"><a href="somos/claus_lic" class="dropdown-item">Directorio</a>
-                                
+                                <div class="menu-sub"><a href="somos/claus_lic">Claustro docente</a></div>
+                                <div class="menu-sub2"><a href="somos/directivos">Directivos</a></div>
                             </div>
                             <a href="somos/instalaciones" class="dropdown-item">Instalaciones</a>
                             <a href="somos/filosofia" class="dropdown-item">Filosofía Institucional</a>

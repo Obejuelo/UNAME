@@ -44,8 +44,8 @@
                         <a href="somos/somos.php" class="nav-link dropdown-toggle" id="mi_menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">¿Quienes somos?</a>
                         <div class="dropdown-menu" aria-labelledby="mi_menu">
                             <div class="sub-menu"><a href="somos/claus_lic" class="dropdown-item">Directorio</a>
-                                 <div class="menu-sub"><a href="somos/claus_lic.php">Claustro docente</a></div>
-                                 <div class="menu-sub2"><a>Directivos</a></div>
+                                 <div class="menu-sub"><a href="somos/claus_lic">Claustro docente</a></div>
+                                 <div class="menu-sub2"><a href="somos/directivos">Directivos</a></div>
                             </div>
                             <a href="somos/instalaciones" class="dropdown-item">Instalaciones</a>
                             <a href="somos/filosofia" class="dropdown-item">Filosofía Institucional</a>
@@ -85,7 +85,7 @@
             <li data-target="#principal-carousel" data-slide-to="1"></li>
             <li data-target="#principal-carousel" data-slide-to="2"></li>
             <li data-target="#principal-carousel" data-slide-to="3"></li>
-            <li data-target="#principal-carousel" data-slide-to="4"></li>
+            <!--<li data-target="#principal-carousel" data-slide-to="4"></li>-->
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item img-1 active" id="head1">
@@ -107,10 +107,12 @@
                 </div>
                 <div class="opacidad"></div>
             </div>
+            <!--
             <div class="carousel-item img-4" id="head2">
             	<img src="image/slider/conferencia.jpg" alt="">
                 <div class="opacidad"></div>
             </div>
+            -->
             <div class="carousel-item img-4" id="head2">
                 <img src="image/slider/torneo.png" alt="">
                 <div class="opacidad"></div>
@@ -140,7 +142,7 @@
                         <div class="card-body">
                             <h4 class="card-title text-center">Educación Superior</h4>
                             <p class="card-text text-center">La Universidad Nacionalista México, en nivel superior, ofrece la posibilidad de realizar estudios de Licenciatura asistiendo de lunes a viernes o sábados únicamente, y de posgrado, asistiendo un solo día a la semana.</p>
-                            <div class="trans"><a href="oferta/superior" class="btn btn-primary">Ver más</a></div>
+                            <div class="trans"><a href="oferta/superior" class="btn btn-outline-dark">Ver más</a></div>
                         </div>
                     </div>
                 </div>
@@ -150,7 +152,7 @@
                         <div class="card-body">
                             <h4 class="card-title text-center">Bachillerato General</h4>
                             <p class="card-text text-center">Nuestro programa de estudios, con preparación profesional en Traductor de Inglés, tiene como finalidad formar íntegralmente personas que transmitan y promuevan los conocimientos científicos y técnicos.</p>
-                            <div class="trans"><a href="oferta/bachillerato" class="btn btn-primary">Ver más</a></div>
+                            <div class="trans"><a href="oferta/bachillerato" class="btn btn-outline-dark">Ver más</a></div>
                         </div>
                     </div>
                 </div>
@@ -160,7 +162,7 @@
                         <div class="card-body">
                             <h4 class="card-title text-center">Secundaria y Preparatoria Abierta</h4>
                             <p class="card-text text-center">Quienes quieren superarse y desean estudiar su secundaria o preparatoria, pueden encontrar el apoyo total en nuestra institución, que cuenta con más de 22 años de experiencia y prestigio.</p>
-                            <div class="trans"><a href="oferta/spam" class="btn btn-primary">Ver más</a></div>
+                            <div class="trans"><a href="oferta/spam" class="btn btn-outline-dark">Ver más</a></div>
                         </div>
                     </div>
                 </div>
