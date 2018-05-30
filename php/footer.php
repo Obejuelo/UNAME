@@ -34,6 +34,8 @@
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/galeria.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.flipping_text.js"></script>
     <script src="js/app.js"></script>
 <script>
     baguetteBox.run('.tz-gallery');

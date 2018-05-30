@@ -85,7 +85,7 @@
             <li data-target="#principal-carousel" data-slide-to="1"></li>
             <li data-target="#principal-carousel" data-slide-to="2"></li>
             <li data-target="#principal-carousel" data-slide-to="3"></li>
-            <!--<li data-target="#principal-carousel" data-slide-to="4"></li>-->
+            <li data-target="#principal-carousel" data-slide-to="4"></li>
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item img-1 active" id="head1">
@@ -107,12 +107,55 @@
                 </div>
                 <div class="opacidad"></div>
             </div>
-            <!--
+            
+            <div class="carousel-item promocion" id="head2">
+                <div class="container">
+                    <div class="row justify-content-center align-items-center">
+                        <div class="col-12 col-lg-4 calendar justify-content-center">
+                            <div class="texto1 mb-4">
+                                <p class="h2 text-center"><strong>PROXIMA EVALUACIÓN DIAGNÓSTICA</strong></p>
+                            </div>
+                            <div class="image-promo">
+                                <img src="image/slider/calendar2.png" alt="img" class="img-fluid">
+                            </div>
+                            <div class="horario-sm d-block d-lg-none">
+                                <p class="h1 text-center"><strong>16:00 HRS.</strong></p>
+                                <p class="h3 text-center">#FamiliaEducativaMéxico</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-8">
+                            <div class="row justify-content-center">
+                                <div class="col-md-12">
+                                    <div class="oferta d-none d-lg-block">
+                                        <p class="h1 text-center"><strong>10 LICENCIATURAS</strong></p>
+                                        <p class="h3 text-center">MODALIDAD ESCOLARIZADA</p>
+                                    </div>
+                                    
+                                </div>
+                                <div class="col-md-12 d-none d-lg-block" style="height:590px;">
+                                </div>
+                                <div class="col-md-12 mt-5">
+                                    <div class="horario d-none d-lg-block">
+                                        <p class="h1 text-center"><strong>16:00 HRS.</strong></p>
+                                        <p class="h3 text-center">#FamiliaEducativaMéxico</p>
+                                    </div>
+                                </div>
+                                <div class="img-promo d-none d-lg-block">
+                                    <img src="image/slider/foto2.png" alt="img" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            	
+                <!-- <div class="opacidad"></div> -->
+            </div>
+
             <div class="carousel-item img-4" id="head2">
-            	<img src="image/slider/conferencia.jpg" alt="">
+            	<img src="image/slider/promocion2.jpg" alt="">
                 <div class="opacidad"></div>
             </div>
-            -->
+           
             <div class="carousel-item img-4" id="head2">
                 <img src="image/slider/torneo.png" alt="">
                 <div class="opacidad"></div>
