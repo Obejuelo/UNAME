@@ -29,59 +29,35 @@ AUTHOR: OBED HERNÁNDEZ;
 
 .promocion {
     height: 100vh;
-    background: url('../image/slider/fondo2.png') no-repeat;
+    background: url('../image/slider/fondo-lic.png') no-repeat;
     background-size: cover;
 }
 
-.promocion .texto1 {
-    width: 250px;
-    text-align: center;
-    margin: 0 auto;
+.promocion2 {
+    height: 100vh;
+    background: url('../image/slider/fondo-bach.png') no-repeat;
+    background-size: cover;
 }
 
-.promocion .texto1 p {
-    font-weight: 400;
-    font-style: inherit;
-    animation: 3s fadeInUp 1;
+.promocion3 {
+    height: 100vh;
+    background-color: #DEB887;
+    background-image: repeating-linear-gradient(transparent, transparent 50px, rgba(0, 0, 0, .4) 50px, rgba(0, 0, 0, .4) 53px, transparent 53px, transparent 63px, rgba(211, 161, 95, .4) 63px, rgba(211, 161, 95, .4) 66px, transparent 66px, transparent 116px, rgba(211, 161, 95, .5) 116px, rgba(211, 161, 95, .5) 166px, rgba(255, 255, 255, .2) 166px, rgba(255, 255, 255, .2) 169px, rgba(211, 161, 95, .5) 169px, rgba(211, 161, 95, .5) 179px, rgba(255, 255, 255, .2) 179px, rgba(255, 255, 255, .2) 182px, rgba(211, 161, 95, .5) 182px, rgba(211, 161, 95, .5) 232px, transparent 232px), repeating-linear-gradient(180deg, transparent, transparent 50px, rgba(211, 161, 95, .4) 50px, rgba(211, 161, 95, .4) 53px, transparent 53px, transparent 63px, rgba(211, 161, 95, .4) 63px, rgba(211, 161, 95, .4) 66px, transparent 66px, transparent 116px, rgba(211, 161, 95, .5) 116px, rgba(211, 161, 95, .5) 166px, rgba(255, 255, 255, .2) 166px, rgba(255, 255, 255, .2) 169px, rgba(211, 161, 95, .5) 169px, rgba(211, 161, 95, .5) 179px, rgba(255, 255, 255, .2) 179px, rgba(255, 255, 255, .2) 182px, rgba(211, 161, 95, .5) 182px, rgba(211, 161, 95, .5) 232px, transparent 232px), repeating-linear-gradient(-35deg, transparent, transparent 2px, rgba(211, 161, 95, .2) 2px, rgba(211, 161, 95, .2) 3px, transparent 3px, transparent 5px, rgba(211, 161, 95, .2) 5px);
 }
 
-.calendar {
-    position: relative;
-    top: 60px;
-    text-align: center;
+.promocion4 {
+    height: 100vh;
+    background: url('../image/slider/mancha.png') no-repeat;
+    background-size: cover;
 }
 
-.oferta {
-    position: absolute;
-    top: 120px;
-    animation: 1.8s fadeInDown 1;
-}
-
-.horario {
-    position: absolute;
-    top: 0px;
-    margin: 0 auto;
-    animation: 3s fadeInUp 1;
+.content-image {
+    height: 100vh;
 }
 
 .image-promo {
-    width: 150px;
-    margin: 0 auto;
-}
-
-.image-promo img {
-    animation: 2s girar 1;
-}
-
-.img-promo {
-    width: 500px;
-    position: absolute;
-    top: 150px;
-    left: 150px;
-}
-
-.img-promo img {
-    animation: 2.5s fade 1;
+    width: 100%;
+    animation: 3s fade 1;
 }
 
 .img-1,
@@ -258,64 +234,8 @@ AUTHOR: OBED HERNÁNDEZ;
     }
 }
 
-@media screen and (min-width: 991px) {
-    /* ===========PROMOCIONES=============== */
-    .promocion {
-        height: 100vh;
-        background: url('../image/slider/fondo2.png') no-repeat;
-        background-size: cover;
-    }
-    .promocion .texto1 {
-        width: 250px;
-        text-align: center;
-        margin: 0;
-    }
-    .promocion .texto1 p {
-        font-weight: 400;
-        font-style: inherit;
-    }
-    .calendar {
-        position: relative;
-        top: 100px;
-    }
-    .oferta {
-        position: absolute;
-        top: 120px;
-    }
-    .horario {
-        position: absolute;
-        margin: 0;
-        top: -70px;
-    }
-    .image-promo {
-        width: 250px;
-        margin: 0;
-    }
-    .img-promo {
-        width: 500px;
-        position: absolute;
-        top: 150px;
-        left: 150px;
-    }
-}
+@media screen and (min-width: 991px) {}
 
-@media screen and (min-width: 1199px) {
-    .img-promo {
-        width: 600px;
-        top: 100px;
-        left: 200px;
-    }
-}
+@media screen and (min-width: 1199px) {}
 
-@media screen and (min-width: 1500px) {
-    .img-promo {
-        width: 800px;
-        top: 100px;
-        left: 100px;
-    }
-    .horario {
-        position: absolute;
-        margin: 0;
-        top: 0px;
-    }
-}
+@media screen and (min-width: 1500px) {}

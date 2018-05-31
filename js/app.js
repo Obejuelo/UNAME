@@ -62,10 +62,10 @@ function retardo() {
 }
 
 //QUERY PARA QUE EL SLIDE NO PAUSE AL PASAR EL PUNTERO
-$('.carousel').carousel({
-    interval: 6000
-        //pause: "false"
-});
+// $('.carousel').carousel({
+//     interval: 6000
+//         //pause: "false"
+// });
 
 //Funcion para que el nav se oculte cuando se haga scrool hacia abajo y se muestre cuando sea hacia arriba
 var scrool = 200;

@@ -107,58 +107,41 @@
                 </div>
                 <div class="opacidad"></div>
             </div>
-            
+
             <div class="carousel-item promocion" id="head2">
-                <div class="container">
-                    <div class="row justify-content-center align-items-center">
-                        <div class="col-12 col-lg-4 calendar justify-content-center">
-                            <div class="texto1 mb-4">
-                                <p class="h2 text-center"><strong>PROXIMA EVALUACIÓN DIAGNÓSTICA</strong></p>
-                            </div>
-                            <div class="image-promo">
-                                <img src="image/slider/calendar2.png" alt="img" class="img-fluid">
-                            </div>
-                            <div class="horario-sm d-block d-lg-none">
-                                <p class="h1 text-center"><strong>16:00 HRS.</strong></p>
-                                <p class="h3 text-center">#FamiliaEducativaMéxico</p>
-                            </div>
-                        </div>
-                        <div class="col-12 col-lg-8">
-                            <div class="row justify-content-center">
-                                <div class="col-md-12">
-                                    <div class="oferta d-none d-lg-block">
-                                        <p class="h1 text-center"><strong>10 LICENCIATURAS</strong></p>
-                                        <p class="h3 text-center">MODALIDAD ESCOLARIZADA</p>
-                                    </div>
-                                    
-                                </div>
-                                <div class="col-md-12 d-none d-lg-block" style="height:590px;">
-                                </div>
-                                <div class="col-md-12 mt-5">
-                                    <div class="horario d-none d-lg-block">
-                                        <p class="h1 text-center"><strong>16:00 HRS.</strong></p>
-                                        <p class="h3 text-center">#FamiliaEducativaMéxico</p>
-                                    </div>
-                                </div>
-                                <div class="img-promo d-none d-lg-block">
-                                    <img src="image/slider/foto2.png" alt="img" class="img-fluid">
-                                </div>
-                            </div>
-                        </div>
+            	<div class="row content-image justify-content-center">
+                    <div class="col-lg-11 col-xl-10 align-self-center">
+                        <img src="image/slider/lic.png" alt="lic" class="image-promo img-fluid">
                     </div>
                 </div>
-            	
+                <!-- <div class="opacidad"></div> -->
+            </div>
+            
+            <div class="carousel-item promocion2" id="">
+            	<div class="row content-image justify-content-center">
+                    <div class="col-lg-11 col-xl-10 align-self-center">
+                        <img src="image/slider/bach.png" alt="lic" class="image-promo img-fluid">
+                    </div>
+                </div>
+                <!-- <div class="opacidad"></div> -->
+            </div>
+           
+            <div class="carousel-item promocion3" id="">
+            	<div class="row content-image justify-content-center">
+                    <div class="col-lg-11 col-xl-10 align-self-center">
+                        <img src="image/slider/cuba.png" alt="lic" class="image-promo img-fluid">
+                    </div>
+                </div>
                 <!-- <div class="opacidad"></div> -->
             </div>
 
-            <div class="carousel-item img-4" id="head2">
-            	<img src="image/slider/promocion2.jpg" alt="">
-                <div class="opacidad"></div>
-            </div>
-           
-            <div class="carousel-item img-4" id="head2">
-                <img src="image/slider/torneo.png" alt="">
-                <div class="opacidad"></div>
+            <div class="carousel-item promocion4" id="">
+            	<div class="row content-image justify-content-center">
+                    <div class="col-lg-10 col-xl-10 align-self-center">
+                        <img src="image/slider/torneo.png" alt="lic" class="image-promo img-fluid">
+                    </div>
+                </div>
+                <!-- <div class="opacidad"></div> -->
             </div>
         </div>
         <a href="#principal-carousel" class="carousel-control-prev" data-slide="prev">
