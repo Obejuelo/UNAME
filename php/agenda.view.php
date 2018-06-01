@@ -88,7 +88,7 @@
             <div class="col-md-8 event-view">
                 <img src="<?php echo RUTA; ?>/image/eventos/<?php echo $nota['img']; ?>" alt="" class="img-fluid img-single">
                 <p class="h3 text-center mb-4"><?php echo $nota['titulo']; ?></p>
-                <p class="text-justify text-secondary"><?php echo nl2br($nota['texto']); ?></p>
+                <p class="text-center text-secondary"><?php echo nl2br($nota['texto']); ?></p>
             </div>
             <div class="col-md-4">
                 <div class="row justify-content-center">

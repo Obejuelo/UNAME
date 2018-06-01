@@ -482,10 +482,23 @@ textarea {
 }
 
 .boton-evento {
+    color: #fff;
     margin-bottom: 10px;
     width: 90px;
     margin-left: auto;
     margin-right: auto;
+    background: rgb(0, 144, 69);
+    border-color: rgb(0, 144, 69);
+}
+
+.boton-evento:hover {
+    background: rgb(1, 172, 83);
+    border-color: rgb(0, 144, 69);
+    color: #fff;
+}
+
+.diary {
+    color: #0a6d3d;
 }
 
 .card-eventos {
@@ -502,10 +515,8 @@ textarea {
 }
 
 .event-container {
-    background: url('../image/inicio/agenda6.jpg');
-    background-position: center;
+    background: url('../image/inicio/fondo.png');
     background-attachment: fixed;
-    background-size: cover;
 }
 
 .event-container h2 {

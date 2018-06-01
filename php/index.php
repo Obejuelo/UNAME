@@ -202,7 +202,7 @@
         <div class="opacidad"></div>
         <section class="container">
             <div class="row justify-content-center">
-                <div class="col-12"><h2 class="text-center mb-3">Agenda académica</h2></div>
+                <div class="col-12"><h2 class="text-center mb-3 diary">Agenda académica</h2></div>
         
             <?php foreach ($notas as $nota): ?>
                 <div class="col-md-6 col-lg-3 mb-5">
@@ -211,9 +211,9 @@
                         </div>
                         <div class="card-body justify-content-center">
                             <h5 class="text-center"><?php echo substr($nota['titulo'], 0, 85); ?></h5>
-                            <p class="card-text text-justify"><?php echo substr($nota['texto'], 0, 85); ?>...</p>
+                            <p class="card-text text-justify"><?php echo substr($nota['texto'], 0, 85); ?></p>
                         </div>
-                        <a href="agenda?id=<?php echo $nota['id']; ?>&&titulo=<?php echo $nota['titulo']; ?>" class="btn btn-outline-dark btn-sm boton-evento">Ver Más</a>
+                        <a href="agenda?id=<?php echo $nota['id']; ?>&&titulo=<?php echo $nota['titulo']; ?>" class="btn btn-sm boton-evento">Ver Más</a>
                     </div>
                 </div>
             <?php endforeach ?>
