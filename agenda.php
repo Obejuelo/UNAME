@@ -12,7 +12,7 @@ if (!empty($id_articulo)) {
 	header('Location: error.php');
 }
 
-//OBTENEMOS LAS VARIABLES POR GET
+//OBTENEMOS LAS VARIABLES PARA CREAR LA TABLA POR GET
 $id_articulo = id_articulo($_GET['id']);
 $titulo = utf8_decode($_GET['titulo']);
 
@@ -80,7 +80,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST'){
 $nota = obtener_post_agenda($conexion, $id_articulo);
 $nota = $nota[0];
 
-$notas = obtener_eventos($conexion);
+$notas = obtener_eventos_id($conexion, $id_articulo);
 rsort($notas);
 
 $correo = 'correo@correo.com';

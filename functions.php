@@ -56,6 +56,12 @@ function obtener_eventos($conexion){
 	return $sentencia->fetchAll();
 }
 
+function obtener_eventos_id($conexion, $id){
+	$sentencia = $conexion->prepare("SELECT * FROM eventos WHERE id != $id");
+	$sentencia->execute();
+	return $sentencia->fetchAll();
+}
+
 function obtener_imagen($conexion){
 	$sentencia = $conexion->prepare("SELECT * FROM imagenes");
 	$sentencia->execute();

@@ -86,6 +86,7 @@
             <li data-target="#principal-carousel" data-slide-to="2"></li>
             <li data-target="#principal-carousel" data-slide-to="3"></li>
             <li data-target="#principal-carousel" data-slide-to="4"></li>
+            <li data-target="#principal-carousel" data-slide-to="5"></li>
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item img-1 active" id="head1">
@@ -135,14 +136,6 @@
                 <!-- <div class="opacidad"></div> -->
             </div>
 
-            <div class="carousel-item promocion4" id="">
-            	<div class="row content-image justify-content-center">
-                    <div class="col-lg-10 col-xl-10 align-self-center">
-                        <img src="image/slider/torneo.png" alt="lic" class="image-promo img-fluid">
-                    </div>
-                </div>
-                <!-- <div class="opacidad"></div> -->
-            </div>
         </div>
         <a href="#principal-carousel" class="carousel-control-prev" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -162,7 +155,7 @@
                 </div>
             </div>
             <div class="row mt-3 justify-content-around">
-                <div class="col-md-4 mt-3">
+                <div class="col-md-6 col-lg-4 mt-3">
                     <div class="card tarjeta mb-5">
                         <img src="image/inicio/inicio-uni.jpg" alt="educacion superior" class="card-img-top img-fluid">
                         <div class="card-body">
@@ -172,7 +165,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 mt-3">
+                <div class="col-md-6 col-lg-4 mt-3">
                     <div class="card tarjeta mb-5">
                         <img src="image/inicio/inicio-bach.jpg" alt="bachillerato" class="card-img-top img-fluid">
                         <div class="card-body">
@@ -182,7 +175,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 mt-3">
+                <div class="col-md-6 col-lg-4 mt-3">
                     <div class="card tarjeta mb-5">
                         <img src="image/inicio/inicio-spam.jpg" alt="preparatoria abierta" class="card-img-top img-fluid">
                         <div class="card-body">
