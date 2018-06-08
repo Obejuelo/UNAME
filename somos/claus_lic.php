@@ -89,7 +89,10 @@
                     <div class="row justify-content-center">
                         <div class="col-12 col-md-auto mt-2">
                             <!--|||||||GRUPO DE BOTONES PARA LAS LICENCIATURAS|||||||||||||-->
-                            <div class="btn-group">
+                            <div class="boton-group mb-1">
+                                <a class="btn btn-secondary bach text-white" id="maestria">Maestrías</a>
+                            </div>
+                            <div class="btn-group my-1">
                                 <button class="btn btn-secondary dropdown-toggle" id="id-boton" data-toggle="dropdown">Licenciaturas</button>
                                 <div class="dropdown-menu" aria-labelledby="id-boton" id="menu-claustro">
                                     <a class="dropdown-item one active" data-toggle="list" href="#elemento1" role="tab" aria-controls="elemento1">Administración / Contaduría</a>
@@ -102,7 +105,7 @@
                                     <a class="dropdown-item eight" data-toggle="list" href="#elemento8" role="tab" aria-controls="elemento8">Sistemas</a>
                                 </div>
                             </div>
-                            <div class="boton-group">
+                            <div class="boton-group mb-1">
                                 <a class="btn btn-secondary bach text-white" id="bachillerato">Bachillerato</a>
                             </div>
                         </div>
@@ -115,39 +118,52 @@
 
                     <div class="tab-pane fade show active" id="elemento1" role="tabpanel" aria-labelledby="elemento1">
                         <div class="row justify-content-center" id="admon">
+                        <div class="col-12 mt-3"><hr><p class="text-center h3">Administración - Contaduría</p></div>
                         </div>
                     </div>
                     <div class="tab-pane fade show" id="elemento2" role="tabpanel" aria-labelledby="elemento2">
                         <div class="row justify-content-center" id="derecho">
+                        <div class="col-12 mt-3"><hr><p class="text-center h3">Derecho - Criminología</p></div>
                         </div>
                     </div>
                     <div class="tab-pane fade show" id="elemento3" role="tabpanel" aria-labelledby="elemento3">
                         <div class="row justify-content-center" id="fisica">
+                        <div class="col-12 mt-3"><hr><p class="text-center h3">Educación Física</p></div>
                         </div>
                     </div>
                     <div class="tab-pane fade show" id="elemento4" role="tabpanel" aria-labelledby="elemento4">
                         <div class="row justify-content-center" id="filosofia">
+                        <div class="col-12 mt-3"><hr><p class="text-center h3">Filosofía</p></div>
                         </div>
                     </div>
                     <div class="tab-pane fade show" id="elemento5" role="tabpanel" aria-labelledby="elemento5">
                         <div class="row justify-content-center" id="nutricion">
+                        <div class="col-12 mt-3"><hr><p class="text-center h3">Nutrición y Educación Alimentaria</p></div>
                         </div>
                     </div>
                     <div class="tab-pane fade show" id="elemento6" role="tabpanel" aria-labelledby="elemento6">
                         <div class="row justify-content-center" id="pedagogia">
+                        <div class="col-12 mt-3"><hr><p class="text-center h3">Pedagogía</p></div>
                         </div>
                     </div>
                     <div class="tab-pane fade show" id="elemento7" role="tabpanel" aria-labelledby="elemento7">
                         <div class="row justify-content-center" id="psicologia">
+                        <div class="col-12 mt-3"><hr><p class="text-center h3">Psicología</p></div>
                         </div>
                     </div>
                     <div class="tab-pane fade show" id="elemento8" role="tabpanel" aria-labelledby="elemento8">
                         <div class="row justify-content-center" id="sistemas">
+                        <div class="col-12 mt-3"><hr><p class="text-center h3">Sistemas Computacionales</p></div>
                         </div>
                     </div>
                     <div class="tab-pane fade show" id="elemento9" role="tabpanel" aria-labelledby="elemento9">
                         <div class="row justify-content-center">
-                            <h3>Aqui deben de ir los maestros de bachillerato</h3>
+                        <div class="col-12 mt-3"><hr><p class="text-center h3">Bachillerato General</p></div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade show" id="elemento10" role="tabpanel" aria-labelledby="elemento10">
+                        <div class="row justify-content-center">
+                        <div class="col-12 mt-3"><hr><p class="text-center h3">Maestrías</p></div>
                         </div>
                     </div>
                 </div>
@@ -242,6 +258,8 @@ let dropdown7 = document.querySelector('.dropdown-item.seven');
 let dropdown8 = document.querySelector('.dropdown-item.eight');
 let bachillerato = document.getElementById('bachillerato');
 let bach = document.getElementById('elemento9');
+let maestria = document.getElementById('maestria');
+let posgrado = document.getElementById('elemento10');
 
 //console.log(dropdown);
 dropdown1.addEventListener('click', function(){
@@ -326,6 +344,27 @@ bachillerato.addEventListener('click', function () {
     $('#elemento6').removeClass('active');
     $('#elemento7').removeClass('active');
     $('#elemento8').removeClass('active');
+    $(posgrado).removeClass('active');
+    $(dropdown1).removeClass('active show');
+    $(dropdown3).removeClass('active show');
+    $(dropdown4).removeClass('active show');
+    $(dropdown5).removeClass('active show');
+    $(dropdown6).removeClass('active show');
+    $(dropdown7).removeClass('active show');
+    $(dropdown2).removeClass('active show');
+    $(dropdown8).removeClass('active show');
+});
+maestria.addEventListener('click', function () {
+    $(posgrado).addClass('show active');
+    $('#elemento1').removeClass('active');
+    $('#elemento2').removeClass('active');
+    $('#elemento3').removeClass('active');
+    $('#elemento4').removeClass('active');
+    $('#elemento5').removeClass('active');
+    $('#elemento6').removeClass('active');
+    $('#elemento7').removeClass('active');
+    $('#elemento8').removeClass('active');
+    $(bach).removeClass('active');
     $(dropdown1).removeClass('active show');
     $(dropdown3).removeClass('active show');
     $(dropdown4).removeClass('active show');

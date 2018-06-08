@@ -78,7 +78,7 @@
 
     <div class="container-fluid titulo">
         <div class="row justify-content-center">
-            <div class="col-12 align-bach"><p class="h1 text-center">Filosofía Institucional</p></div>
+            <div class="col-12 align-bach"><p class="h1 text-center" id="textTitle">Filosofía Institucional</p></div>
         </div>
     </div>
     <section class="container">
@@ -100,6 +100,13 @@
             <div class="col-12">
                 <p class="h2">Visión</p>
                 <p class="text-justify">Ser una Institución educativa ejemplar, en todos los niveles educativos que ofrezca, formadora de investigadores y profesionistas con un alto sentido humano y compromiso social; descubridores y poseedores de la verdad alcanzada.</p>
+            </div>
+            <div class="col-12">
+                <p class="h2">Valores</p>
+                <p class="text-justify"><strong>Nacionalismo:</strong> Sentimiento por el cual se pretende que un conjunto o agrupación de hombres del mismo origen mantenga, promueva y defienda sus tradiciones, idioma e integridad del territorio donde vive, protegiendo la soberanía de su nación ante el embate de las acciones expansionistas (concretas o abstractas) de países extranjeros.</p>
+                <p class="text-justify"><strong>Verdad:</strong> propósito firme y constante de investigar y seguir el camino que conduzca a la comprobación total de ausencia de contradicción. Rectitud de juicio y fin último de todo el universo. Veritas adequatio intellectus et rei.</p>
+                <p class="text-justify"><strong>Sabiduría:</strong> intención humana de alcanzar el pleno conocimiento en letras, arte y ciencia para aplicarlo en la vida diaria con la máxima prudencia, cordura y buen juicio. Es el conocimiento de todas las cosas por sus últimas causas.</p>
+                <p class="text-justify"><strong>Libertad:</strong> atributo supremo del hombre que le permite elegir su destino y asumir el compromiso que le corresponde para el BIEN COMÚN. Consiste en poder hacer todo lo que no dañe a otro y no le dañe a sí mismo.</p>
             </div>
             <div class="col-12">
                 <p class="h2">Escudo</p>

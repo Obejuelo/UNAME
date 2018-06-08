@@ -5,7 +5,7 @@
     <title>Colegio Nacionalista México</title>
     <meta name="author" content="Obed Vicente Hernández Ramírez">
     <meta name="owner" content="Universidad Nacionalista México">
-    <meta name="theme-color" content="rgb(12,83,59)">
+    <meta name="theme-color" content="#920000">
     <link rel="icon" type="image/png" href="../image/logo.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -20,9 +20,9 @@
 <body>  
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top navegacion" id="posicion">
         <div class="container">
-            <a href="../index" class="navbar-brand"><img src="../image/unm.png" alt="universidad" class="img-nav"></a>
-            <div class="unm mr-5"><a href="../index"><h1 id="unm">Universidad Nacionalista México</h1></a></div>
-            <div class="uname mr-5"><a href="../index"><h1 id="uname">UNM</h1></a></div>
+            <a href="../index" class="navbar-brand"><img src="../image/cnm.png" alt="universidad" class="img-nav"></a>
+            <div class="unm mr-5"><a href="../index"><h1 id="unm">Colegio Nacionalista México</h1></a></div>
+            <div class="uname mr-5"><a href="../index"><h1 id="uname">CNM</h1></a></div>
             <div class="social">
                 <a href="https://www.facebook.com/UNIVERSIDADNACIONALISTAMEXICO/" target="_blank"><i class="fab fa-facebook-square icono" id="icono1"></i></a>
                 <a href="https://www.instagram.com/universidad_mexico/?hl=es-la" target="_blank"><i class="fab fa-instagram icono" id="icono2"></i></a>
@@ -76,7 +76,7 @@
         </div>
     </nav>
 
-    <div class="container-fluid titulo">
+    <div class="container-fluid titulo" style="background: #B30505;">
         <div class="row justify-content-center">
             <div class="col-12 align-bach"><p class="h1 text-center">Bachillerato general</p></div>
         </div>
@@ -242,4 +242,123 @@
             </article>
     </section>
 
-    <?php require 'footer.php' ?>
+ <footer style="background:#920000; ">
+        
+        <div class="container my-3" class="text-left">
+            <div class="row d-flex justify-content-around">
+            <div class="w-100 mt-3"></div>
+                <div class="col-md-auto">
+                    <p class=""><i class="fas fa-envelope"></i> vinculacion@universidadmexico.edu.mx</p>
+                    <p class=""><i class="fas fa-map-marker-alt ubicacion" style="color: black"></i> Camino Nacional Núm. 99, Tlalixtac de Cabrera (<small><em>Campus</em> Central</small>)</p>
+                    <p class=""><i class="fas fa-phone"></i> (951) 133 20 87</p>
+                </div>
+                <div class="col-md-auto">
+                    <p class=""><i class="fas fa-envelope"></i> sistemas@universidadmexico.edu.mx</p>
+                    <p class=""><i class="fas fa-map-marker-alt ubicacion" style="color: black"></i> Monte Albán Núm.311 (San José la Noria)</p>
+                    <p class=""><i class="fas fa-phone"></i> (951) 51 6 09 41</p>
+                </div>
+                <div class="col-md-auto d-none d-lg-block redes-sociales">
+                    
+                    <a class="text-left" href="https://www.facebook.com/UNIVERSIDADNACIONALISTAMEXICO/" target="_blank"><i class="fab fa-facebook-square" id="foot1"></i> Facebook</a>
+                    <a class="text-left" href="https://www.instagram.com/universidad_mexico/?hl=es-la" target="_blank"><i class="fab fa-instagram" id="foot2"></i> Instagram</a>
+                    <a class="text-left" href="https://www.youtube.com/channel/UC7-y9I0oNAAhYj5JHKxVBUw" target="_blank"><i class="fab fa-youtube" id="foot3" style="color: black"></i> YouTube</a>
+                    <a class="text-left" href="https://twitter.com/Universidad_mex?lang=es" target="_blank"><i class="fab fa-twitter" id="foot4"></i> Twitter</a>
+                </div>
+            </div>
+        </div>
+        <div class="derechos mt-3">
+            <li>© 2018 Universidad Nacionalista México. Todos los derechos reservados.</li>
+            <li><a href="../privacidad">AVISO DE PRIVACIDAD</a></li>
+        </div>
+        <div style="height: 15px;"></div>
+    </footer>
+<script>
+//FUNCION PARA CAMBIAR EL COLOR DEL NAV CUANDO SE DE SCROLL
+let lastScrollTop = 56;
+let posicion = document.getElementById('posicion');
+let unm = document.getElementById('unm');
+let uname = document.getElementById('uname');
+let st = window.pageYOffset || document.documentElement.scroll;
+
+window.addEventListener("scroll", function() {
+    var st = window.pageYOffset || document.documentElement.scrollTop;
+    if (st > lastScrollTop) {
+        posicion.className = "navbar navbar-expand-lg fixed-top navegacion navbar-light bg-light";
+        unm.style.color = "#000";
+        uname.style.color = "#000";
+    }
+    let nuevo = st;
+    if (nuevo <= lastScrollTop) {
+        posicion.style.background = "rgba(10, 107, 60, .1)";
+        posicion.className = "navbar navbar-expand-lg fixed-top navegacion navbar-dark";
+        unm.style.color = "#fff";
+        uname.style.color = "#fff";
+    }
+}, false);
+
+//FUNCION PARA CAMBIAR DE COLOR LOS ICONOS DE REDES SOCIALES CUANDO SE HAGA SCROLL
+window.addEventListener("scroll", function() {
+    let icono1 = document.getElementById('icono1');
+    let icono2 = document.getElementById('icono2');
+    let icono3 = document.getElementById('icono3');
+    let icono4 = document.getElementById('icono4');
+    let scroll = 5;
+    st = window.pageYOffset || document.documentElement.scrollTop;
+    if (st > scroll) {
+        icono1.style.color = '#3569FF';
+        icono2.style.color = '#C00FC0';
+        icono3.style.color = '#00A2FF';
+        icono4.style.color = '#CE0E0E';
+    }
+    if (st <= scroll) {
+        icono1.style.color = '#fff';
+        icono2.style.color = '#fff';
+        icono3.style.color = '#fff';
+        icono4.style.color = '#fff';
+    }
+});
+
+//FUNCION PARA CAMBIAR EL COLOR DEL NAV CUANDO SE DE CLICK EN DISPOSITIVOS MOVILES
+let click = 0;
+let botonMenu = document.getElementById('show-menu');
+botonMenu.addEventListener('click', function() {
+    click++;
+    if (click % 2 == 1) {
+        posicion.style.background = "#A20000";
+        //$('nav .container').removeClass('width');
+    } else {
+        setTimeout("retardo()", 300);
+    }
+});
+
+function retardo() {
+    posicion.style.background = "rgba(10, 107, 60, .1)";
+    $('nav .container').addClass('width');
+}
+
+//FUNCIÓN PARA AÑADIRLE UNA CLASE AL NAV
+document.addEventListener('DOMContentLoaded', function() {
+    setInterval(function() {
+        let ancho = screen.width;
+        if (ancho >= 992) {
+            $('nav .container').addClass('width');
+        } else {
+            $('nav .container').removeClass('width');
+        }
+        //console.log(ancho);
+    }, 10);
+});
+</script>
+
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <!-- <script src="../js/app.js"></script> -->
+<script>
+$(function(){
+    $('[data-toggle="tooltip"]')
+    .tooltip();
+})
+</script>
+</body>
+</html>

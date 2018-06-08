@@ -78,7 +78,7 @@
     </nav>
     <div class="container-fluid titulo">
         <div class="row justify-content-center">
-            <div class="col-12 align-bach"><p class="h1 text-center">SECUNDARIA Y PREPARATORIA ABIERTA</p></div>
+            <div class="col-12 align-bach"><p class="h2 text-center">Secundaria y Preparatoria Abierta</p></div>
         </div>
     </div>
     <section class="container">
@@ -87,23 +87,27 @@
         </div>
         <div class="row mt-1">
             <div class="col-md-5">
-                <img src="../image/spam/spam.jpg" alt="preparatoria abierta" class="img-fluid">
+                <img src="../image/inicio/inicio-spam.jpg" alt="preparatoria abierta" class="img-fluid">
             </div>
             <div class="col-md-7 align-self-center">
                 <div class="">
                     <p class="h2 card-title text-muted text-center">Información general</p>
                     <p class="card-text text-justify">Quienes quieren superarse y desean estudiar su secundaria, pueden encontrar el apoyo total en la <strong>Secundaria Abierta México</strong>, la cual es una institución educativa seria, con un gran prestigio y con una amplia experiencia cultural y pedagógica en el estado de Oaxaca; además cuenta con los mejores asesores, instructores y maestros del sistema abierto, por lo que garantiza que el estudiante recibe un servicio de asesoría y enseñanza abierta de altísima calidad, a fin de que cuente con una preparación de excelencia para afrontar los exámenes que se apliquen para evaluarlo y, así, cumpliendo con el plan de estudios completo, obtener merecidamente su certificado de secundaria.</p>
                 </div>
+                <div class="mt-3">
+                    <p class="h2 text-center text-muted card-title">Validez oficial del certificado de estudios</p>
+                    <p class="card-text text-justify">Al concluir tus estudios puede estar seguro que el certificado que obtengas cuenta con validez oficial, pues es expedido por el Instituto Estatal para la Educación de los Adultos (IEEA, SEP), y es reconocido plenamente en la República Mexicana por cualquier Institución Educativa de Nivel Medio Superior (PREPARATORIA).</p>
+                </div>
             </div>
         </div>
-        <div class="row mt-3 justify-content-center">
+        <!-- <div class="row mt-3 justify-content-center">
             <div class="col-md-6 mt-1">
                 <div class="">
                     <p class="h2 text-center text-muted card-title">Validez oficial del certificado de estudios</p>
                     <p class="card-text text-justify">Al concluir tus estudios puede estar seguro que el certificado que obtengas cuenta con validez oficial, pues es expedido por el Instituto Estatal para la Educación de los Adultos (IEEA, SEP), y es reconocido plenamente en la República Mexicana por cualquier Institución Educativa de Nivel Medio Superior (PREPARATORIA).</p>
                 </div>
             </div>
-        </div>
+        </div> -->
         <div class="row mt-5 mb-5">
                 <div class="col"><p class="h2 text-center">PLAN DE ESTUDIOS INTERNO</p></div>
         </div>
@@ -237,7 +241,7 @@
 					<div class="col-md-4">
 						<table class="table table-bordered horarios table-secondary">
 							<thead class="thead-dark">
-							<th colspan="2">o sábados únicamente</th>
+							<th colspan="2">Sábados únicamente</th>
 								<tr>
 									<th>Mañanas</th>
 								</tr>

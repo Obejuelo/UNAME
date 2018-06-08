@@ -93,3 +93,50 @@ document.addEventListener('DOMContentLoaded', function() {
         //console.log(ancho);
     }, 10);
 });
+
+//ACTIVE
+getActive();
+
+function getActive() {
+    const active = document.querySelectorAll('.nav-item');
+    const titulo = document.querySelector('.titulo');
+
+    let texto = titulo.firstChild.nextSibling.firstChild.nextSibling.firstChild.innerHTML;
+
+    let inicio = active[0];
+    let somos = active[1];
+    let oferta = active[2];
+    let noticias = active[3];
+    let galeria = active[4];
+    let contacto = active[5];
+
+    switch (texto) {
+        case 'Filosofía Institucional':
+        case 'Claustro docente':
+        case 'INSTALACIONES':
+        case 'HISTORIA':
+            $(somos).addClass('active');
+            $(inicio).removeClass('active');
+            break;
+        case 'MAESTRÍAS':
+        case 'LICENCIATURAS':
+        case 'Bachillerato general':
+        case 'SECUNDARIA Y PREPARATORIA ABIERTA':
+        case 'Internacionalización':
+            $(oferta).addClass('active');
+            $(inicio).removeClass('active');
+            break;
+        case 'NOTICIAS':
+            $(noticias).addClass('active');
+            $(inicio).removeClass('active');
+            break;
+        case 'GALERÍA':
+            $(galeria).addClass('active');
+            $(inicio).removeClass('active');
+            break;
+        case 'CONTACTO':
+            $(contacto).addClass('active');
+            $(inicio).removeClass('active');
+            break;
+    }
+}
