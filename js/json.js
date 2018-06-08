@@ -57,77 +57,188 @@ cargarJson();
 */
 //Nos conectamos con el archivo .JSON de lo s maestros utilizando AJAX aun soportado por IE
 mostrarMaestros();
-function mostrarMaestros(){
-	const xhr = new XMLHttpRequest();
-	xhr.open('GET', 'licenciatura.json', true);
-	xhr.onload = function(){
-		if (this.status === 200){
-			const maestro = JSON.parse(this.responseText);
-			mostrarMaestrosAdmon(maestro.administracion);
-			mostrarMaestrosDerecho(maestro.derecho);
-			mostrarMaestrosFisica(maestro.fisica);
-			mostrarMaestrosFilosofia(maestro.filosofia);
-			mostrarMaestrosNutricion(maestro.nutricion);
-			mostrarMaestrosPedagogia(maestro.pedagogia);
-			mostrarMaestrosPsicologia(maestro.psicologia);
-			mostrarMaestrosSistemas(maestro.sistemas);
-		}
-	}
-	xhr.send();
+
+function mostrarMaestros() {
+    const xhr = new XMLHttpRequest();
+    xhr.open('GET', 'licenciatura.json', true);
+    xhr.onload = function() {
+        if (this.status === 200) {
+            const maestro = JSON.parse(this.responseText);
+            mostrarMaestrosAdmon(maestro.administracion);
+            mostrarMaestrosDerecho(maestro.derecho);
+            mostrarMaestrosFisica(maestro.fisica);
+            mostrarMaestrosFilosofia(maestro.filosofia);
+            mostrarMaestrosNutricion(maestro.nutricion);
+            mostrarMaestrosPedagogia(maestro.pedagogia);
+            mostrarMaestrosPsicologia(maestro.psicologia);
+            mostrarMaestrosSistemas(maestro.sistemas);
+        }
+    }
+    xhr.send();
 }
 //Trabajando con funciones
 function mostrarMaestrosAdmon(maestro) {
-	metodoModal(maestro, 'admon', 'la-lcp');
+    metodoModal(maestro, 'admon', 'la-lcp');
 }
 
 function mostrarMaestrosDerecho(maestro) {
-	metodoModal(maestro, 'derecho', 'ld-lcc');
+    metodoModal(maestro, 'derecho', 'ld-lcc');
 }
 
 function mostrarMaestrosFisica(maestro) {
-	metodoModal(maestro, 'fisica', 'lef');
+    metodoModal(maestro, 'fisica', 'lef');
 }
 
 function mostrarMaestrosFilosofia(maestro) {
-	metodoModal(maestro, 'filosofia', 'lf');
+    metodoModal(maestro, 'filosofia', 'lf');
 }
 
 function mostrarMaestrosNutricion(maestro) {
-	metodoModal(maestro, 'nutricion', 'ln');
+    metodoModal(maestro, 'nutricion', 'ln');
 }
 
 function mostrarMaestrosPedagogia(maestro) {
-	metodoModal(maestro, 'pedagogia', 'lp');
+    metodoModal(maestro, 'pedagogia', 'lp');
 }
 
 function mostrarMaestrosPsicologia(maestro) {
-	metodoModal(maestro, 'psicologia', 'lps');
+    metodoModal(maestro, 'psicologia', 'lps');
 }
 
 function mostrarMaestrosSistemas(maestro) {
-	metodoModal(maestro, 'sistemas', 'lsc');
+    metodoModal(maestro, 'sistemas', 'lsc');
 }
 
 //FUNCION UTILIZANDO LA CONCATENACION ANTIGUA DE JAVASCRIPT.
-function metodoModal(maestro, id, carpeta){
-	const contenido = document.getElementById(id);
-	maestro.forEach(function(dato){
-		contenido.innerHTML += '<div class="col-md-4 col-lg-3 mt-3 claustro">'+
-						'<img class="rounded-circle" src="../image/claustro/'+carpeta+'/'+dato.foto+'" alt="perfil" width="90" height="90">'+
-						'<p>'+dato.nombre+'</p>'+
-						'<p><a class="btn btn-secondary btn-sm" href="#" role="button" data-toggle="modal" data-target="#'+dato.id+'">Ver más &raquo;</a></p>'+
-						'<div class="modal fade" id="'+dato.id+'" tabindex="-1" role="dialog" aria-labelledby="'+dato.id+'" aria-hidden="true">'+
-							'<div class="modal-dialog">'+
-								'<div class="modal-content d-flex align-items-center">'+
-									'<div class="modal-body modal-claus">'+
-										'<p class="text-justify text-muted">'+dato.descripcion+'</p>'+
-									'</div>'+
-									'<div class="modal-footer">'+
-										'<button class="btn btn-success" data-dismiss="modal">Cerrar</button>'+
-									'</div>'+
-								'</div>'+
-							'</div>'+
-						'</div>'+
-					'</div>';
-	})
+function metodoModal(maestro, id, carpeta) {
+    const contenido = document.getElementById(id);
+    maestro.forEach(function(dato) {
+        contenido.innerHTML += '<div class="col-md-4 col-lg-3 mt-3 claustro">' +
+            '<img class="rounded-circle" src="../image/claustro/' + carpeta + '/' + dato.foto + '" alt="perfil" width="90" height="90">' +
+            '<p>' + dato.nombre + '</p>' +
+            '<p><a class="btn btn-secondary btn-sm" href="#" role="button" data-toggle="modal" data-target="#' + dato.id + '">Ver más &raquo;</a></p>' +
+            '<div class="modal fade" id="' + dato.id + '" tabindex="-1" role="dialog" aria-labelledby="' + dato.id + '" aria-hidden="true">' +
+            '<div class="modal-dialog">' +
+            '<div class="modal-content d-flex align-items-center">' +
+            '<div class="modal-body modal-claus">' +
+            '<p class="text-justify text-muted">' + dato.descripcion + '</p>' +
+            '</div>' +
+            '<div class="modal-footer">' +
+            '<button class="btn btn-success" data-dismiss="modal">Cerrar</button>' +
+            '</div>' +
+            '</div>' +
+            '</div>' +
+            '</div>' +
+            '</div>';
+    })
 }
+
+//correccion del dropdown claustro
+let dropdown1 = document.querySelector('.dropdown-item.one');
+let dropdown2 = document.querySelector('.dropdown-item.two');
+let dropdown3 = document.querySelector('.dropdown-item.three');
+let dropdown4 = document.querySelector('.dropdown-item.for');
+let dropdown5 = document.querySelector('.dropdown-item.five');
+let dropdown6 = document.querySelector('.dropdown-item.six');
+let dropdown7 = document.querySelector('.dropdown-item.seven');
+let dropdown8 = document.querySelector('.dropdown-item.eight');
+let bachillerato = document.getElementById('bachillerato');
+let bach = document.getElementById('elemento9');
+let maestria = document.getElementById('maestria');
+let posgrado = document.getElementById('elemento10');
+
+//  ajax para maestros de bachillerato
+bachillerato.addEventListener('click', function() {
+    fetch('bach.json')
+        .then(res => res.json())
+        .then(data => {
+            console.log(data.administracion);
+            mostrarMaestrosBach(data.administracion);
+        })
+        .catch(error => console.log(error));
+});
+
+function mostrarMaestrosBach(maestro) {
+    metodoModal(maestro, 'cnm', 'la-lcp')
+}
+
+//  ajax para maestros de maestrías
+maestria.addEventListener('click', function() {
+    const xhr = new XMLHttpRequest();
+    xhr.open('GET', 'maestria.json', true);
+    xhr.onload = function() {
+        if (this.status === 200) {
+            const maestro = JSON.parse(this.responseText);
+            // console.log(maestro);
+            mostrarMaestrias(maestro);
+        }
+    }
+    xhr.send();
+});
+
+function mostrarMaestrias(maestro) {
+    metodoModal(maestro, 'posgrado', 'ld-lcc')
+}
+
+//console.log(dropdown);
+
+//FUNCION PARA REMOVER LAS CLASES 'ACTIVE SHOW'
+function removeClasLic() {
+    $(dropdown1).removeClass('active show');
+    $(dropdown2).removeClass('active show');
+    $(dropdown3).removeClass('active show');
+    $(dropdown4).removeClass('active show');
+    $(dropdown5).removeClass('active show');
+    $(dropdown6).removeClass('active show');
+    $(dropdown7).removeClass('active show');
+    $(dropdown8).removeClass('active show');
+}
+
+//FUNCION PARA REMOVER LA CLASE ACTIVE
+function removeClas() {
+    $('#elemento1').removeClass('active');
+    $('#elemento2').removeClass('active');
+    $('#elemento3').removeClass('active');
+    $('#elemento4').removeClass('active');
+    $('#elemento5').removeClass('active');
+    $('#elemento6').removeClass('active');
+    $('#elemento7').removeClass('active');
+    $('#elemento8').removeClass('active');
+}
+//REMOVEMOS LAS CLASES CON LAS FUNCIONES
+dropdown1.addEventListener('click', function() {
+    removeClasLic();
+})
+dropdown2.addEventListener('click', function() {
+    removeClasLic();
+})
+dropdown3.addEventListener('click', function() {
+    removeClasLic();
+})
+dropdown4.addEventListener('click', function() {
+    removeClasLic();
+})
+dropdown5.addEventListener('click', function() {
+    removeClasLic();
+})
+dropdown6.addEventListener('click', function() {
+    removeClasLic();
+})
+dropdown7.addEventListener('click', function() {
+    removeClasLic();
+})
+dropdown8.addEventListener('click', function() {
+    removeClasLic();
+});
+bachillerato.addEventListener('click', function() {
+    $(bach).addClass('show active');
+    $(posgrado).removeClass('active');
+    removeClas();
+    removeClasLic();
+});
+maestria.addEventListener('click', function() {
+    $(posgrado).addClass('show active');
+    $(bach).removeClass('active');
+    removeClas();
+    removeClasLic();
+});
