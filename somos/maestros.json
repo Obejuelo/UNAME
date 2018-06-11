@@ -1,131 +1,131 @@
 [{
-        "id": "ld1",
-        "nombre": "L.D. HERIBERTO GARCÍA ARGÜELLES",
+        "id": "ma1",
+        "nombre": "HERIBERTO GARCÍA ARGÜELLES",
         "foto": "heriberto garcia arguelles.jpg",
         "descripcion": "Licenciado en Derecho por la Universidad Autónoma Benito Juárez de Oaxaca, realizó sus estudios de Maestría en Derecho Penal en la misma Universidad; posteriormente, efectúa estudios en el área docente en la Escuela Normal Superior de Oaxaca. <br><br>Se ha desempeñado en la función pública como Director de la Penitenciaría Central del Estado y actualmente es Asesor Jurídico de la Policía Municipal de la Ciudad de Oaxaca, así como de Empresas Privadas. <br><br>Actúa como Abogado Postulante y como Catedrático en la Facultad de Derecho de la UABJO."
     },
     {
-        "id": "ld2",
+        "id": "ma2",
         "nombre": "L.D. ISIDRO EFRAÍN ROMERO RAMÍREZ",
         "foto": "isidro efrain.jpg",
         "descripcion": "Licenciado en Derecho graduado por la Facultad de Derecho y Ciencias Sociales de la Universidad Autónoma Benito Juárez de Oaxaca; en esta misma Universidad obtiene la Maestría en Derecho Constitucional y el Doctorado en Derecho. <br><br>En la práctica profesional es Abogado Postulante en su propio despacho Jurídico, y posee la experiencia de haberse desempeñado en diversos puestos acordes con su carrera: ha sido Conciliador Agrario del Departamento de Asuntos Agrarios del Gobierno del Estado, Defensor de Oficio en la Procuraduría para la Defensa del Indígena y Director de la Escuela Preparatoria número cinco de la UABJO. Académicamente posee amplia experiencia como Catedrático de Preparatoria y licenciatura en la Universidad Autónoma Benito Juárez de Oaxaca."
     },
     {
-        "id": "ld3",
+        "id": "ma3",
         "nombre": " L.D. JESÚS CASTILLEJOS SÁNCHEZ",
         "foto": "jesus castillejos.jpg",
         "descripcion": "Es Licenciado en Derecho y  Maestro en Derecho del Trabajo por la facultad de Derecho y Ciencias Sociales de la Universidad Autónoma Benito Juárez de Oaxaca. <br><br>Profesionalmente, cuenta con una vasta experiencia en el área laboral; en la Junta Local de Conciliación y Arbitraje del Estado, ha desempeñado diversos cargos, por mencionar los más notables, ha sido Actuario, Secretario de Acuerdos, Visitador de la Junta Especial  en Tehuantepec, Oax., también, se le ha nombrado Presidente de dicha junta y actualmente es Jefe de Departamento. <br><br>En el ámbito académico, se ha desempeñado como Catedrático y Jurado en Exámenes Profesionales en materia del Derecho Laboral y del Derecho Procesal Laboral en Universidades como: la escuela de Derecho de la Universidad Regional del Sureste, en la Escuela de Derecho del Centro Universitario de Salina Cruz, A.C., en la U.A.B.J.O. y, en la Universidad Mesoamericana."
     },
     {
-        "id": "ld4",
+        "id": "ma4",
         "nombre": "L.D. OCTAVIO ROJAS VÁZQUEZ",
         "foto": "octavio rojas.jpg",
         "descripcion": "Licenciado en Derecho por la Universidad Regional del Sureste. Ha tomado los Diplomados en Derecho Indígena, en Derecho Agrario y Primer Diplomado Universitario sobre el Nuevo Código Procesal. <br><br>En la práctica profesional ha realizado carrera en la Procuraduría Agraria; ha sido Jefe de Residencia, Subjefe de Residencia, Abogado Agrario y Visitador en la Delegación Chiapas. <br><br>Actualmente es Jefe de Residencia de la Procuraduría Agraria de la misma, en la Delegación Oaxaca. Ha sido docente en la Escuela de Bachillerato de la Universidad Regional del Sureste. <br><br>Actualmente Catedrático de la Universidad Nacionalista México."
     },
     {
-        "id": "ld5",
+        "id": "ma5",
         "nombre": "L.D. MARÍA EULALIA CASTILLO MÁRQUEZ",
         "foto": "Maria Eulalia Castillo.jpg",
         "descripcion": "Licenciada en Derecho y Ciencias Sociales por la Universidad Regional del Sureste. <br><br>En la práctica profesional ha colaborado como Secretaria Ministerial en la Fiscalía Especializada para la Atención de Delitos Electorales de la Procuraduría General de Justicia del Estado. <br><br>Ha sido catedrática en la Licenciatura en Derecho de la Universidad Mesoamericana, en el Bachillerato Tecnológico en Trabajo Social del Instituto Libre de Comercio y Administración y  en el Área de Humanidades de la Preparatoria Abierta Intensiva México."
     },
     {
-        "id": "ld6",
+        "id": "ma6",
         "nombre": "L.D. Y M.C.P. MARTÍN ARAGÓN MARTÍNEZ",
         "foto": "Martin Aragon Martinez.jpg",
         "descripcion": "Cuenta con estudios de Maestría en Ciencias Penales y Licenciatura en Derecho.<br><br>En su experiencia laboral profesional ha sido Catedártico de la Universidad Autónoma Benito Juárez de Oaxaca, asi como Coordinador Académico de la misma; ha laborado como Catedrático de la Universidad Regional del Sureste y, en la Academia de Integración Jurídica de Oaxaca. Tambien se ha desempeñado como Asesor Jurídico del Centro Regional de Derechos Humanos “Bartolome Carrasco Briseño” A.C."
     },
     {
-        "id": "ld7",
+        "id": "ma7",
         "nombre": "L.D. LUIS NOEL MONTES CORRO CRUZ",
         "foto": "Luis Noel MontescorrCruz.jpg",
         "descripcion": "Licenciado en Derecho, egresado de la Universidad Regional del Sureste, Diplomado en Prevención del Delito, Derecho Procesal Constitucional y Juicios Orales. <br><br>Abogado Litigante en despacho, Asesorando a empresas, Asesoría Jurídica empresarial, Asesoría en Material Laboral, Penal, Administrativo, Civil, Familiar, Agrario, Fiscal, así como diversos asuntos de carácter hipotecario. <br><br> Actualmente Catedrático en la Universidad Nacionalista México."
     },
     {
-        "id": "ld8",
+        "id": "ma8",
         "nombre": "M.D. OLIVIA CAROLINA PÉREZ OJEDA",
         "foto": "Olivia Carolina Perez Ojeda.jpg",
         "descripcion": "Cuenta con estudios de Doctorado en Derecho por el Instituto Internacional del Derecho y el Estado, Maestría en Derecho Fiscal por la Universidad del Valle de México y, Licenciatura en Derecho y C. S. por la Universidad Regional del Sureste.<br><br>En su experiencia laboral profesional ha sido Catedrático de: la Universidad Regional del Sureste, del Instituto de Ciencias Jurídicas de Oaxaca y de la Universidad de la Salle; también se ha desempeñado como Jefe del Departamento del Área de Investigación del Instituto de Investigaciones Legislativas del Congreso del Estado de Oaxaca y, Jefa del Departamento Jurídico del Fideicomiso para el Desarrollo Logístico del Estado de Oaxaca."
     },
     {
-        "id": "ld9",
+        "id": "ma9",
         "nombre": "L.C.P. Y L.D. MILKA DEL VALLE PÉREZ",
         "foto": "Milka del Valle.JPG",
         "descripcion": "Licenciada en Contaduría Pública, egresada de la Universidad Autónoma Benito Juárez de Oaxaca. Licenciatura en Derecho y Ciencias Sociales por la Universidad Autónoma Benito Juárez de Oaxaca. <br><br>Maestra en Fiscal por la Universidad Autónoma Benito Juárez de Oaxaca. <br><br>Catedrático de la Universidad Mesoamericana y, de la Universidad Autónoma Benito Juárez de Oaxaca. <br><br>Actualmente catedrática de la Universidad Nacionalista México."
     },
     {
-        "id": "ld10",
+        "id": "ma10",
         "nombre": "M.D.P. CECILIA ZÁRATE QUEVEDO",
         "foto": "L.D. CECILIA ZARATE QUEVEDO.jpg",
         "descripcion": "Cuenta con estudios de Maestría en Derecho Privado y Licenciatura en Derecho por la Universidad Autónoma Benito Juárez de Oaxaca.<br><br>En su experiencia laboral profesional ha sido Catedrático de:  la Universidad Mesoamericana, Colegio Pedagógico John Dewey y, en el Instituto de Estudios Superiores del Istmo; También ha laborado como abogada proyectista en la Comisión de Transparencia, Acceso a la Información y Protección de Datos Personales de Oaxaca."
     },
     {
-        "id": "ld11",
+        "id": "ma11",
         "nombre": "M.S.P FILIBERTO CHÁVEZ MÉNDEZ",
         "foto": "Filiberto Chavez Mendez.jpg",
         "descripcion": "Cuenta con estudios de Doctorado en Sociología por la Universidad Nacional Autónoma de México, Maestría en Sociología Política por el Instituto de Investigaciones Dr. José María Luis Mora y, Licenciatura en Sociología por la Facultad de Estudios Superiores Aragón de la Universidad Nacional Autónoma de México.<br><br>En su experiencia laboral profesional ha sido Catedrático de: la Universidad Nacional Autónoma de México, Universidad Autónoma del Estado de México, Universidad Autónoma Metropolitana, Universidad Autónoma de Tamaulipas, Universidad Autónoma de Yucatán. Ha laborado también como : Jefe del Sistema de Archivos Municipales del Municipio de Oaxaca de Juárez, Asesor para Temas Electorales del Gobierno del Estado de México y, Jefe del Departamento de Análisis de la Imagen Institucional de la Secretaría de Gobernación."
     },
     {
-        "id": "ld12",
+        "id": "ma12",
         "nombre": "L.D. CELSO ALBERTO ROBLES VILLATORO",
         "foto": "celso villatoro.jpg",
         "descripcion": "Cuenta con estudios de Licenciatura en Derecho por la Universidad Autónoma Benito Juárez de Oaxaca.<br><br>En su experiencia laboral profesional ha sido Catedrático de La Universidad La Salle, ha laborado también en las Notarías Públicas Núm. 48, 124 y 111 en el Estado de Oaxaca."
     },
     {
-        "id": "ld13",
+        "id": "ma13",
         "nombre": "L.D. ARMANDO CAMARGO BAUTISTA",
         "foto": "Armando Camargo.jpg",
         "descripcion": "Graduado como Licenciado en Derecho por la Facultad de Derecho y Ciencias Sociales de la Universidad Autónoma Benito Juárez de Oaxaca.<br><br>Cuenta con experiencia laboral  siendo Asesor Jurídico del Departamento de Educación Secundaria Técnica para el Instituto Estatal de Educación Pública de Oaxaca, también ha laborado en el Juzgado 6° Civil del Honorable Tribunal Superior de Justicia del Estado."
     },
     {
-        "id": "ld14",
+        "id": "ma14",
         "nombre": "Q.B. Mtro. Crim. RAÚL ADRIÁN MARTÍNEZ FUENTES",
         "foto": "Raul Adrian Hernandez Fuentes.jpg",
         "descripcion": "Graduado como Químico Biólogo por la Escuela de Ciencias Químicas de la Universidad Autónoma Benito Juárez de Oaxaca, así como Posgrado como Maestrante en Criminalística.<br><br>Cuenta con experiencia laboral  siendo Catedrático de la Escuela de Ciencias Químicas de la Universidad Autónoma Benito Juárez de Oaxaca, así como también, catedrático del Colegio Libre de Estudios Universitarios. Ha laborado como Perito en Genética y Coordinador del Laboratorio de Genética Forense del Instituto de Servicios Periciales de la Fiscalía General del Estado de Oaxaca"
     },
     {
-        "id": "ld15",
+        "id": "ma15",
         "nombre": "M.A. OSVALDO JAVIER  VIDAL SANTIAGO",
         "foto": "OSVALDO JAVIER VIDAL SANTIAGO.jpg",
         "descripcion": "Cuenta con los siguientes estudios: Maestría en Administración por el Instituto de estudios Universitarios y, Licenciatura en Derecho por la Universidad Autónoma Benito Juárez de Oaxaca.<br><br>Cuenta con experiencia laboral  siendo Catedrático en la Carrera de Derecho de la UNIVITA; a sido también Jefe del Departamento Jurídico, de la Dirección del Bosque de San Juan de Aragón, perteneciente a la BDBUEA de la Secretaría del Medio Ambiente del D.F."
     },
     {
-        "id": "ld16",
+        "id": "ma16",
         "nombre": "Lic. Psic. NORA SÁNCHEZ VELASCO",
         "foto": "Nora Sanchez Garcia.jpg",
         "descripcion": "Cuenta con los siguientes estudios: Licenciatura en Psicología Clínica por el Instituto de Estudios Superiores de Oaxaca; también ha estudiado la Maestría en Docencia en el Instituto Tecnológico de Oaxaca.<br><br>Cuenta con experiencia laboral siendo Docente en: La Universidad Mesoamericana, el Colegio Libre de Estudios de Oaxaca, el Instituto de Estudios Superiores de Oaxaca y en el Instituto Ateneo de Ciencias y Humanidades; también ha laborado como Perito en Psicología adscrita a la Dirección de Servicios Periciales de la Procuraduría General de Justicia del Estado de Oaxaca."
     },
     {
-        "id": "ld17",
+        "id": "ma17",
         "nombre": "L.D. SALVADOR VILLALOBOS",
         "foto": "salvador villalobos.jpg",
         "descripcion": "Licenciado en Derecho por la Universidad Nacional Autónoma de México.<br><br>Cuenta con experiencia laboral  siendo Docente en: La Escuela Nacional de Estudios Profesionales Acatlán de la UNAM, La escuela de Derecho de la Universidad HUMANITAS y, La Facultad de Derecho y Ciencias Sociales de la URSE. Ha sido tambén Director Jurídico del tribunal Superior de Justicia del Distrito Federal, así como Productor y Director Asociado del Grupo Televisa S.A. de C.V., laboró como Agente del Ministerio Público Federal para la Procuraduría General de la República."
     },
     {
-        "id": "ld18",
+        "id": "ma18",
         "nombre": "Mtro HUMBERTO PÉREZ CRUZ",
         "foto": "humberto.jpg",
         "descripcion": "Cuenta con los siguientes estudios: Maestría en Ciencias Forenses Biomédicas por la Facultad de Medicina y Cirugía de la Universidad Autónoma Benito Juárez de Oaxaca, así como Médico Cirujano por la Universidad Autónoma Benito Juárez de Oaxaca y, Posgrado como Especialista en Medicina Legal.<br><br>Cuenta con experiencia laboral  siendo Docente en: La Universidad Nacional Autónoma de México como Profesor Adjunto, Instituto Politécnico Nacional como Titular de la Materia de Medicina Legal."
     },
     {
-        "id": "ld19",
+        "id": "ma19",
         "nombre": "Dr. ABEL ANTONIO MORALES SANTIAGO",
         "foto": "",
         "descripcion": "Cuenta con estudios de Doctorado en Ciencias de lo Físcal por el Instituto de Especialización para Ejecutivos, Maestría en Derecho Físcal por la Universidad Popular Autónoma del Estado de Puebla, Maestría en Contribuciones por la Facultad de Derecho de la Universidad Autónoma Benito Juárez de Oaxaca.<br><br>En su experiencia laboral profesional ha sido Catedrático de La Universidad Autónoma Benito Juárez de Oaxaca, así como Director de Ingresos y Egresos y, Director de la Facultad de Contaduría y Administración de la misma."
     },
     {
-        "id": "ld20",
+        "id": "ma20",
         "nombre": "M.C. DEYLA AZUCENA BARRANCO MONTESINOS",
         "foto": "delya azucena.jpg",
         "descripcion": "Cuenta con estudios de Maestría en Ciencias en Conservación y aprovechamiento de Recursos Naturales por el Instituto Politecnico Nacional y, Licenciatura en Químico Farmacéutico Biólogo por la Universidad Autónoma Benito Juárez de Oaxaca.<br><br>En su experiencia profesional ha sido Docente del Colegio Libre de Estudios Universitarios , campus Oaxaca, así como del C.B.T.i.s Num. 26."
     },
     {
-        "id": "ld21",
+        "id": "ma21",
         "nombre": "M.C.C. FLOR DE BELEM PÉREZ ROBLES",
         "foto": "fotoflor de belem.jpg",
         "descripcion": "Cuenta con estudios de Maestría en Psicotérapia Gestalt por el Centro de Desarrollo Humano y Psicoterapia Gestalt S.C., Maestría en Criminología Clínica por el CLEU Puebla y, Licenciatura en Psicología Clínica por la Universidad Regional del Sureste.<br><br>En su experiencia profesional ha sido Docente del Colegio Libre de Estudios Universitarios de Oaxaca y también ha laborado como Perito en Psicología para la Fiscalía General del Estado de Oaxaca."
     },
     {
-        "id": "ld22",
+        "id": "ma22",
         "nombre": "Ing. JOSÉ ISAÍAS QUEVEDO CENTENO",
         "foto": "jose isaias.jpg",
         "descripcion": "Cuenta con estudios como Ingeniero Mecánico por el Instituto Tecnológico de Oaxaca.<br><br>En su experiencia profesional ha sido Docente del Colegio Libre de Estudios Universitarios de Oaxaca, Ha laborado tambén como elemento de la Policía Estatal comisionado en la Agencia Estatal de Investigaciones de la Fiscalía General del Estado; se ha desempeñado como Perito en las Siguientes empresas: Aseguradora AXXA, QUALITAS SEGUROS y, LA LATINOAMERICANA."

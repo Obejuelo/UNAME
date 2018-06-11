@@ -102,6 +102,7 @@ function getActive() {
     const titulo = document.querySelector('.titulo');
 
     let texto = titulo.firstChild.nextSibling.firstChild.nextSibling.firstChild.innerHTML;
+    // console.log(texto);
 
     let inicio = active[0];
     let somos = active[1];

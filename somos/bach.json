@@ -1,132 +1,132 @@
 {
     "administracion": [{
-            "id": "la1",
+            "id": "bach1",
             "nombre": "Mtro. MARTÍN VILLANUEVA PORRAS",
             "foto": "2.-martin villanueva.jpg",
             "descripcion": "Maestro en Administración y Licenciado en Contaduría Pública por la Universidad Autónoma Benito Juárez de Oaxaca; cuenta con los Diplomados en Contraloría Interna Gubernamental y en Administración Pública, impartidos por el  Colegio de Contadores Públicos del Estado de Oaxaca. <br><br>Ha colaborado con diversas instituciones públicas y privadas como el Instituto Nacional de Antropología e Historia, la Contraloría del Poder Ejecutivo Estatal, Artesanías e Industrias Populares de Oaxaca, Corporación Oaxaqueña de Radio y Televisión, Secretaría de Administración, Etc.<br><br> Es catedrático de la Facultad de Contaduría y Administración de la Universidad Autónoma Benito Juárez de Oaxaca, y ha realizado actividades como instructor en La Universidad del Mar, la Universidad Tecnológica de la Mixteca, el Honorable Ayuntamiento de Huajuapan de León, el Instituto Mexicano del Seguro Social y en el Poder Legislativo del Estado."
         },
         {
-            "id": "la2",
+            "id": "bach2",
             "nombre": "L.A.E. JOSÉ LUIS GÓMEZ COLÍN",
             "foto": "1.-jose luis colin.jpg",
             "descripcion": "Licenciado en Administración de Empresas por el Instituto Tecnológico de Oaxaca. <br><br>Ha tomado varios cursos y seminarios como el de “Mejora Continua” impartido por el CIIDIR – Oaxaca del Instituto Politécnico Nacional, “Habilidades de Instrucción” y “Formación Docente” impartidos por la Asociación de Psicología de Oaxaca, así como también, el curso de “Formación de Emprendedores” que ofrece la Facultad de Contaduría y Administración de la Universidad Autónoma Benito Juárez de Oaxaca.<br><br>Ha elaborado dos metodologías, una para Micro Financieras Rurales en el COPLADE y otra metodología para el Desarrollo Rural (UNCADER-SEP)<br><br>Se ha desempeñado como catedrático en el sistema CBTA, en la Universidad del Golfo de México y en la Universidad Anáhuac de Oaxaca. Ha sido asesor del COPLADE-SAGAR."
         },
         {
-            "id": "la3",
+            "id": "bach3",
             "nombre": "Ing. Civ. RICARDO MONTES ROJAS",
             "foto": "9.-Ricardo_Montes_Rojas.jpg",
             "descripcion": "Maestro Normalista, egresado de la Escuela Normal Urbana de Oaxaca, cursó la Especialidad en Matemáticas en la Escuela Normal Superior de Oaxaca, estudió la Licenciatura en Ingeniería Civil en el Instituto Tecnológico de Oaxaca, en donde realizó la Maestría en Ciencias de la Planificación del Desarrollo de la Comunidad. <br><br>Cuenta con treinta años de experiencia docente, actualmente ostenta la categoría de Profesor de Carrera Titular “C”. <br><br>Ha impartido las asignaturas de Algebra, Trigonometría, Geometría Analítica, Calculo Diferencial, Probabilidad y Estadística en el Centro de Bachillerato Tecnológico Agropecuario Núm. 78, en donde se ha desempeñado como Subdirector Administrativo, Director y Subdirector de Planeación del Desarrollo Institucional."
         },
         {
-            "id": "la4",
+            "id": "bach4",
             "nombre": "I.I.M. ALFREDO CANSECO VASCONCELOS",
             "foto": "5.-alfredo canseco vasconcelos.jpg",
             "descripcion": "Ingeniero Industrial en Mecánica por el Instituto Tecnológico de Oaxaca.<br><br>En la práctica profesional ha sido Gerente de Planta, en la empresa Envasadora Gugar y Administrador General; Gerente de Producción y Mantenimiento en la empresa Industrial Maderera San Bartolo. <br><br>Jefe de Departamento de Recursos Materiales y de Servicios Generales de ADOSAPACO. <br><br>Superintendente de Planta, en la empresa Embotelladora del Valle de Oaxaca; Jefe de Mantenimiento de la empresa CIMAPLAS y Jefe de del Departamento de Recursos Materiales y Servicios Generales en la empresa Fabricas de Papel Tuxtepec.<br><br>Se ha desempeñado como docente en la Preparatoria Abierta Intensiva México y en la Escuela Secundaria Técnica No. 85. Actualmente es docente en la Universidad Nacionalista México impartiendo las asignaturas de Matemáticas Financieras e Investigación de Operaciones."
         },
         {
-            "id": "la5",
+            "id": "bach5",
             "nombre": "L.C.P. FRANCISCO RAMÍREZ LUIS",
             "foto": "7.-Francisco_Ramirez_Luis.jpg",
             "descripcion": "Licenciado en Contaduría Pública por la Facultad de Contaduría y Administración de la Universidad Autónoma Benito Juárez de Oaxaca. <br><br>Maestro en Educación con especialidad en Planeación y Administración de la Educación.<br><br>Cuenta con una muy amplia experiencia en el área financiera, habiéndose desempeñado en el Despacho Contable Arias Blanco y Asociados, S.C., en Comercial Hermanos Gómez, S.A. de C.V., en la Secretaría de Hacienda y Crédito Público, en la Administración Regional del Sureste, en la Compañía Hotelera el Trébol, S.A. de C.V., en el Hotel San Felipe Misión Oaxaca, y en el  despacho de Administración Financiera, del cual es socio y fundador; también ha fungido como  Subdirector de Recursos Humanos en la Secretaría Administrativa de la U.A.B.J.O. y, como Gerente Administrativo en la Clínica de Ortodoncia Láser Dental. <br><br>Académicamente ha impartido cátedras y ha sido Jurado de diversos exámenes profesionales en instituciones como la U.A.B.J.O. y en la Universidad Mesoamericana."
         },
         {
-            "id": "la6",
+            "id": "bach6",
             "nombre": "Ing. A. JUAN CABALLERO RAMÍREZ",
             "foto": "11.- juan caballero.jpg",
             "descripcion": "Ingeniero Agrónomo, Especialista en Fitotecnia por la Universidad Autónoma de Chapingo y Maestro en Ciencias en Economía del Desarrollo Rural por esta misma Universidad. <br><br>En la práctica profesional ha ocupado puestos como Coordinador Académico del Área Económico-Administrativo de la Universidad del Golfo de México y Jefe del Área Económico-Administrativo de la misma Institución. <br><br>Ha sido catedrático en las áreas de Economía y Matemáticas para las Universidades: Mesoamericana, del Golfo de México, José Vasconcelos de Oaxaca, Universidad Regional del Sureste, Instituto de Estudios Universitarios  e Instituto Universitario de Oaxaca. <br><br>Es Consultor acreditado en el diseño y elaboración de Proyectos Productivos de Inversión por parte del INCA Rural, SRA y Financiera Rural. <br><br>Así también, se ha desempeñado como Coordinador Micro regional Distrital de programas de desarrollo rural por parte de la SAGARPA para el fortalecimiento de los Consejos Municipales para la elaboración de Diagnósticos y Planes de Desarrollo Municipal y Regional. <br><br>Actualmente se desempeña como Jefe del Departamento de Planes y Programas Micro regionales del Módulo de Desarrollo Sustentable de Miahuatlán, perteneciente al Estado de Oaxaca."
         },
         {
-            "id": "la7",
+            "id": "bach7",
             "nombre": "L.E. CELIA LÓPEZ CAMARGO",
             "foto": "10.-celia lopez camargo.jpg",
             "descripcion": "Graduada de la Licenciatura en Economía de la Producción en la Escuela Superior de Economía del Instituto Politécnico Nacional. <br><br>Actualmente cursa la Maestría en Administración. Se ha desempeñado profesionalmente en el Registro Federal Electoral, en la Secretaría de Hacienda y Crédito Público, en la Unidad Administrativa como responsable de la Subsecretaría de Egresos; en la Dirección General de Contabilidad Gubernamental, en el Departamento de Análisis e Integración de los Informes de Gobierno y de Ejecución del Plan Nacional de Desarrollo, en el  Patronato de Ahorro Nacional, entre otros. <br><br>Como catedrático, ha colaborado en diferentes Instituciones como son el Centro Cultural Universita, en el Centro Universitario Oaxaca y en la Universidad Regional del Sureste."
         },
         {
-            "id": "la8",
+            "id": "bach8",
             "nombre": "M.A. JORGE LUIS ADELFO RIOS RIOS",
             "foto": "Jorge_Luis_Adelfo_Rios_Rios.jpg",
             "descripcion": "Licenciado en Administración de Empresas, egresado de la Universidad Autónoma Benito Juárez de Oaxaca. <br><br>Maestría en Administración por la facultad de Contaduría y Administración de la Universidad Autónoma Benito Juárez de Oaxaca. Maestría en Ciencias Sociales con especialidad en Política y Etnicidad, por el Instituto de Investigaciones Sociológicas de la UABJO. Licenciado en Derecho y Maestro en Derecho Constitucional y Amparo por la Universidad  Nacionalista México. <br><br>Catedrático en la Universidad Regional del Sureste, en la Universidad Mesoamericana, Instructor de Comisión Federal de Electricidad. <br><br>Miembro activo y Vocal Consejo Directivo del Colegio de Licenciados en Administración de Oaxaca, A.C. Actualmente Catedrático en la Universidad Nacionalista México."
         },
         {
-            "id": "la9",
+            "id": "bach9",
             "nombre": "L.C.P. Y  M.M.J. MARGARITA RAMÍREZ MOLINA",
             "foto": "Margarita_Ramirez_Molina.jpg",
             "descripcion": "Graduada como Licenciada en Contaduría Pública por la Facultad de Contaduría y Administración de la Universidad Autónoma Benito Juárez de Oaxaca. Cuenta también con estudios como pasante en la Maestría en Metodología y Pedagogía Jurídica por la Facultad de Derecho de la Universidad Autónoma Benito Juárez de Oaxaca.<br><br>Cuenta con experiencia laboral desempeñándose como Docente en diversas Instituciones Educativas como son: IUO, UNIVAS, CLEU y, actualmente en la Universidad Nacionalista México, también ha desempeñado cargos como el de Instructor Externo de la Comisión Federal de Electricidad."
         },
         {
-            "id": "la10",
+            "id": "bach10",
             "nombre": "L.E. Y M.D. TERESA DE JESÚS MIER COBIX",
             "foto": "Teresa_Mier_Cobix.jpg",
             "descripcion": "Cuenta con estudios de: Maestría en Docencia y, Posgrado en Especialidad en Práctica Docente por el Instituto Tecnológico de Oaxaca. Así como, Licenciatura en Economía por la Benemérita Universidad Autónoma de Puebla.<br><br>Cuenta con experiencia laboral desempeñándose como Docente en el Colegio de Bachilleres del Estado de Oaxaca, también ha desempeñado el cargo de Analista en Instituciones Gubernamentales como: Contaduría Mayor de Hacienda, del H. Congreso del Estado de Oaxaca, Secretaría de Asuntos Indígenas del Gobierno del Estado de Oaxaca y la Secretaría de Finanzas del Estado de Oaxaca."
         },
         {
-            "id": "la11",
+            "id": "bach11",
             "nombre": "L.C.P. ELENO RAÚL RAMÍREZ MARTÍNEZ",
             "foto": "Eleno_Raul_Ramirez_Martinez.jpg",
             "descripcion": "Licenciado en Contaduría Pública por la Facultad de Contaduría y Administración de la Universidad Autónoma Benito Juárez de Oaxaca.<br><br>Cuenta con experiencia laboral, desempeñándose como Catedrático en el Instituto de Estudios Superiores de Oaxaca y, actualmente en la Universidad Nacionalista México."
         },
         {
-            "id": "la12",
+            "id": "bach12",
             "nombre": "L.A.E. Y M.C.P.E. ROCÍO DEL PILAR MELÉNDEZ VÁSQUEZ",
             "foto": "rocio del pilar.jpg",
             "descripcion": "Cuenta con estudios de Maestría en Ciencias en Planificación de Empresas y Desarrollo Regional y, Licenciatura en Administración de Empresas por el Instituto Tecnológico de Oaxaca.<br><br>En su experiencia laboral profesional ha sido Catedrático de la Universidad Mesoamericana, del Instituto de Estudios Superiores del Golfo de México y de la Universidad Pedagógica Nacional."
         },
         {
-            "id": "la13",
+            "id": "bach13",
             "nombre": "L.C.P. Y  M.A. BEATRÍZ ADRIANA MARTÍNEZ ALDERETE",
             "foto": "Beatriz_Adriana_Martinez_Alderete.jpg",
             "descripcion": "Cuenta con estudios de: Maestría en Administración (Maestrante) y, Licenciatura en Contaduría Pública por la Universidad Regional del Sureste, así como Diplomado en Administración y Planeación Estratégica Empresarial.<br><br>En su experiencia Profesional se ha desempeñado como Catedrático y Coordinador Académico en la Facultad de Ciencias Administrativas de la Universidad Regional del Sureste, también se ha desempeñado como Auditor en empresas como : Servicios Corporativos y Fiscales S.C. y, ARegional S.A. de C.V."
         },
         {
-            "id": "la14",
+            "id": "bach14",
             "nombre": "L.C.P. JULIO CÉSAR HILARIO CASTRO",
             "foto": "28.-Julio_Cesar_Hilario_Castro.jpg",
             "descripcion": "Licenciado en Contaduría Pública por la Facultad de Contaduría y Administración de la Universidad Autónoma Benito Juárez de Oaxaca.<br><br>Cuenta con experiencia laboral, desempeñándose como Catedrático en el Instituto Universitario de la Costa, así como, en la Universidad Benemérita y Heroica de México, A.C., también, ha desempeñado el puesto de Contador en organismos como la Consultoría en Transparencia Pública y Empresarial, S.C."
         },
         {
-            "id": "la15",
+            "id": "bach15",
             "nombre": "L.C.P. y M.F. ABEL RAMOS FLORES",
             "foto": "abel ramos.jpg",
             "descripcion": "Cuenta con estudios de Maestría en Fiscal  y Licenciatura en Contaduría Pública por la Universidad Autónoma Benito Juárez de Oaxaca.<br><br>En su experiencia laboral profesional ha sido Catedrático de la Universidad Autónoma Benito Juárez de Oaxaca, del Instituto de Estudios Universitarios; ha desempeñado cargos como el de jefe del Departamento de Impuestos Federales Coordinados en el H. Ayuntamiento de la Ciudad de Oaxaca de Juárez."
         },
         {
-            "id": "la16",
+            "id": "bach16",
             "nombre": "L. D. ABNER ENOC MARTÍNEZ LÓPEZ",
             "foto": "Abner_Enoc_Martinez_Lopez.jpg",
             "descripcion": "Licenciado en Derecho por la Universidad Mesoamericana.<br><br>En su experiencia profesional  se ha desempeñado como Asesor Jurídico en empresas como Impulso Empresarial del Sureste y, Consultores y Asesores  en Innovación Tributaria; actualmente se desempeña como Catedrático de la Universidad Nacionalista México."
         },
         {
-            "id": "la17",
+            "id": "bach17",
             "nombre": "M.M. CARLO DEIMOS AGUILAR CHIÑAS",
             "foto": "75.-Carlo Deimos aguilar chinas2.jpg",
             "descripcion": "Cuenta con estudios de: Licenciatura en Mercadotecnia por la Universidad Anáhuac de Oaxaca y, Maestría en Mercadotecnia Turística por la Universidad la Salle Oaxaca.<br><br>En su experiencia profesional se ha desarrollado como catedrático en la Universidad Regional del Sureste y, actualmente como catedrático de la Universidad Nacionalista México."
         },
         {
-            "id": "la18",
+            "id": "bach18",
             "nombre": "L.D. ELIZABETH BAUTISTA VELASCO",
             "foto": "17.-Elizabeth_Bautista_Velasco2.jpg",
             "descripcion": "Licenciada en Derecho por la Facultad de Derecho y Ciencias Sociales en la Universidad Autónoma Benito Juárez de Oaxaca. <br><br>Maestra en Derecho Constitucional y Amparo por la Universidad Nacionalista México. <br><br>Abogada Litigante por cuenta propia, en materia Penal, Civil, Laboral, Familiar y Administrativa. <br><br>Auditor Público en la Contraloría Interna de DICONSA, S.A. DE C.V. <br><br>Capacitador asistente en el proceso Electoral Federal, realizando actividades de capacitación a los ciudadanos sorteados para ser funcionarios de casilla. <br><br>Asistente Electoral integrando las casillas y entregando el material electoral. <br><br>Docente en el Instituto de Estudios Superiores del Golfo de México, así como en la Universidad Mesoamericana. <br><br>Actualmente catedrática de la Universidad Nacionalista México"
         },
         {
-            "id": "la19",
+            "id": "bach19",
             "nombre": "M.A. LUIS MIGUEL ESPINOSA REYES",
             "foto": "84.-LUIS MIGUEL ESPINOSA REYES.jpg",
             "descripcion": "Cuenta con estudios de: Maestría en Administración de Empresas por IEU Y, Licenciado en Contaduría Pública por la Universidad Autónoma Benito Juárez de Oaxaca. También cuenta con Diplomado en Procesos de Mejoramiento Continuo por la ITESM y Diplomado en Habilidades Gerenciales por el ITAM.<br><br>En su experiencia profesional a sido catedrático en las Maestrías de Finanzas de la Universidad Autónoma Benito Juárez de Oaxaca, así como Director de la Facultad de Contaduría y Administración de la Universidad Autónoma Benito Juárez de Oaxaca."
         },
         {
-            "id": "la20",
+            "id": "bach20",
             "nombre": "M.A. AARÓN JUAN HERNÁNDEZ",
             "foto": "81.-aaron.jpg",
             "descripcion": "Cuenta con estudios de: Maestría en Administración por Universidad Autónoma Benito Juárez de Oaxaca, así como Diplomado en Desarrollo Organizacional por la Universidad Tecmilenio, Veracruz.<br><br>Cuenta con experiencia laboral como Docente en la Facultad de Contaduría y Administración, también se ha desempeñado como Director General de Investigación y Posgrado de la Universidad Autónoma Benito Juárez de Oaxaca"
         },
         {
-            "id": "la21",
+            "id": "bach21",
             "nombre": "Lic. Psic. NANCY PÉREZ CRUZ",
             "foto": "82.-Nancy perez cruz.jpg",
             "descripcion": "Licenciada en Psicología egresada de la Universidad Popular Autónoma del Estado de Puebla. Maestría en Administración de Personal por la Universidad de Guanajuato. <br><br>Diplomado para la formación de facilitadores en el modelo educativo basado en competencias impartido en la Universidad Autónoma Benito Juárez de Oaxaca. <br><br>Diplomado en manejo de nómina en el Instituto Poblano de Especialidades en Psicología. <br><br>Docente en la Universidad La Salle Oaxaca, así como en la Universidad Autónoma Benito Juárez de Oaxaca. <br><br>Actualmente catedrática en la Universidad Nacionalista México."
         },
         {
-            "id": "la22",
+            "id": "bach22",
             "nombre": "Dra. ANA MARÍA MÁRQUEZ ANDRÉS",
             "foto": "83.-Dra. Ana  maria.jpg",
             "descripcion": "Cuenta con los siguientes estudios: Doctora en Ciencias en Desarrollo Regional y Tecnológico por el Instituto Tecnológico de Oaxaca. Maestra en Economía Regional por el Centro de Investigaciones Socioeconómicas de la Universidad Autónoma de Coahuila.<br><br>Cuenta con experiencia laboral siendo Docente en el Instituto de Estudios Superiores de Oaxaca, así como en la Universidad José Vasconcelos de Oaxaca; también ha laborado en la Escuela Superior de Economía del Instituto Politécnico Nacional."

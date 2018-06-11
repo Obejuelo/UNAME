@@ -251,7 +251,7 @@
                                 <div class="modal-body">
                                     <div class="row">
                                         <div class="col-lg-6 align-self-center">
-                                            <img src="../image/licenciaturas/pedag.jpg" alt="pedagogía" class="img-fluid card-img-top">
+                                            <iframe width="560" height="315" src="https://www.youtube.com/embed/HaPlqjaqY1E?rel=0" allowfullscreen></iframe>
                                         </div>
                                         <div class="col-lg-6">
                                             <p class="h3">Objetivo</p>
@@ -537,7 +537,7 @@
                                 <div class="modal-body">
                                     <div class="row">
                                         <div class="col-lg-6">
-                                            <iframe width="560" height="315" src="https://www.youtube.com/embed/LK2yLvLi9AU?rel=0" allowfullscreen></iframe>
+                                            <iframe width="560" height="315" src="https://www.youtube.com/embed/QXp107R-iJI?rel=0" allowfullscreen></iframe>
                                         </div>
                                         <div class="col-lg-6">
                                             <p class="h3">Objetivo</p>

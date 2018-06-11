@@ -76,7 +76,7 @@
         </div>
     </nav>
 
-    <div class="container-fluid titulo" style="background: #B30505;">
+    <div class="container-fluid titulo" style="background: rgb(162,27,35);">
         <div class="row justify-content-center">
             <div class="col-12 align-bach"><p class="h1 text-center">Bachillerato general</p></div>
         </div>
@@ -272,6 +272,11 @@
         </div>
         <div style="height: 15px;"></div>
     </footer>
+
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    
 <script>
 //FUNCION PARA CAMBIAR EL COLOR DEL NAV CUANDO SE DE SCROLL
 let lastScrollTop = 56;
@@ -348,11 +353,32 @@ document.addEventListener('DOMContentLoaded', function() {
         //console.log(ancho);
     }, 10);
 });
+
+//ACTIVE
+getActive();
+
+function getActive() {
+    const active = document.querySelectorAll('.nav-item');
+    const titulo = document.querySelector('.titulo');
+
+    let texto = titulo.firstChild.nextSibling.firstChild.nextSibling.firstChild.innerHTML;
+    console.log(texto);
+
+    let inicio = active[0];
+    let somos = active[1];
+    let oferta = active[2];
+    let noticias = active[3];
+    let galeria = active[4];
+    let contacto = active[5];
+
+    if (texto == 'Bachillerato general') {
+        $(oferta).addClass('active');
+        $(inicio).removeClass('active');
+    }
+}
 </script>
 
-    <script src="../js/jquery.min.js"></script>
-    <script src="../js/popper.min.js"></script>
-    <script src="../js/bootstrap.min.js"></script>
+    
     <!-- <script src="../js/app.js"></script> -->
 <script>
 $(function(){

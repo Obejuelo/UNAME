@@ -133,6 +133,31 @@ function metodoModal(maestro, id, carpeta) {
     })
 }
 
+function modalBach(maestro, id, carpeta) {
+    let contenido = document.getElementById(id);
+    maestro.forEach((dato, ) => {
+        contenido.innerHTML += `
+				<div class="col-md-4 col-lg-3 mt-3 claustro">
+                   <img class="rounded-circle" src="../image/claustro/${carpeta}/${dato.foto}" alt="perfil" width="90" height="90">
+                   <p>${dato.nombre}</p>
+                   <p><a class="btn btn-secondary btn-sm" href="#" role="button" data-toggle="modal" data-target="#${dato.id}">Ver más &raquo;</a></p>                              
+                   <div class="modal fade" id="${dato.id}" tabindex="-1" role="dialog" aria-labelledby="${dato.id}" aria-hidden="true">
+                       <div class="modal-dialog">                                      
+                           <div class="modal-content d-flex align-items-center">
+                               <div class="modal-body modal-claus">
+                                   <p class="text-justify text-muted">${dato.descripcion}</p>
+                               </div>
+                               <div class="modal-footer">
+                                   <button class="btn btn-success" data-dismiss="modal">Cerrar</button>
+                               </div>
+                           </div>
+                       </div>
+                   </div>   
+               </div>
+			`;
+    })
+}
+
 //correccion del dropdown claustro
 let dropdown1 = document.querySelector('.dropdown-item.one');
 let dropdown2 = document.querySelector('.dropdown-item.two');
@@ -146,8 +171,9 @@ let bachillerato = document.getElementById('bachillerato');
 let bach = document.getElementById('elemento9');
 let maestria = document.getElementById('maestria');
 let posgrado = document.getElementById('elemento10');
+let cnm = document.querySelectorAll('#cnm');
 
-//  ajax para maestros de bachillerato
+//  FETCH API BACHILLERATO
 bachillerato.addEventListener('click', function() {
     fetch('bach.json')
         .then(res => res.json())
@@ -159,28 +185,50 @@ bachillerato.addEventListener('click', function() {
 });
 
 function mostrarMaestrosBach(maestro) {
-    metodoModal(maestro, 'cnm', 'la-lcp')
+    modalBach(maestro, 'cnm', 'la-lcp')
 }
 
-//  ajax para maestros de maestrías
+//  FECH API MAESTRIAS
 maestria.addEventListener('click', function() {
-    const xhr = new XMLHttpRequest();
-    xhr.open('GET', 'maestria.json', true);
-    xhr.onload = function() {
-        if (this.status === 200) {
-            const maestro = JSON.parse(this.responseText);
-            // console.log(maestro);
-            mostrarMaestrias(maestro);
-        }
-    }
-    xhr.send();
+    fetch('maestros.json')
+        .then(res => res.json())
+        .then(data => {
+            console.log(data);
+            mostrarMaestrias(data);
+        })
+        .catch(error => console.log(error));
 });
 
 function mostrarMaestrias(maestro) {
     metodoModal(maestro, 'posgrado', 'ld-lcc')
 }
 
-//console.log(dropdown);
+// bachillerato.addEventListener('click', function() {
+//     let arreglo = [];
+//     let element = [];
+//     for (let i = 1; i < 23; i++) {
+//         arreglo.push(cnm[0].children[i].children[2].firstChild);
+//         element.push(cnm[0].children[i].children[3]);
+//     }
+//     console.log(arreglo);
+//     console.log(element);
+//     arreglo[0].addEventListener('click', () => {
+
+//         $(element[0]).addClass('show');
+//         $(element[0]).removeAttr('aria-hidden');
+//         element[0].setAttribute("style", "padding-right: 17px; display: block;");
+
+//         let clickModal = document.querySelector('.modal-footer');
+
+//         botonCerrar = element[0].firstChild.nextSibling.children[0].children[1].children[0];
+//         botonCerrar.addEventListener('click', () => {
+//             element[0].setAttribute("aria-hidden", "true");
+//             $(element[0]).removeAttr('style');
+//             $(element[0]).removeClass('show');
+//         });
+//     });
+
+// });
 
 //FUNCION PARA REMOVER LAS CLASES 'ACTIVE SHOW'
 function removeClasLic() {

@@ -17,6 +17,14 @@
     <link rel="stylesheet" href="../css/estilos.css">
     <link rel="stylesheet" href="../css/instalaciones.css">
     <script src="../js/fontawesome-all.min.js"></script>
+    <style>
+        .modal-content{
+            background: rgba(0,0,0,0.1);
+        }
+        .modal-body img{
+            border-radius:10px;
+        }
+    </style>
 </head>
 <body>  
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top navegacion" id="posicion">
@@ -141,6 +149,7 @@
                         <div id="collapse4" class="collapse" role="tabpanel" aria-labelledby="heading4">
                             <div class="card-body">
                                 <div><img src="image/unm.png" alt=""></div>
+                                <img src="../image/instalaciones/juicios-orales.jpg" alt="camara gesell" class="img-fluid">
                                 <p></p>
                             </div>
                         </div>
@@ -205,32 +214,153 @@
                 </div>
                 <div style="" class="img-unm">
                     <div><a href="" data-toggle="modal" data-target="#modal01"><a class="" data-toggle="tooltip" data-placement="top" title="Cámara Gesell">.</a></a></div>
-                    <div><a href="" data-toggle="modal" data-target="#modal1"><a class="" data-toggle="tooltip" data-placement="top" title="Aula de medios">.</a></a></div>
-                    <div><a href="" data-toggle="modal" data-target="#modal1"><a class="" data-toggle="tooltip" data-placement="top" title="Laboratorio de Alimentos">.</a></a></div>
-                    <div><a href="" data-toggle="modal" data-target="#modal1"><a class="" data-toggle="tooltip" data-placement="top" title="Sala de Juicios Orales">.</a></a></div>
-                    <div><a href="" data-toggle="modal" data-target="#modal1"><a class="" data-toggle="tooltip" data-placement="top" title="Laboratorio de ciencias">.</a></a></div>
-                    <div><a href="" data-toggle="modal" data-target="#modal1"><a class="" data-toggle="tooltip" data-placement="top" title="Biblioteca">.</a></a></div>
-                    <div><a href="" data-toggle="modal" data-target="#modal1"><a class="" data-toggle="tooltip" data-placement="top" title="Auditorio A">.</a></a></div>
-                    <div><a href="" data-toggle="modal" data-target="#modal1"><a class="" data-toggle="tooltip" data-placement="top" title="Laboratorio de Redes">.</a></a></div>
+                    <div><a href="" data-toggle="modal" data-target="#modal02"><a class="" data-toggle="tooltip" data-placement="top" title="Aula de medios">.</a></a></div>
+                    <div><a href="" data-toggle="modal" data-target="#modal03"><a class="" data-toggle="tooltip" data-placement="top" title="Laboratorio de Alimentos">.</a></a></div>
+                    <div><a href="" data-toggle="modal" data-target="#modal04"><a class="" data-toggle="tooltip" data-placement="top" title="Sala de Juicios Orales">.</a></a></div>
+                    <div><a href="" data-toggle="modal" data-target="#modal05"><a class="" data-toggle="tooltip" data-placement="top" title="Laboratorio de ciencias">.</a></a></div>
+                    <div><a href="" data-toggle="modal" data-target="#modal06"><a class="" data-toggle="tooltip" data-placement="top" title="Biblioteca">.</a></a></div>
+                    <div><a href="" data-toggle="modal" data-target="#modal07"><a class="" data-toggle="tooltip" data-placement="top" title="Auditorio A">.</a></a></div>
+                    <div><a href="" data-toggle="modal" data-target="#modal08"><a class="" data-toggle="tooltip" data-placement="top" title="Laboratorio de Redes">.</a></a></div>
                     <div><a href="" data-toggle="modal" data-target="#modal1"><a class="" data-toggle="tooltip" data-placement="top" title="Auditorio D">.</a></a></div>
-                    <div><a href="" data-toggle="modal" data-target="#modal1"><a class="" data-toggle="tooltip" data-placement="top" title="Cafetería">.</a></a></div>
+                    <div><a href="" data-toggle="modal" data-target="#modal10"><a class="" data-toggle="tooltip" data-placement="top" title="Cafetería">.</a></a></div>
                 </div>
+
+                <!-- CAMARA GESELL -->
                 <div class="modal fade" id="modal01" tabindex="-1" role="dialog" aria-labelledby="modal01" aria-hidden="true">
                     <div class="modal-dialog modal-lg">                                      
                         <div class="modal-content d-flex align-items-center">
                             <div class="modal-body modal-instalaciones">
                                 <img src="../image/instalaciones/gesell1.jpg" alt="camara gesell" class="img-fluid">
-                                <p class="text-center text-muted">Proyección de video capturado en la Cámara Gesell</p>
+                                <p class="text-center text-white">Proyección de video capturado en la Cámara Gesell</p>
                                 <div class="w-100"><hr></div>
                                 <img src="../image/instalaciones/gesell2.jpg" alt="camara gesell" class="img-fluid">
-                                <p class="text-center text-muted">Actividad de Psicología Social realizada en la Cámara Gesell</p>
-                            </div>
-                            <div class="modal-footer">
-                                <button class="btn btn-success" data-dismiss="modal">Cerrar</button>
+                                <p class="text-center text-white">Actividad de Psicología Social realizada en la Cámara Gesell</p>
                             </div>
                         </div>
                     </div>
-                </div> 
+                </div>
+
+                <!-- AULA DE MEDIOS -->
+                <div class="modal fade" id="modal02" tabindex="-1" role="dialog" aria-labelledby="modal02" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">                                      
+                        <div class="modal-content d-flex align-items-center">
+                            <div class="modal-body modal-instalaciones">
+                                <img src="../image/instalaciones/aula-de-medios.jpg" alt="camara gesell" class="img-fluid">
+                                <p class="text-center text-white">Aula de medios</p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- LABORATORIO DE ALIMENTOS -->
+                <div class="modal fade" id="modal03" tabindex="-1" role="dialog" aria-labelledby="modal03" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">                                      
+                        <div class="modal-content d-flex align-items-center">
+                            <div class="modal-body modal-instalaciones">
+                                <img src="../image/instalaciones/alimentos.jpg" alt="camara gesell" class="img-fluid">
+                                <p class="text-center text-white">Laboratorio de alimentos</p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SALA DE JUICIOS ORALES -->
+                <div class="modal fade" id="modal04" tabindex="-1" role="dialog" aria-labelledby="modal04" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">                                      
+                        <div class="modal-content d-flex align-items-center">
+                            <div class="modal-body modal-instalaciones">
+                                <img src="../image/instalaciones/juicios-orales.jpg" alt="camara gesell" class="img-fluid">
+                                <p class="text-center text-white">Sala de juicios orales</p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- LABORATORIO DE CIENCIAS -->
+                <div class="modal fade" id="modal05" tabindex="-1" role="dialog" aria-labelledby="modal05" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">                                      
+                        <div class="modal-content d-flex align-items-center">
+                            <div class="modal-body modal-instalaciones">
+                                <img src="../image/instalaciones/lab-de-ciencias.jpg" alt="camara gesell" class="img-fluid">
+                                <p class="text-center text-white">Laboratorio de ciencias</p>
+                                <img src="../image/instalaciones/lab-de-ciencias-2.jpg" alt="camara gesell" class="img-fluid">
+                                <p class="text-center text-white">Laboratorio de ciencias</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- BIBLIOTECA -->
+                <div class="modal fade" id="modal06" tabindex="-1" role="dialog" aria-labelledby="modal06" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">                                      
+                        <div class="modal-content d-flex align-items-center">
+                            <div class="modal-body modal-instalaciones">
+                                <img src="../image/instalaciones/biblioteca.jpg" alt="camara gesell" class="img-fluid">
+                                <p class="text-center text-white">Biblioteca</p>
+                                <img src="../image/instalaciones/biblio.jpg" alt="camara gesell" class="img-fluid">
+                                <p class="text-center text-white">Biblioteca</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- AUDIRORIO A -->
+                <div class="modal fade" id="modal07" tabindex="-1" role="dialog" aria-labelledby="modal07" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">                                      
+                        <div class="modal-content d-flex align-items-center">
+                            <div class="modal-body modal-instalaciones">
+                                <img src="../image/instalaciones/aula-magna.jpg" alt="camara gesell" class="img-fluid">
+                                <p class="text-center text-white">Auditorio A</p>
+                                <img src="../image/instalaciones/aula-magna-2.jpg" alt="camara gesell" class="img-fluid">
+                                <p class="text-center text-white">Auditorio A</p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- LABORATOTIO DE REDES -->
+                <div class="modal fade" id="modal08" tabindex="-1" role="dialog" aria-labelledby="modal08" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">                                      
+                        <div class="modal-content d-flex align-items-center">
+                            <div class="modal-body modal-instalaciones">
+                                <img src="../image/instalaciones/sistemas.jpg" alt="camara gesell" class="img-fluid">
+                                <p class="text-center text-white">Laboratorio de redes</p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- AUDITORIO D -->
+                <div class="modal fade" id="modal09" tabindex="-1" role="dialog" aria-labelledby="modal09" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">                                      
+                        <div class="modal-content d-flex align-items-center">
+                            <div class="modal-body modal-instalaciones">
+                                <img src="../image/instalaciones/juicios-orales.jpg" alt="camara gesell" class="img-fluid">
+                                <p class="text-center text-white">Auditorio D</p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CAFETERÍA -->
+                <div class="modal fade" id="modal10" tabindex="-1" role="dialog" aria-labelledby="modal10" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">                                      
+                        <div class="modal-content d-flex align-items-center">
+                            <div class="modal-body modal-instalaciones">
+                                <img src="../image/instalaciones/cafeteria.jpg" alt="camara gesell" class="img-fluid">
+                                <p class="text-center text-white">Cafetería</p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="modal1" aria-hidden="true">
                     <div class="modal-dialog">                                      
                         <div class="modal-content d-flex align-items-center">
