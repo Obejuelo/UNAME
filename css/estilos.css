@@ -535,6 +535,37 @@ textarea {
 }
 
 
+/*|||||||||||||||INSTALACIONES||||||||||||||||||*/
+
+#headingOne .btn,
+#headingTwo .btn,
+#headingThree .btn,
+#headingFour .btn,
+#headingFive .btn,
+#headingSix .btn,
+#headingSeven .btn,
+#headingHeight .btn,
+#headingNine .btn,
+#headingTen .btn {
+    background: #0c273d;
+    color: #fff;
+}
+
+#collapseOne img,
+#collapseTwo img,
+#collapseThree img,
+#collapseFour img,
+#collapseFive img,
+#collapseSix img,
+#collapseSeven img,
+#collapseHeight img,
+#collapseNine img,
+#collapseTen img {
+    padding: 2px;
+    border-radius: 2px;
+}
+
+
 /*|||||||||||||||FOOTER||||||||||||||||||*/
 
 #foot1 {

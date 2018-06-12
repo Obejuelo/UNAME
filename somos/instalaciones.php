@@ -94,124 +94,151 @@
     <section class="container">
         <div class="row">
             <div class="col-12">
-                <div id="acordion" role="tablist" aria-multiselectable="true">
-                    <div class="card">
-                        <div class="card-header" role="tab" id="heading1">
-                            <h5 class="mb-0">
-                                <a href="#collapse1" data-toggle="collapse" data-parent="#acordion" aria-expanded="true" aria-controls="collapse1" class="text-success text-center">Camara Gesell</a>
-                            </h5>
+            <!-- ACORDION PARA DISPOSITIVOS PEQUEÑOS -->
+                <div class="accordion d-block d-sm-none" id="accordionExample">
+                    <!-- camara gesell -->
+                    <div class="my-1">
+                        <div class="" id="headingOne">
+                        <h5 class="mb-0">
+                            <button class="btn btn-block btn-sm" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            CÁMARA GESELL
+                            </button>
+                        </h5>
                         </div>
-                        <div id="collapse1" class="collapse show" role="tabpanel" aria-labelledby="heading1">
-                            <div class="card-body">
-                                <img src="../image/instalaciones/gesell1.jpg" alt="camara gesell" class="img-fluid">
-                                <p class="text-center text-muted">Proyección de video capturado en la Cámara Gesell</p>
-                                <div class="w-100"><hr></div>
-                                <img src="../image/instalaciones/gesell2.jpg" alt="camara gesell" class="img-fluid">
-                                <p class="text-center text-muted">Actividad realizada en Cámara Gesell</p>
-                            </div>
+
+                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                            <img src="../image/instalaciones/gesell1.jpg" alt="camara gesell" class="img-fluid">
+                            <p class="text-center text-muted">Proyección de video capturado en la Cámara Gesell</p>
+                            <div class="w-100"><hr></div>
+                            <img src="../image/instalaciones/gesell2.jpg" alt="camara gesell" class="img-fluid">
+                            <p class="text-center text-muted">Actividad de Psicología Social realizada en la Cámara Gesell</p>
                         </div>
                     </div>
-                
-                    <div class="card">
-                        <div class="card-header" role="tab" id="heading1">
-                            <h5 class="mb-0">
-                                <a href="#collapse2" data-toggle="collapse" data-parent="#acordion" aria-expanded="true" aria-controls="collapse2" class="text-success text-center">Aula de Medios</a>
-                            </h5>
+                    <!-- Auditorio D -->
+                    <div class="my-1">
+                        <div class="" id="headingTwo">
+                        <h5 class="mb-0">
+                            <button class="btn btn-block btn-sm collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            AUDITORIO D
+                            </button>
+                        </h5>
                         </div>
-
-                        <div id="collapse2" class="collapse" role="tabpanel" aria-labelledby="heading2">
-                            <div class="card-body">
-                                <p></p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card">
-                        <div class="card-header" role="tab" id="heading3">
-                            <h5 class="mb-0">
-                                <a href="#collapse3" data-toggle="collapse" data-parent="#acordion" aria-expanded="true" aria-controls="collapse3" class="text-success text-center">Laboratorio de Alimentos</a>
-                            </h5>
-                        </div>
-
-                        <div id="collapse3" class="collapse" role="tabpanel" aria-labelledby="heading3">
-                            <div class="card-body">
-                                <p></p>
-                            </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                            <img src="../image/instalaciones/auditorioD.jpg" alt="camara gesell" class="img-fluid">
                         </div>
                     </div>
-                    <div class="card">
-                        <div class="card-header" role="tab" id="heading4">
-                            <h5 class="mb-0">
-                                <a href="#collapse4" data-toggle="collapse" data-parent="#acordion" aria-expanded="true" aria-controls="collapse4" class="text-success text-center">Sala de Juicios Orales</a>
-                            </h5>
+                    <!-- Aula de medios -->
+                    <div class="my-1">
+                        <div class="" id="headingThree">
+                        <h5 class="mb-0">
+                            <button class="btn btn-block btn-sm collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            AULA DE MEDIOS
+                            </button>
+                        </h5>
                         </div>
-
-                        <div id="collapse4" class="collapse" role="tabpanel" aria-labelledby="heading4">
-                            <div class="card-body">
-                                <div><img src="image/unm.png" alt=""></div>
-                                <img src="../image/instalaciones/juicios-orales.jpg" alt="camara gesell" class="img-fluid">
-                                <p></p>
-                            </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                            <img src="../image/instalaciones/aula-de-medios.jpg" alt="camara gesell" class="img-fluid">
                         </div>
                     </div>
-                    <div class="card">
-                        <div class="card-header" role="tab" id="heading5">
-                            <h5 class="mb-0">
-                                <a href="#collapse5" data-toggle="collapse" data-parent="#acordion" aria-expanded="true" aria-controls="collapse5" class="text-success text-center">Laboratorio</a>
-                            </h5>
+                    <!-- Laboratorio de alimentos -->
+                    <div class="my-1">
+                        <div class="" id="headingFour">
+                        <h5 class="mb-0">
+                            <button class="btn btn-block btn-sm collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            LABORATORIO DE ALIMENTOS
+                            </button>
+                        </h5>
                         </div>
-
-                        <div id="collapse5" class="collapse" role="tabpanel" aria-labelledby="heading5">
-                            <div class="card-body">
-                                <div><img src="image/unm.png" alt=""></div>
-                                <p></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-header" role="tab" id="heading6">
-                            <h5 class="mb-0">
-                                <a href="#collapse6" data-toggle="collapse" data-parent="#acordion" aria-expanded="true" aria-controls="collapse6" class="text-success text-center">Biblioteca</a>
-                            </h5>
-                        </div>
-
-                        <div id="collapse6" class="collapse" role="tabpanel" aria-labelledby="heading6">
-                            <div class="card-body">
-                                <div><img src="image/unm.png" alt=""></div>
-                                <p></p>
-                            </div>
+                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                            <img src="../image/instalaciones/alimentos.jpg" alt="camara gesell" class="img-fluid">
+                            <p class="text-justify text-muted mt-3">Área equipada en la cual nuestros estudiantes realizan prácticas para elaboración de productos del área de Ciencia y Tecnología de Alimentos, elaboración de dietas, montaje de menús, conocimiento de técnicas y aplicación de normativas que aseguren la calidad e higiene con la finalidad que obtenga las habilidades requeridas para su labor profesional y fortalezcan su perfil de egreso</p>
                         </div>
                     </div>
-                    <div class="card">
-                        <div class="card-header" role="tab" id="heading7">
-                            <h5 class="mb-0">
-                                <a href="#collapse7" data-toggle="collapse" data-parent="#acordion" aria-expanded="true" aria-controls="collapse4" class="text-success text-center">Auditorio</a>
-                            </h5>
+                    <!-- Sala de jicios orales -->
+                    <div class="my-1">
+                        <div class="" id="headingFive">
+                        <h5 class="mb-0">
+                            <button class="btn btn-block btn-sm collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                            SALA DE JUICIOS ORALES
+                            </button>
+                        </h5>
                         </div>
-
-                        <div id="collapse7" class="collapse" role="tabpanel" aria-labelledby="heading7">
-                            <div class="card-body">
-                                <div><img src="image/unm.png" alt=""></div>
-                                <p></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-header" role="tab" id="heading8">
-                            <h5 class="mb-0">
-                                <a href="#collapse8" data-toggle="collapse" data-parent="#acordion" aria-expanded="true" aria-controls="collapse8" class="text-success text-center">Laboratorio de Redes</a>
-                            </h5>
-                        </div>
-
-                        <div id="collapse8" class="collapse" role="tabpanel" aria-labelledby="heading8">
-                            <div class="card-body">
-                                <div><img src="image/unm.png" alt=""></div>
-                                <p></p>
-                            </div>
+                        <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+                            <img src="../image/instalaciones/juicios-orales.jpg" alt="camara gesell" class="img-fluid">
                         </div>
                     </div>
-
+                    <!-- Laboratoriode ciencias -->
+                    <div class="my-1">
+                        <div class="" id="headingSix">
+                        <h5 class="mb-0">
+                            <button class="btn btn-block btn-sm collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                            LABORATORIO DE CIENCIAS
+                            </button>
+                        </h5>
+                        </div>
+                        <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
+                            <img src="../image/instalaciones/lab-de-ciencias-2.jpg" alt="camara gesell" class="img-fluid">
+                            <p class="text-justify text-muted my-3">Es un espacio, en el cual se s realiza el reforzamiento práctico de las materias experimentales y área blanca; fomentando la investigación en nuestros estudiantes, se cuenta con equipamiento para realizar las prácticas, como microscopios, estereoscopios, material de vidriería, y reactivos</p>
+                            <img src="../image/instalaciones/lab-de-ciencias.jpg" alt="camara gesell" class="img-fluid">
+                        </div>
+                    </div>
+                    <!-- Biblioteca -->
+                    <div class="my-1">
+                        <div class="" id="headingSeven">
+                        <h5 class="mb-0">
+                            <button class="btn btn-block btn-sm collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                            BIBLIOTECA
+                            </button>
+                        </h5>
+                        </div>
+                        <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordionExample">
+                            <img src="../image/instalaciones/biblioteca.jpg" alt="camara gesell" class="img-fluid my-2">
+                            <img src="../image/instalaciones/biblio.jpg" alt="camara gesell" class="img-fluid">
+                        </div>
+                    </div>
+                    <!-- Auditorio A -->
+                    <div class="my-1">
+                        <div class="" id="headingHeight">
+                        <h5 class="mb-0">
+                            <button class="btn btn-block btn-sm collapsed" type="button" data-toggle="collapse" data-target="#collapseHeight" aria-expanded="false" aria-controls="collapseHeight">
+                            AUDITORIO A
+                            </button>
+                        </h5>
+                        </div>
+                        <div id="collapseHeight" class="collapse" aria-labelledby="headingHeight" data-parent="#accordionExample">
+                            <img src="../image/instalaciones/aula-magna.jpg" alt="camara gesell" class="img-fluid my-2">
+                            <img src="../image/instalaciones/aula-magna-2.jpg" alt="camara gesell" class="img-fluid">
+                        </div>
+                    </div>
+                    <!-- Laboratorio de redes -->
+                    <div class="my-1">
+                        <div class="" id="headingNine">
+                        <h5 class="mb-0">
+                            <button class="btn btn-block btn-sm collapsed" type="button" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                            LBORATORIO DE REDES
+                            </button>
+                        </h5>
+                        </div>
+                        <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#accordionExample">
+                            <img src="../image/instalaciones/sistemas.jpg" alt="camara gesell" class="img-fluid">
+                        </div>
+                    </div>
+                    <!-- Cafetería -->
+                    <div class="my-1">
+                        <div class="" id="headingTen">
+                        <h5 class="mb-0">
+                            <button class="btn btn-block btn-sm collapsed" type="button" data-toggle="collapse" data-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                            CAFETERÍA
+                            </button>
+                        </h5>
+                        </div>
+                        <div id="collapseTen" class="collapse" aria-labelledby="headingTen" data-parent="#accordionExample">
+                            <img src="../image/instalaciones/cafeteria.jpg" alt="camara gesell" class="img-fluid">
+                        </div>
+                    </div>
                 </div>
+
+                <!-- DISPOSITIVOS GRANDES -->
                 <div style="" class="img-unm">
                     <div><a href="" data-toggle="modal" data-target="#modal01"><a class="" data-toggle="tooltip" data-placement="top" title="Cámara Gesell">.</a></a></div>
                     <div><a href="" data-toggle="modal" data-target="#modal02"><a class="" data-toggle="tooltip" data-placement="top" title="Aula de medios">.</a></a></div>
@@ -221,7 +248,7 @@
                     <div><a href="" data-toggle="modal" data-target="#modal06"><a class="" data-toggle="tooltip" data-placement="top" title="Biblioteca">.</a></a></div>
                     <div><a href="" data-toggle="modal" data-target="#modal07"><a class="" data-toggle="tooltip" data-placement="top" title="Auditorio A">.</a></a></div>
                     <div><a href="" data-toggle="modal" data-target="#modal08"><a class="" data-toggle="tooltip" data-placement="top" title="Laboratorio de Redes">.</a></a></div>
-                    <div><a href="" data-toggle="modal" data-target="#modal1"><a class="" data-toggle="tooltip" data-placement="top" title="Auditorio D">.</a></a></div>
+                    <div><a href="" data-toggle="modal" data-target="#modal09"><a class="" data-toggle="tooltip" data-placement="top" title="Auditorio D">.</a></a></div>
                     <div><a href="" data-toggle="modal" data-target="#modal10"><a class="" data-toggle="tooltip" data-placement="top" title="Cafetería">.</a></a></div>
                 </div>
 
@@ -259,8 +286,8 @@
                         <div class="modal-content d-flex align-items-center">
                             <div class="modal-body modal-instalaciones">
                                 <img src="../image/instalaciones/alimentos.jpg" alt="camara gesell" class="img-fluid">
-                                <p class="text-center text-white">Laboratorio de alimentos</p>
-                                
+                                <p class="text-center text-white h3">Laboratorio de alimentos</p>
+                                <p class="text-justify text-white">Área equipada en la cual nuestros estudiantes realizan prácticas para elaboración de productos del área de Ciencia y Tecnología de Alimentos, elaboración de dietas, montaje de menús, conocimiento de técnicas y aplicación de normativas que aseguren la calidad e higiene con la finalidad que obtenga las habilidades requeridas para su labor profesional y fortalezcan su perfil de egreso</p>
                             </div>
                         </div>
                     </div>
@@ -284,9 +311,10 @@
                     <div class="modal-dialog modal-lg">                                      
                         <div class="modal-content d-flex align-items-center">
                             <div class="modal-body modal-instalaciones">
-                                <img src="../image/instalaciones/lab-de-ciencias.jpg" alt="camara gesell" class="img-fluid">
-                                <p class="text-center text-white">Laboratorio de ciencias</p>
                                 <img src="../image/instalaciones/lab-de-ciencias-2.jpg" alt="camara gesell" class="img-fluid">
+                                <p class="text-center text-white h3">Laboratorio de ciencias</p>
+                                <p class="text-justify text-white">Es un espacio, en el cual se s realiza el reforzamiento práctico de las materias experimentales y área blanca; fomentando la investigación en nuestros estudiantes, se cuenta con equipamiento para realizar las prácticas, como microscopios, estereoscopios, material de vidriería, y reactivos</p>
+                                <img src="../image/instalaciones/lab-de-ciencias.jpg" alt="camara gesell" class="img-fluid">
                                 <p class="text-center text-white">Laboratorio de ciencias</p>
                             </div>
                         </div>
@@ -340,7 +368,7 @@
                     <div class="modal-dialog modal-lg">                                      
                         <div class="modal-content d-flex align-items-center">
                             <div class="modal-body modal-instalaciones">
-                                <img src="../image/instalaciones/juicios-orales.jpg" alt="camara gesell" class="img-fluid">
+                                <img src="../image/instalaciones/auditorioD.jpg" alt="camara gesell" class="img-fluid">
                                 <p class="text-center text-white">Auditorio D</p>
                                 
                             </div>
@@ -379,28 +407,28 @@
         <div class="row justify-content-center my-3">
             <div class="col-6"><p class="h4 text-center visitanos" style="border-bottom: 2px solid green;">Visítanos</p></div>
         </div>
-        <div class="row justify-content-around">
-            <div class="col-md-3 text-center central">
-                <div class="card">
+        <div class="row justify-content-around ">
+            <div class="col-md-6 col-lg-5 col-xl-4 text-center central mt-2">
+                <div class="card d-none d-sm-block">
                     <img src="../image/inicio/unm.png" alt="" class="img-fluid card-img-top">
                     <div class="card-body">
                         <h5><small>Campus</small> central:</h5>
-                        <p>Camino Nacional Núm. 99, Sección Séptima,<br>
+                        <p><small>Camino Nacional Núm. 99, Sección Séptima,<br>
                         Barrio San Antonio, Tlalixtac de Cabrera, Oax.,<br>
                         (a un costado del puente elevado)<br>
-                        Tel.: <u>01(951) 133 20 87.</u></p>
+                        Tel.: <u>01(951) 133 20 87.</u></small></p>
                     </div>
                 </div>
             </div>
-            <div class="col-md-3 text-center central mt-2">
-                <div class="card">
+            <div class="col-md-6 col-lg-5 col-xl-4 text-center central mt-2">
+                <div class="card d-none d-sm-block">
                     <img src="../image/spam/spam.jpg" alt="" class="img-fluid card-img-top">
                     <div class="card-body">
                         <h5><small>Campus</small> San José la Noria:</h5>
-                        <p>Monte Albán Núm. 311,<br>
+                        <p><small>Monte Albán Núm. 311,<br>
                         Fracc. San José La Noria, <br>
                         Oaxaca de Juárez, Oax., C.P. 68120. <br>
-                        Tels.: <u>01(951) 51 6 09 41</u></p>
+                        Tels.: <u>01(951) 51 6 09 41</u></small></p>
                     </div>
                 </div>
             </div>

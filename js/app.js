@@ -27,7 +27,7 @@ window.addEventListener("scroll", function() {
     let icono2 = document.getElementById('icono2');
     let icono3 = document.getElementById('icono3');
     let icono4 = document.getElementById('icono4');
-    let scroll = 5;
+    let scroll = 56;
     st = window.pageYOffset || document.documentElement.scrollTop;
     if (st > scroll) {
         icono1.style.color = '#3569FF';

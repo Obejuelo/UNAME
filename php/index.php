@@ -85,8 +85,6 @@
             <li data-target="#principal-carousel" data-slide-to="1"></li>
             <li data-target="#principal-carousel" data-slide-to="2"></li>
             <li data-target="#principal-carousel" data-slide-to="3"></li>
-            <li data-target="#principal-carousel" data-slide-to="4"></li>
-            <li data-target="#principal-carousel" data-slide-to="5"></li>
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item img-1 active" id="head1">
@@ -107,24 +105,6 @@
                     <h4 class="mt-4">¡Asiste a cátedras de lunes a viernes o sábados únicamente!</h4>
                 </div>
                 <div class="opacidad"></div>
-            </div>
-
-            <div class="carousel-item promocion" id="head2">
-            	<div class="row content-image justify-content-center">
-                    <div class="col-lg-11 col-xl-10 align-self-center">
-                        <img src="image/slider/lic.png" alt="lic" class="image-promo img-fluid">
-                    </div>
-                </div>
-                <!-- <div class="opacidad"></div> -->
-            </div>
-            
-            <div class="carousel-item promocion2" id="">
-            	<div class="row content-image justify-content-center">
-                    <div class="col-lg-11 col-xl-10 align-self-center">
-                        <img src="image/slider/bach.png" alt="lic" class="image-promo img-fluid">
-                    </div>
-                </div>
-                <!-- <div class="opacidad"></div> -->
             </div>
            
             <div class="carousel-item promocion3" id="">
