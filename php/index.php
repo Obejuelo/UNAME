@@ -107,6 +107,15 @@
                 <div class="opacidad"></div>
             </div>
            
+            <div class="carousel-item promocion" id="">
+            	<div class="row content-image justify-content-center">
+                    <div class="col-lg-11 col-xl-9 align-self-center">
+                        <img src="image/slider/ajedres-texto.png" alt="lic" class="image-promo img-fluid">
+                    </div>
+                </div>
+                <!-- <div class="opacidad"></div> -->
+            </div>
+
             <div class="carousel-item promocion3" id="">
             	<div class="row content-image justify-content-center">
                     <div class="col-lg-11 col-xl-10 align-self-center">

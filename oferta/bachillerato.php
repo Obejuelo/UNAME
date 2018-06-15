@@ -134,7 +134,7 @@
                         <tr>
                             <td>Química I</td>
                             <td>Química II</td>
-                            <td>Bilogía I</td>
+                            <td>Biología I</td>
                             <td>Biología II</td>
                             <td>Estructura Socioeconómica de México</td>
                             <td>Ecología y Medio Ambiente</td>

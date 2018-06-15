@@ -258,7 +258,8 @@
                         <div class="modal-content d-flex align-items-center">
                             <div class="modal-body modal-instalaciones">
                                 <img src="../image/instalaciones/gesell1.jpg" alt="camara gesell" class="img-fluid">
-                                <p class="text-center text-white">Proyección de video capturado en la Cámara Gesell</p>
+                                <p class="text-center text-white h3">Cámara Gesell</p>
+                                <p class="text-justify text-white">Es una habitación acondicionada para permitir la observación con personas. Está conformada por dos ambientes separados por un vidrio de visión unilateral, los cuales cuentan con equipos de audio (amplificador y micrófono ambiental) , de video (cámaras de video vigilancia, dvr, pantalla y proyector), así como conexión a internet e intercomunicador. Todo ello para la grabación de los diferentes experimentos, utilizando sistemas técnicos que permiten la retroalimentación inmediata del docente. Es ampliamente utilizada en Psicología, Pedagogía, Criminología y Marketing, entre otras.</p>
                                 <div class="w-100"><hr></div>
                                 <img src="../image/instalaciones/gesell2.jpg" alt="camara gesell" class="img-fluid">
                                 <p class="text-center text-white">Actividad de Psicología Social realizada en la Cámara Gesell</p>
@@ -273,7 +274,8 @@
                         <div class="modal-content d-flex align-items-center">
                             <div class="modal-body modal-instalaciones">
                                 <img src="../image/instalaciones/aula-de-medios.jpg" alt="camara gesell" class="img-fluid">
-                                <p class="text-center text-white">Aula de medios</p>
+                                <p class="text-center text-white h3">Aula de medios</p>
+                                <p class="text-justify text-white">Es un aula tipo, con soluciones tecnológicas y de conectividad apropiadas para la impartición de cátedras, actividades de educación a distancia, proyección multimedia y conferencias, apoyándose con los recursos didácticos más modernos.</p>
                                 
                             </div>
                         </div>
@@ -287,7 +289,7 @@
                             <div class="modal-body modal-instalaciones">
                                 <img src="../image/instalaciones/alimentos.jpg" alt="camara gesell" class="img-fluid">
                                 <p class="text-center text-white h3">Laboratorio de alimentos</p>
-                                <p class="text-justify text-white">Área equipada en la cual nuestros estudiantes realizan prácticas para elaboración de productos del área de Ciencia y Tecnología de Alimentos, elaboración de dietas, montaje de menús, conocimiento de técnicas y aplicación de normativas que aseguren la calidad e higiene con la finalidad que obtenga las habilidades requeridas para su labor profesional y fortalezcan su perfil de egreso</p>
+                                <p class="text-justify text-white">Área equipada en la cual nuestros estudiantes realizan prácticas para elaboración de productos del área de Ciencia y Tecnología de Alimentos, elaboración de dietas, montaje de menús, conocimiento de técnicas y aplicación de normativas que aseguren la calidad e higiene con la finalidad que obtenga las habilidades requeridas para su labor profesional y fortalezcan su perfil de egreso.</p>
                             </div>
                         </div>
                     </div>
@@ -299,7 +301,8 @@
                         <div class="modal-content d-flex align-items-center">
                             <div class="modal-body modal-instalaciones">
                                 <img src="../image/instalaciones/juicios-orales.jpg" alt="camara gesell" class="img-fluid">
-                                <p class="text-center text-white">Sala de juicios orales</p>
+                                <p class="text-center text-white h3">Sala de juicios orales</p>
+                                <p class="text-justify text-white">Es un replica de las salas judiciales que se implementaron con el nuevo Sistema Acusatorio Adversarial, en donde los estudiantes pueden realizar simulaciones de los Juicios Orales en los que, en las diferentes materias del Derecho, aplica este sistema.</p>
                                 
                             </div>
                         </div>
@@ -313,7 +316,7 @@
                             <div class="modal-body modal-instalaciones">
                                 <img src="../image/instalaciones/lab-de-ciencias-2.jpg" alt="camara gesell" class="img-fluid">
                                 <p class="text-center text-white h3">Laboratorio de ciencias</p>
-                                <p class="text-justify text-white">Es un espacio, en el cual se s realiza el reforzamiento práctico de las materias experimentales y área blanca; fomentando la investigación en nuestros estudiantes, se cuenta con equipamiento para realizar las prácticas, como microscopios, estereoscopios, material de vidriería, y reactivos</p>
+                                <p class="text-justify text-white">Es un espacio, en el cual se s realiza el reforzamiento práctico de las materias experimentales y área blanca; fomentando la investigación en nuestros estudiantes, se cuenta con equipamiento para realizar las prácticas, como microscopios, estereoscopios, material de vidriería, y reactivos.</p>
                                 <img src="../image/instalaciones/lab-de-ciencias.jpg" alt="camara gesell" class="img-fluid">
                                 <p class="text-center text-white">Laboratorio de ciencias</p>
                             </div>
@@ -327,7 +330,8 @@
                         <div class="modal-content d-flex align-items-center">
                             <div class="modal-body modal-instalaciones">
                                 <img src="../image/instalaciones/biblioteca.jpg" alt="camara gesell" class="img-fluid">
-                                <p class="text-center text-white">Biblioteca</p>
+                                <p class="text-center text-white h3">Biblioteca</p>
+                                <p class="text-justify text-white">Es el espacio destinado al servicio de consulta de los materiales bibliográficos y hemerográficos que conforman el acervo de la institución, así como servicios adicionales como fotocopiado, impresión y préstamo de materiales didácticos y deportivos.</p>
                                 <img src="../image/instalaciones/biblio.jpg" alt="camara gesell" class="img-fluid">
                                 <p class="text-center text-white">Biblioteca</p>
                             </div>
@@ -341,7 +345,8 @@
                         <div class="modal-content d-flex align-items-center">
                             <div class="modal-body modal-instalaciones">
                                 <img src="../image/instalaciones/aula-magna.jpg" alt="camara gesell" class="img-fluid">
-                                <p class="text-center text-white">Auditorio A</p>
+                                <p class="text-center text-white h3">Auditorio A</p>
+                                <p class="text-justify text-white">Es un área destinada a la celebración de actos académicos que implican la reunión de un número significativo de asistentes, con el equipamiento tecnológico que permite la posibilidad de realizar la reproducción de contenidos multimedia, videoconferencias, coloquios, congresos, etc.</p>
                                 <img src="../image/instalaciones/aula-magna-2.jpg" alt="camara gesell" class="img-fluid">
                                 <p class="text-center text-white">Auditorio A</p>
                                 
@@ -356,7 +361,7 @@
                         <div class="modal-content d-flex align-items-center">
                             <div class="modal-body modal-instalaciones">
                                 <img src="../image/instalaciones/sistemas.jpg" alt="camara gesell" class="img-fluid">
-                                <p class="text-center text-white">Laboratorio de redes</p>
+                                <p class="text-center text-white h5">Aula de cómputo y Laboratorio de redes</p>
                                 
                             </div>
                         </div>
