@@ -16,6 +16,7 @@ if (!isset($_SESSION['admin'])) {
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto:300,400,500" rel="stylesheet">
     <link rel="stylesheet" href="css/fontello.css">
     <link rel="stylesheet" href="css/estilos.css">
+    <script src="js/fontawesome-all.min.js"></script>
 </head>
 
 <body>
@@ -30,6 +31,7 @@ if (!isset($_SESSION['admin'])) {
                     <a href="agenda"><i class="icon-book"></i><span>Agenda</span></a>
                     <a href="galery"><i class="icon-picture"></i><span>Galería</span></a>
                     <a href="report"><i class="icon-doc-text"></i><span>Reportes</span></a>
+                    <a href="users"><i class="fas fa-user"></i><span> Usuarios</span></a>
                     <a href="cerrar"><i class="icon-logout"></i><span>Salir</span></a>
                 </nav>
             </div>

@@ -362,7 +362,8 @@
                             <div class="modal-body modal-instalaciones">
                                 <img src="../image/instalaciones/sistemas.jpg" alt="camara gesell" class="img-fluid">
                                 <p class="text-center text-white h5">Aula de cómputo y Laboratorio de redes</p>
-                                
+                                <p class="text-justify text-white">El uso del laboratorio de redes es para implementar y configurar una red de área local que se requiere como práctica en las materias introducción a las redes de computadoras, planeacion de redes y administración de redes. Así  cómo configurar dispositivos de red en cascada para las materias telemática y seguridad informática.</p>
+                                <p class="text-justify text-white">Al mismo tiempo se pretende que pueda usarse este espacio también para realizar proyectos de las materias de hardware y aplicaciones de robótica, donde se requiere usar un sistema arduino, soldar y manipular piezas de hardware.</p>
                             </div>
                         </div>
                     </div>

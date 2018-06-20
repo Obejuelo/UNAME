@@ -86,6 +86,12 @@ function obtener_post_agenda($conexion, $id){
 	return ($resultado) ? $resultado : false;
 }
 
+function getUsers($conexion){
+	$resultado = $conexion->query("SELECT * FROM usuarios");
+	$resultado = $resultado->fetchAll();
+	return ($resultado) ? $resultado : false;
+}
+
 function numero_paginas($notas_por_pagina, $conexion){
 	$total_notas = $conexion->prepare('SELECT FOUND_ROWS() as total');
 	$total_notas->execute();

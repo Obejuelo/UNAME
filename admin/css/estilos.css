@@ -58,6 +58,10 @@ body {
     font-weight: normal;
 }
 
+.barra-lateral .menu a .fa-user{
+    margin-right: 20px;
+    font-weight: normal;
+}
 
 /* --- --- MAIN --- --- */
 
@@ -94,6 +98,23 @@ body {
     border: none;
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.2);
 }
+.main .widget form input[type="password"]{
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-family: 'Open Sans', sans-serif;
+    border: none;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.main .password form input[type="text"]{
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-family: 'Open Sans', sans-serif;
+    border: none;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.2);
+}
 
 .main .widget form input[type="text"] {
     font-weight: 400;
@@ -119,6 +140,32 @@ body {
     width: 200px;
     border-radius: 3px;
     transition: all .3s ease;
+}
+
+.main .widget .error{
+    background: rgb(243, 62, 62);
+    padding: 7px;
+    color: #fff;
+    text-align: center;
+}
+
+.main .widget .success{
+    background: rgb(47, 196, 92);
+    padding: 7px;
+    color: #fff;
+    text-align: center;
+}
+
+.is-valid{
+    background: #7be0a9;
+}
+
+.is-invalid{
+    background: rgb(252, 157, 157);
+}
+
+.eye{
+    width: 20px;
 }
 
 .main .widget form button:hover {

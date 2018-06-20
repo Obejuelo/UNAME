@@ -23,6 +23,16 @@
                         <label for="">Contraseña</label class="form-control">
                         <input type="password" name="pass" placeholder="Contraseña" required class="form-control">
                     </div>
+                    <?php if (!empty($error)): ?>
+						<div class="error" style="border-radius: 5px;">
+							<?php echo $error; ?>
+						</div>
+                    <?php endif ?>
+                    <script>
+                        setTimeout(() => {
+                            document.querySelector('.error').remove();
+                        }, 3000);
+                    </script>
                     <div class="row justify-content-center">
                         <div class="col-auto">
                             <input type="submit" name="submit" value="Entrar" class="btn btn-dark my-3">
