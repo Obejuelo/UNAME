@@ -22,7 +22,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 	$password =  hash('sha512', $password);
 
 	if ($usuario == $user_name && $password == $user_pass) {
-		$_SESSION['admin'] = $user_name;
+		$_SESSION['unm'] = $user_name;
 		header('Location:' . RUTA . 'admin/index');
 	} else {
 		$error .= '<p class="text-danger">verifica tus datos</p>';
