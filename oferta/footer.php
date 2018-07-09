@@ -9,9 +9,12 @@
                     <p class=""><i class="fas fa-phone"></i> (951) 133 20 87</p>
                 </div>
                 <div class="col-md-auto">
-                    <p class=""><i class="fas fa-envelope"></i> sistemas@universidadmexico.edu.mx</p>
+                    <p class=""><i class="fas fa-envelope"></i> secundariaypreparatoriamexico@gmail.com</p>
                     <p class=""><i class="fas fa-map-marker-alt ubicacion"></i> Monte Albán Núm.311 (San José la Noria)</p>
                     <p class=""><i class="fas fa-phone"></i> (951) 51 6 09 41</p>
+                    <p>
+                        <a class="text-left" href="https://www.facebook.com/secundariaypreparatoriaabiertamexico/" target="_blank"><i class="fab fa-facebook-f" id="foot1"></i> Secundaria y Preparatoria Abierta México</a>
+                    </p>
                 </div>
                 <div class="col-md-auto d-none d-lg-block redes-sociales">
                     

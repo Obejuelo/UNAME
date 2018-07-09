@@ -41,9 +41,11 @@ $header = '<!DOCTYPE html>
 			<body>';
 
 $tablas = '';
+$id_user = 2;
 foreach ($usuarios as $usuario) {
+	$id_user++;
 	$tablas .= '<tr class="usuarios">
-					<td>'.$usuario['id'].'</td>
+					<td>'.$id_user.'</td>
 					<td>'.$usuario['nombre'].'</td>
 					<td>'.$usuario['apellido'].'</td>
 					<td>'.$usuario['correo'].'</td>

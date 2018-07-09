@@ -60,7 +60,7 @@ mostrarMaestros();
 
 function mostrarMaestros() {
     const xhr = new XMLHttpRequest();
-    xhr.open('GET', 'licenciatura.json', true);
+    xhr.open('GET', 'maestros/licenciatura.json', true);
     xhr.onload = function() {
         if (this.status === 200) {
             const maestro = JSON.parse(this.responseText);
@@ -174,8 +174,8 @@ let posgrado = document.getElementById('elemento10');
 let cnm = document.querySelectorAll('#cnm');
 
 //  FETCH API BACHILLERATO
-bachillerato.addEventListener('click', function() {
-    fetch('bach.json')
+document.addEventListener('DOMContentLoaded', () => {
+    fetch('maestros/bach.json')
         .then(res => res.json())
         .then(data => {
             console.log(data.administracion);
@@ -189,8 +189,8 @@ function mostrarMaestrosBach(maestro) {
 }
 
 //  FECH API MAESTRIAS
-maestria.addEventListener('click', function() {
-    fetch('maestros.json')
+document.addEventListener('DOMContentLoaded', () => {
+    fetch('maestros/maestros.json')
         .then(res => res.json())
         .then(data => {
             console.log(data);
@@ -254,37 +254,37 @@ function removeClas() {
     $('#elemento8').removeClass('active');
 }
 //REMOVEMOS LAS CLASES CON LAS FUNCIONES
-dropdown1.addEventListener('click', function() {
+dropdown1.addEventListener('click', () => {
     removeClasLic();
 })
-dropdown2.addEventListener('click', function() {
+dropdown2.addEventListener('click', () => {
     removeClasLic();
 })
-dropdown3.addEventListener('click', function() {
+dropdown3.addEventListener('click', () => {
     removeClasLic();
 })
-dropdown4.addEventListener('click', function() {
+dropdown4.addEventListener('click', () => {
     removeClasLic();
 })
-dropdown5.addEventListener('click', function() {
+dropdown5.addEventListener('click', () => {
     removeClasLic();
 })
-dropdown6.addEventListener('click', function() {
+dropdown6.addEventListener('click', () => {
     removeClasLic();
 })
-dropdown7.addEventListener('click', function() {
+dropdown7.addEventListener('click', () => {
     removeClasLic();
 })
-dropdown8.addEventListener('click', function() {
+dropdown8.addEventListener('click', () => {
     removeClasLic();
 });
-bachillerato.addEventListener('click', function() {
+bachillerato.addEventListener('click', () => {
     $(bach).addClass('show active');
     $(posgrado).removeClass('active');
     removeClas();
     removeClasLic();
 });
-maestria.addEventListener('click', function() {
+maestria.addEventListener('click', () => {
     $(posgrado).addClass('show active');
     $(bach).removeClass('active');
     removeClas();

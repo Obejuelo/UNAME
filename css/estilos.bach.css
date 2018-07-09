@@ -77,6 +77,11 @@ iframe{ width: 100%;}
     transition-duration: .25s;
 }
 
+.btn-primary:focus,
+.btn-secondary:focus{
+    box-shadow: none;
+}
+
 .card-nota{
     transform:translateY(-5px);
     transition-duration: .2s;
