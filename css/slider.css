@@ -29,20 +29,22 @@ AUTHOR: OBED HERNÁNDEZ;
 
 .promocion {
     height: 100vh;
-    background: url('../image/slider/ajedres.png') no-repeat;
+    background: #212121;
     background-size: cover;
 }
 
 .promocion2 {
     height: 100vh;
-    background: url('../image/slider/fondo-bach.png') no-repeat;
+    background: url('../image/slider/playera1.jpg') no-repeat;
     background-size: cover;
 }
 
 .promocion3 {
     height: 100vh;
-    background-color: #DEB887;
-    background-image: repeating-linear-gradient(transparent, transparent 50px, rgba(0, 0, 0, .4) 50px, rgba(0, 0, 0, .4) 53px, transparent 53px, transparent 63px, rgba(211, 161, 95, .4) 63px, rgba(211, 161, 95, .4) 66px, transparent 66px, transparent 116px, rgba(211, 161, 95, .5) 116px, rgba(211, 161, 95, .5) 166px, rgba(255, 255, 255, .2) 166px, rgba(255, 255, 255, .2) 169px, rgba(211, 161, 95, .5) 169px, rgba(211, 161, 95, .5) 179px, rgba(255, 255, 255, .2) 179px, rgba(255, 255, 255, .2) 182px, rgba(211, 161, 95, .5) 182px, rgba(211, 161, 95, .5) 232px, transparent 232px), repeating-linear-gradient(180deg, transparent, transparent 50px, rgba(211, 161, 95, .4) 50px, rgba(211, 161, 95, .4) 53px, transparent 53px, transparent 63px, rgba(211, 161, 95, .4) 63px, rgba(211, 161, 95, .4) 66px, transparent 66px, transparent 116px, rgba(211, 161, 95, .5) 116px, rgba(211, 161, 95, .5) 166px, rgba(255, 255, 255, .2) 166px, rgba(255, 255, 255, .2) 169px, rgba(211, 161, 95, .5) 169px, rgba(211, 161, 95, .5) 179px, rgba(255, 255, 255, .2) 179px, rgba(255, 255, 255, .2) 182px, rgba(211, 161, 95, .5) 182px, rgba(211, 161, 95, .5) 232px, transparent 232px), repeating-linear-gradient(-35deg, transparent, transparent 2px, rgba(211, 161, 95, .2) 2px, rgba(211, 161, 95, .2) 3px, transparent 3px, transparent 5px, rgba(211, 161, 95, .2) 5px);
+    background: url('../image/slider/leo1.jpg');
+    background-size: cover;
+    /* background-color: #DEB887;
+    background-image: repeating-linear-gradient(transparent, transparent 50px, rgba(0, 0, 0, .4) 50px, rgba(0, 0, 0, .4) 53px, transparent 53px, transparent 63px, rgba(211, 161, 95, .4) 63px, rgba(211, 161, 95, .4) 66px, transparent 66px, transparent 116px, rgba(211, 161, 95, .5) 116px, rgba(211, 161, 95, .5) 166px, rgba(255, 255, 255, .2) 166px, rgba(255, 255, 255, .2) 169px, rgba(211, 161, 95, .5) 169px, rgba(211, 161, 95, .5) 179px, rgba(255, 255, 255, .2) 179px, rgba(255, 255, 255, .2) 182px, rgba(211, 161, 95, .5) 182px, rgba(211, 161, 95, .5) 232px, transparent 232px), repeating-linear-gradient(180deg, transparent, transparent 50px, rgba(211, 161, 95, .4) 50px, rgba(211, 161, 95, .4) 53px, transparent 53px, transparent 63px, rgba(211, 161, 95, .4) 63px, rgba(211, 161, 95, .4) 66px, transparent 66px, transparent 116px, rgba(211, 161, 95, .5) 116px, rgba(211, 161, 95, .5) 166px, rgba(255, 255, 255, .2) 166px, rgba(255, 255, 255, .2) 169px, rgba(211, 161, 95, .5) 169px, rgba(211, 161, 95, .5) 179px, rgba(255, 255, 255, .2) 179px, rgba(255, 255, 255, .2) 182px, rgba(211, 161, 95, .5) 182px, rgba(211, 161, 95, .5) 232px, transparent 232px), repeating-linear-gradient(-35deg, transparent, transparent 2px, rgba(211, 161, 95, .2) 2px, rgba(211, 161, 95, .2) 3px, transparent 3px, transparent 5px, rgba(211, 161, 95, .2) 5px); */
 }
 
 .promocion4 {

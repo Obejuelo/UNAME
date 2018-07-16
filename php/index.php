@@ -84,7 +84,6 @@
             <li data-target="#principal-carousel" data-slide-to="0"></li>
             <li data-target="#principal-carousel" data-slide-to="1"></li>
             <li data-target="#principal-carousel" data-slide-to="2"></li>
-            <li data-target="#principal-carousel" data-slide-to="3"></li>
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item img-1 active" id="head1">
@@ -106,25 +105,31 @@
                 </div>
                 <div class="opacidad"></div>
             </div>
-           
+           <!--
             <div class="carousel-item promocion" id="">
             	<div class="row content-image justify-content-center">
-                    <div class="col-lg-11 col-xl-9 align-self-center">
-                        <img src="image/slider/leo1.jpg" alt="lic" class="image-promo img-fluid">
+                    <div class="col-lg-11 col-xl-8 align-self-center">
+                        <img src="image/slider/curso.jpg" alt="lic" class="image-promo img-fluid">
                     </div>
                 </div>
-                <!-- <div class="opacidad"></div> -->
+            </div>
+
+            <div class="carousel-item promocion2" id="">
+            	<div class="row content-image justify-content-center">
+                    <div class="col-lg-11 col-xl-8 align-self-center">
+                        <img src="image/slider/playera2.png" alt="lic" class="image-promo img-fluid">
+                    </div>
+                </div>
             </div>
 
             <div class="carousel-item promocion3" id="">
             	<div class="row content-image justify-content-center">
                     <div class="col-lg-11 col-xl-10 align-self-center">
-                        <img src="image/slider/cuba.png" alt="lic" class="image-promo img-fluid">
+                        <img src="image/slider/leo2.png" alt="lic" class="image-promo img-fluid">
                     </div>
                 </div>
-                <!-- <div class="opacidad"></div> -->
             </div>
-
+            -->
         </div>
         <a href="#principal-carousel" class="carousel-control-prev" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
