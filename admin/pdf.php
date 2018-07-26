@@ -92,7 +92,7 @@ function obtener_fecha(){
 	return $fecha;
 }
 
-	$html2pdf = new Html2Pdf('P', 'A4', 'es', 'true', 'UTF-8');
+$html2pdf = new Html2Pdf('P', 'A4', 'es', 'true', 'UTF-8');
 		$html2pdf->writeHTML($header.'
 			<h1>'.$titulo_completo.'</h1>
 		<div class="table">
