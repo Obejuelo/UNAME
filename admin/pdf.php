@@ -55,6 +55,43 @@ foreach ($usuarios as $usuario) {
 				</tr>';
 }
 
+//Funcion para obtener la fecha y hora actual
+function obtener_fecha(){
+	$time = getdate(time());
+
+	//Formateamos la fecha
+	$dia = $time['mday'];
+	$mes = $time['mon'];
+	$year = $time['year'];
+
+	if ($mes < 10) {
+		$mes = '0' . $mes;
+	}
+	if ($dia < 10) {
+		$dia = '0' . $dia;
+	}
+	$year = substr($year, -2);
+
+	//Formateamos la hora
+	$hour = $time['hours'];
+	$minutes = $time['minutes'];
+	$seconds = $time['seconds'];
+
+	$hour = $hour - 7;
+	if ($hour < 10) {
+		$hour = '0' . $hour;
+	}
+	if ($minutes < 10) {
+		$minutes = '0' . $minutes;
+	}
+	if ($seconds < 10) {
+		$seconds = '0' . $seconds;
+	}
+
+	$fecha = 'Rep-'. $dia . $mes . $year . '-' .$hour. $minutes . '.pdf' ;
+	return $fecha;
+}
+
 	$html2pdf = new Html2Pdf('P', 'A4', 'es', 'true', 'UTF-8');
 		$html2pdf->writeHTML($header.'
 			<h1>'.$titulo_completo.'</h1>
@@ -74,5 +111,5 @@ foreach ($usuarios as $usuario) {
 		</div>
 		</body>'
 		);
-	$html2pdf->output('pdf_generated.pdf');
+	$html2pdf->output(obtener_fecha());
 ?>

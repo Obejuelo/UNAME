@@ -14,9 +14,9 @@ if (!$conexion) {
 $notas = obtener_eventos($conexion);
 
 rsort($notas);
-if (!$notas) {
-    header('Location: error.php');
-} 
+// if (!$notas) {
+//     header('Location: error.php');
+// } 
 
 require('php/index.php');
 ?>
