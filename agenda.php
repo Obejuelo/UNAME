@@ -12,7 +12,7 @@ if (!empty($id_articulo)) {
 	header('Location: error.php');
 }
 
-//OBTENEMOS LAS VARIABLES PARA CREAR LA TABLA POR GET
+//OBTENEMOS LAS VARIABLES POR GET PARA CREAR LA TABLA 
 $id_articulo = id_articulo($_GET['id']);
 $titulo = utf8_decode($_GET['titulo']);
 
@@ -46,6 +46,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST'){
 	$nivel = $_POST['nivel'];
 	$state = $_POST['state'];
 
+	//VALIDAMOS SI EL CORREO EXISTE
 	$stmt = $conexion->prepare('
 		SELECT * FROM ' .$titulo. ' WHERE correo = :correo'
 	);
@@ -69,7 +70,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST'){
 		    ':correo' => $correo,
 		    ':phone' => $phone,
 		    ':nivel' => $nivel,
-		    ':state' => $state
+			':state' => $state
 		));
 
 		$enviado = 'Registro exitoso';

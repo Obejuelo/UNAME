@@ -101,8 +101,8 @@
                             <input type="email" class="form-control mb-3" name="email" placeholder="e-mail *" required id="email">
                             <input type="tel" class="form-control mb-3" name="phone" placeholder="Teléfono (opcional)" value="<?php if(!$enviado && isset($phone)) echo $phone ?>">
                             <input type="text" class="form-control mb-3" name="nivel" placeholder="Nivel y área académica" value="<?php if(!$enviado && isset($nivel)) echo $nivel ?>">
-                            <select name="state" id="state" class="custom-select"> value="<?php if(!$enviado && isset($state)) echo $state ?>">
-                                <option value="" selected="">Procedencia</option>
+                            <!--
+                            <select name="state" id="state" class="custom-select" value="<?php if(!$enviado && isset($state)) echo $state ?>">
                                 <option value="Aguascalientes">Aguascalientes</option>
                                 <option value="Baja California">Baja California</option>
                                 <option value="Baja California Sur">Baja California Sur </option>
@@ -121,7 +121,7 @@
                                 <option value="Morelos">Morelos</option>
                                 <option value="Nayarit">Nayarit</option>
                                 <option value="Nuevo León">Nuevo León</option>
-                                <option value="Oaxaca">Oaxaca</option>
+                                <option value="Oaxaca" selected>Oaxaca</option>
                                 <option value="Puebla">Puebla</option>
                                 <option value="Querétaro">Querétaro</option>
                                 <option value="Quintana Roo">Quintana Roo</option>
@@ -135,6 +135,8 @@
                                 <option value="Yucatán">Yucatán</option>
                                 <option value="Zacatecas">Zacatecas</option>
                             </select>
+                            -->
+                            <input type="text" name="state" placeholder="Institución (UNM, otro)" class="form-control mt-3">
                             <small class="form-text text-muted mb-3">* campos obligatorios</small>
                             <?php if (!$enviado == ''): ?>
                                 <div class="success my-3" id="mensaje">
@@ -207,7 +209,9 @@ lastName.addEventListener('blur', function(){
 });
 
 email.addEventListener('blur', function(){
-    const correo = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+
+    // const correo = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+
     if (!correo.test(email.value)) {
        $(email).addClass('is-invalid');
     } else {
@@ -230,4 +234,4 @@ function validacion(elemento){
 
 
 </script>
-    <?php require 'php/footer.php' ?>
+<?php require 'php/footer.php' ?>
