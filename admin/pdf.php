@@ -51,7 +51,7 @@ foreach ($usuarios as $usuario) {
 					<td>'.$usuario['correo'].'</td>
 					<td>'.$usuario['phone'].'</td>
 					<td>'.$usuario['nivel'].'</td>
-					<td>'.$usuario['origin'].'</td>
+					<td>'.$usuario['state'].'</td>
 				</tr>';
 }
 
