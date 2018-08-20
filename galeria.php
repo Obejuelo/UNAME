@@ -13,5 +13,8 @@ rsort($imagenes);
 if (!$imagenes) {
 	header('Location: error.php');
 } 
+
+$num_img = obtener_img($imagenes, $noticias_config['notas_por_pagina']);
+
 require 'php/galeria.view.php';
 ?>

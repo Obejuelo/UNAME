@@ -39,12 +39,12 @@ if ($conexion) {
 $enviado = '';
 $errores = '';
 if ($_SERVER['REQUEST_METHOD'] == 'POST'){
-	$nombre = $_POST['nombre'];
-	$apellido = $_POST['apellido'];
-	$correo = $_POST['email'];
-	$phone = $_POST['phone'];
-	$nivel = $_POST['nivel'];
-	$state = $_POST['state'];
+	$nombre 	= $_POST['nombre'];
+	$apellido 	= $_POST['apellido'];
+	$correo 	= $_POST['email'];
+	$phone 		= $_POST['phone'];
+	$nivel 		= $_POST['nivel'];
+	$state 		= $_POST['state'];
 
 	//VALIDAMOS SI EL CORREO EXISTE
 	$stmt = $conexion->prepare('
@@ -65,12 +65,12 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST'){
 		    );
 
 		$statement->execute(array(
-		    ':nombre' => $nombre,
+		    ':nombre' 	=> $nombre,
 		    ':apellido' => $apellido,
-		    ':correo' => $correo,
-		    ':phone' => $phone,
-		    ':nivel' => $nivel,
-			':state' => $state
+		    ':correo' 	=> $correo,
+		    ':phone' 	=> $phone,
+		    ':nivel' 	=> $nivel,
+			':state' 	=> $state
 		));
 
 		$enviado = 'Registro exitoso';

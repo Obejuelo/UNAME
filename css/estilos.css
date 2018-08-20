@@ -401,8 +401,8 @@ textarea {
 /*----------PAGINACION----------------*/
 
 .page-item.active .page-link {
-    background: rgb(12, 83, 59);
-    border-color: rgb(12, 83, 59);
+    background:rgba(10, 107, 60, .9);
+    border: none;
 }
 
 .page-link:focus,

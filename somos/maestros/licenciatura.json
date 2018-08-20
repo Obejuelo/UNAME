@@ -52,7 +52,7 @@
 			"id": "la9",
 			"nombre": "L.C.P. Y  M.M.J. MARGARITA RAMÍREZ MOLINA",
 			"foto": "Margarita_Ramirez_Molina.jpg",
-			"descripcion": "Graduada como Licenciada en Contaduría Pública por la Facultad de Contaduría y Administración de la Universidad Autónoma Benito Juárez de Oaxaca. Cuenta también con estudios como pasante en la Maestría en Metodología y Pedagogía Jurídica por la Facultad de Derecho de la Universidad Autónoma Benito Juárez de Oaxaca.<br><br>Cuenta con experiencia laboral desempeñándose como Docente en diversas Instituciones Educativas como son: IUO, UNIVAS, CLEU y, actualmente en la Universidad Nacionalista México, también ha desempeñado cargos como el de Instructor Externo de la Comisión Federal de Electricidad."
+			"descripcion": "Graduada como Licenciada en Contaduría Pública por la Facultad de Contaduría y Administración de la Universidad Autónoma Benito Juárez de Oaxaca. Cuenta también con estudios como pasante en la Maestría en Metodología y Pedagogía Jurídica por la Facultad de Derecho de la Universidad Autónoma Benito Juárez de Oaxaca, <br><br>Cuenta con experiencia laboral desempeñándose como Docente en diversas Instituciones Educativas como son: IUO, UNIVAS, CLEU, Centro Universitario de Oaxaca y, actualmente en la Universidad Nacionalista México, también ha desempeñado cargos como el de Instructor Externo de la Comisión Federal de Electricidad."
 		},
 		{
 			"id": "la10",
@@ -70,13 +70,13 @@
 			"id": "la12",
 			"nombre": "L.A.E. Y M.C.P.E. ROCÍO DEL PILAR MELÉNDEZ VÁSQUEZ",
 			"foto": "rocio del pilar.jpg",
-			"descripcion": "Cuenta con estudios de Maestría en Ciencias en Planificación de Empresas y Desarrollo Regional y, Licenciatura en Administración de Empresas por el Instituto Tecnológico de Oaxaca.<br><br>En su experiencia laboral profesional ha sido Catedrático de la Universidad Mesoamericana, del Instituto de Estudios Superiores del Golfo de México y de la Universidad Pedagógica Nacional."
+			"descripcion": "Cuenta con estudios de Maestría en Ciencias en Planificación de Empresas y Desarrollo Regional y, Licenciatura en Administración de Empresas por el Instituto Tecnológico de Oaxaca.<br><br>En su experiencia laboral profesional ha sido Catedrático de la Universidad Mesoamericana, del Instituto de Estudios Superiores del Golfo de México y de la Universidad Pedagógica Nacional.<p class='text-muted'> Actualmente catedrática de la UNniversidad Nacionalista México.</p>"
 		},
 		{
 			"id": "la13",
 			"nombre": "L.C.P. Y  M.A. BEATRÍZ ADRIANA MARTÍNEZ ALDERETE",
 			"foto": "Beatriz_Adriana_Martinez_Alderete.jpg",
-			"descripcion": "Cuenta con estudios de: Maestría en Administración (Maestrante) y, Licenciatura en Contaduría Pública por la Universidad Regional del Sureste, así como Diplomado en Administración y Planeación Estratégica Empresarial.<br><br>En su experiencia Profesional se ha desempeñado como Catedrático y Coordinador Académico en la Facultad de Ciencias Administrativas de la Universidad Regional del Sureste, también se ha desempeñado como Auditor en empresas como : Servicios Corporativos y Fiscales S.C. y, ARegional S.A. de C.V."
+			"descripcion": "Cuenta con estudios de: Maestría en Administración (Maestrante) y, Licenciatura en Contaduría Pública por la Universidad Regional del Sureste.<br><br>En su experiencia Profesional se ha desempeñado como Catedrático en la Universidad Regional del Sureste, el Instituto Tecnológico de la Construcción, actualmente catedrático de la Universidad Nacionalista México."
 		},
 		{
 			"id": "la14",
@@ -130,7 +130,7 @@
 			"id": "la22",
 			"nombre": "Dra. ANA MARÍA MÁRQUEZ ANDRÉS",
 			"foto": "83.-Dra. Ana  maria.jpg",
-			"descripcion": "Cuenta con los siguientes estudios: Doctora en Ciencias en Desarrollo Regional y Tecnológico por el Instituto Tecnológico de Oaxaca. Maestra en Economía Regional por el Centro de Investigaciones Socioeconómicas de la Universidad Autónoma de Coahuila.<br><br>Cuenta con experiencia laboral siendo Docente en el Instituto de Estudios Superiores de Oaxaca, así como en la Universidad José Vasconcelos de Oaxaca; también ha laborado en la Escuela Superior de Economía del Instituto Politécnico Nacional."
+			"descripcion": "Cuenta con los siguientes estudios: Doctora en Ciencias en Desarrollo Regional y Tecnológico por el Instituto Tecnológico de Oaxaca. Maestra en Economía Regional por el Centro de Investigaciones Socioeconómicas de la Universidad Autónoma de Coahuila. Licenciada en Economía por la escuela Superior de Economía del Instituto Politécnico Nacional<br><br>Cuenta con experiencia laboral siendo Docente en la Universidad Anáhuac de Oaxaca, el Instituto de Estudios Superiores de Oaxaca, la Facultad de Contaduría y Administración de la UABJO, así como en la Universidad José Vasconcelos de Oaxaca; también ha laborado en la Escuela Superior de Economía del Instituto Politécnico Nacional."
 		}
 	],
 	"derecho":[
@@ -210,7 +210,7 @@
 			"id": "ld13",
 			"nombre": "L.D. ARMANDO CAMARGO BAUTISTA",
 			"foto": "Armando Camargo.jpg",
-			"descripcion": "Graduado como Licenciado en Derecho por la Facultad de Derecho y Ciencias Sociales de la Universidad Autónoma Benito Juárez de Oaxaca.<br><br>Cuenta con experiencia laboral  siendo Asesor Jurídico del Departamento de Educación Secundaria Técnica para el Instituto Estatal de Educación Pública de Oaxaca, también ha laborado en el Juzgado 6° Civil del Honorable Tribunal Superior de Justicia del Estado."
+			"descripcion": "Licenciado en Derecho por la Facultad de Derecho y Ciencias Sociales de la Universidad Autónoma Benito Juárez de Oaxaca.<br><br>Cuenta con experiencia laboral  siendo Asesor Jurídico del Departamento de Educación Secundaria Técnica para el Instituto Estatal de Educación Pública de Oaxaca, docente del Centro Educativo CAISSI, catedrático en el Instituto de Investigación y Formación Docente México - Cuba, también ha laborado en el Juzgado 6° Civil del Honorable Tribunal Superior de Justicia del Estado."
 		},
 		{
 			"id": "ld14",
@@ -228,7 +228,7 @@
 			"id": "ld16",
 			"nombre": "Lic. Psic. NORA SÁNCHEZ VELASCO",
 			"foto": "Nora Sanchez Garcia.jpg",
-			"descripcion": "Cuenta con los siguientes estudios: Licenciatura en Psicología Clínica por el Instituto de Estudios Superiores de Oaxaca; también ha estudiado la Maestría en Docencia en el Instituto Tecnológico de Oaxaca.<br><br>Cuenta con experiencia laboral siendo Docente en: La Universidad Mesoamericana, el Colegio Libre de Estudios de Oaxaca, el Instituto de Estudios Superiores de Oaxaca y en el Instituto Ateneo de Ciencias y Humanidades; también ha laborado como Perito en Psicología adscrita a la Dirección de Servicios Periciales de la Procuraduría General de Justicia del Estado de Oaxaca."
+			"descripcion": "Cuenta con los siguientes estudios: Licenciatura en Psicología Clínica por el Instituto de Estudios Superiores de Oaxaca; también ha estudiado la Maestría en Docencia en el Instituto Tecnológico de Oaxaca.<br><br>Cuenta con experiencia laboral siendo Docente en: La Universidad Mesoamericana, el Colegio Libre de Estudios de Oaxaca, el Instituto de Estudios Superiores de Oaxaca y en el Instituto Pedagógico Computarizado; también ha laborado como Perito en Psicología adscrita a la Dirección de Servicios Periciales de la Procuraduría General de Justicia del Estado de Oaxaca."
 		},
 		{
 			"id": "ld17",
@@ -290,7 +290,7 @@
 			"id": "lef4",
 			"nombre": "L.E.F. JORGE SÁNCHEZ MENDOZA ",
 			"foto": "jorge sanchez mendoza.jpg",
-			"descripcion": "Cuenta con estudios de Licenciatura en Educación Física por el Centro Regional de Educación Normal de Oaxaca.<br><br>Cuenta con experiencia laboral siendo Catedrático para el Instituto Estatal de Educación Pública de Oaxaca."
+			"descripcion": "Cuenta con estudios de Licenciatura en Educación Física por el Centro Regional de Educación Normal de Oaxaca.<br><br>Cuenta con experiencia laboral siendo Catedrático para el Instituto Estatal de Educación Pública de Oaxaca. Actualmente docente de la Universidad nacinalista México"
 		},
 		{
 			"id": "lef5",
@@ -314,7 +314,7 @@
 			"id": "lef8",
 			"nombre": "L.E.F. JESÚS SANTOS MARTÍNEZ LÓPEZ",
 			"foto": "Jesus Santos Martinez Lopez.jpg",
-			"descripcion": "Licenciado en Educación Física por el Centro Regional de Educación Normal de Oaxaca.<br><br>En el campo laboral ha sido Coordinador y Docente de Educación Física del Instituto Pedagogíco de Oaxaca."
+			"descripcion": "Licenciado en Educación Física por el Centro Regional de Educación Normal de Oaxaca.<br><br>En el campo laboral ha sido Coordinador y Docente de Educación Física del Instituto Pedagogíco de Oaxaca, actualmente catedrático de la Universidad Nacionalista México."
 		},
 		{
 			"id": "lef9",
@@ -326,7 +326,7 @@
 			"id": "lef10",
 			"nombre": "Mtro. JOSÉ LUIS VELAZQUEZ AQUINO",
 			"foto": "JOSE LUIS VELAZQUEZ AQUINO2.jpg",
-			"descripcion": "Cuenta con Maestría en Docencia por el Centro de Estudios Superiores en Educación y, Licenciado en Educación Física por la Escuela Superior de Educación Física.<br><br>Ha laborado como Profesor Normalista de Educación Física de Nivel Primaria en la Ciudad de México y Oaxaca."
+			"descripcion": "Cuenta con Doctorado n Educación (candidato a grado), Maestría en Docencia por el Centro de Estudios Superiores en Educación y, Licenciado en Educación Física por la Escuela Superior de Educación Física.<br><br>Ha laborado como Profesor Normalista de Educación Física de Nivel Primaria en la Ciudad de México y Oaxaca."
 		},
 		{
 			"id": "lef11",
@@ -384,7 +384,7 @@
 			"id": "ln2",
 			"nombre": "Dra. C.Q.B. KARINA GABRIELA SALMERÓN SANTIAGO",
 			"foto": "karina salmeron.jpg",
-			"descripcion": "Licenciada en Químico-Biólogo egresada de la Escuela de Ciencias Químicas, en la Universidad Autónoma Benito Juárez de Oaxaca.<br><br>Maestría en Ciencias con Especialidad en Alimentos, realizado en la Escuela Nacional de Ciencias Biológicas, IPN, de México, D.F. en el área de Investigación, Análisis cinético de amilasas de origen fúngico y bacteriano, teniendo como sustrato almidón de garbanzo y trigo.<br><br>Doctorado en Ciencias Químico Biológicas con Especialidad en Bioquímica por la Escuela Nacional de Ciencias Biológicas, IPN México, D.F.<br><br>Estancia Doctoral en The University of Texas at el Paso (UTEP). Realizó inicialmente la obtención de DNA genómico en células de levaduras de U. maydis, el diseño de oligonucleótidos para dos genes de U. maydis que codifican para dos proteínas en el metabolismo de la trehalosa una de síntesis y la de hidrólisis, amplificación del DNA de los genes completos por PCR para realizar la amplificación del vector con el inserto y purificarlo.<br><br>Diplomado en Investigación Genómica, realizado en la Universidad Autónoma de la Ciudad de México, D.F.<br><br>Docente en el CECYTE de Santa María Zacatepec, Putla, Oaxaca.<br><br>Desempeño el cargo de Químico-Biólogo, realizando análisis clínicos en las diferentes áreas de la Clínica de Diagnóstico por Imagen de Oaxaca.<br><br>Actualmente catedrática en la Universidad Nacionalista México."
+			"descripcion": "Licenciada en Químico-Biólogo egresada de la Escuela de Ciencias Químicas, en la Universidad Autónoma Benito Juárez de Oaxaca.<br><br>Maestría en Ciencias con Especialidad en Alimentos, realizado en la Escuela Nacional de Ciencias Biológicas, IPN, de México, D.F. en el área de Investigación, Análisis cinético de amilasas de origen fúngico y bacteriano, teniendo como sustrato almidón de garbanzo y trigo.<br><br>Doctorado en Ciencias Químico Biológicas con Especialidad en Bioquímica por la Escuela Nacional de Ciencias Biológicas, IPN México, D.F.<br><br>Estancia Doctoral en The University of Texas at el Paso (UTEP).<br><br>Diplomado en Investigación Genómica, realizado en la Universidad Autónoma de la Ciudad de México, D.F.<br><br>Docente en el CECYTE de Santa María Zacatepec, Putla, Oaxaca.<br><br>Desempeño el cargo de Químico-Biólogo, realizando análisis clínicos en las diferentes áreas de la Clínica de Diagnóstico por Imagen de Oaxaca.<br><br>Actualmente catedrática en la Universidad Nacionalista México."
 		},
 		{
 			"id": "ln3",
@@ -426,7 +426,7 @@
 			"id": "ln9",
 			"nombre": "Lic. ANDREA VALENTÍN CONTRERAS",
 			"foto": "Andrea valentin.jpg",
-			"descripcion": "Licenciada en Nutrición y Diplomado en Nutrición Clínica por la Universidad Regional del Sureste.<br><br>Cuenta con experiencia profesional siendo Encargada y Nutrióloga del Departamento de Dietas y Servicio de Alimentos del Hospital Regional de Alta Especialidad de Oaxaca."
+			"descripcion": "Licenciada en Nutrición y Diplomado en Nutrición Clínica por la Universidad Regional del Sureste.<br><br>Cuenta con experiencia profesional siendo Encargada y Nutrióloga del Departamento de Dietas y Servicio de Alimentos del Hospital Regional de Alta Especialidad de Oaxaca. Actualmente catedrático de la Universidad Nacionalista México."
 		},
 		{
 			"id": "ln10",
@@ -518,7 +518,7 @@
 			"id": "lp12",
 			"nombre": "Dra. IRMA ELENA ARANDA VÁSQUEZ",
 			"foto": "Lic. C.D. y M.E. IRMA ELENA ARANDA VASQUEZ.jpg",
-			"descripcion": "Cuenta con los siguientes estudios: Cirujano Dentista por la Universidad Regional del Sureste, Maestra en Educación en el Área de Formación Docente, Doctora en Educación por la Universidad de Estudios Superiores de Guadalajara.<br><br>Cuenta con experiencia como docente en la Universidad Regional del Sureste, la Universidad Virtual de Estudios Superiores de Guadalajara."
+			"descripcion": "Cuenta con los siguientes estudios: Cirujano Dentista por la Universidad Regional del Sureste, Maestra en Educación en el Área de Formación Docente, Doctora en Educación por la Universidad de Estudios Superiores de Guadalajara.<br><br>Cuenta con experiencia como docente en la Universidad Regional del Sureste, la Universidad Virtual de Estudios Superiores de Guadalajara. Actualmente catedrático de la Universidad Nacionalista México"
 		},
 		{
 			"id": "lp13",
@@ -544,7 +544,7 @@
 			"id": "lps3",
 			"nombre": "Lic.Psic. ROSARIO GUADALUPE SÁNCHEZ PACHECO",
 			"foto": "rosario guadalupe.jpg",
-			"descripcion": "Licenciada en Psicología, Opción Clínica por la Universidad Regional del Sureste Oaxaca. <br><br>Perito Certificada por el Sistema Nacional de Seguridad Pública. <br><br>Especialidad en Orientación Psicopedagógica. Diplomado en Actualización en Psicopatología, en Programación Neurolingüistica, en Políticas e Instrumentos para la Seguridad Pública especializado en prevención del abuso sexual infantil. <br><br>Ha colaborado en la Procuraduría General de Justicia del Estado de Oaxaca como Perita Psicóloga y Psicoterapeuta en casos de violencia sexual en la Agencia Especializada en Delitos Sexuales. Actualmente catedrática en la Universidad Nacionalista México."
+			"descripcion": "Licenciada en Psicología, Opción Clínica por la Universidad Regional del Sureste Oaxaca. <br><br>Especialidad en Orientación Psicopedagógica. Diplomado en Actualización en Psicopatología, en Programación Neurolingüistica, en Políticas e Instrumentos para la Seguridad Pública especializado en prevención del abuso sexual infantil. <br><br>Ha colaborado en la Procuraduría General de Justicia del Estado de Oaxaca como Perita Psicóloga y Psicoterapeuta en casos de violencia sexual en la Agencia Especializada en Delitos Sexuales. Actualmente catedrática en la Universidad Nacionalista México."
 		},
 		{
 			"id": "lps4",
@@ -556,7 +556,7 @@
 			"id": "lps5",
 			"nombre": "Lic. Psic. JORGE ABRAHAM CISNEROS MERINO",
 			"foto": "Jorge Abraham Cisneros Merino.jpg",
-			"descripcion": "Cuenta con estudios de Licenciatura en Psicología por la Facultad de Psicología de la Universidad Regional del Sureste.<br><br>En el campo laboral se ha desarrollado como Catedrático de la Universidad Benemérita y Heroica de México, así como, de la Preparatoria Num.2 de la Universidad Autónoma Benito Juárez de Oaxaca, ha laborado también en diferentes Hospitales Rurales de Oportunidades del Instituto Mexicano del Seguro Social."
+			"descripcion": "Cuenta con estudios de Licenciatura en Psicología por la Facultad de Psicología de la Universidad Regional del Sureste.<br><br>En el campo laboral se ha desarrollado como Catedrático de la Universidad Benemérita y Heroica de México, así como, de la Universidad Regional del Sureste, la Facultad de Enfermería de la Universidad Autónoma Benito Juárez de Oaxaca, y de la Preparatoria Num.2 de la Universidad Autónoma Benito Juárez de Oaxaca, ha laborado también en diferentes Hospitales Rurales de Oportunidades del Instituto Mexicano del Seguro Social."
 		},
 		{
 			"id": "lps6",
@@ -600,13 +600,13 @@
 			"id": "lsc5",
 			"nombre": "L.I. GUSTAVO HAMLET OROPEZA ARÉVALO",
 			"foto": "hamlet.jpg",
-			"descripcion": "Licenciado en Informática por el Instituto Tecnológico de Oaxaca y, cuenta con Posgrado en Tecnologías de la Información y Redes de Alta Velocidad por el CIIDIR Oaxaca del Instituto Politécnico Nacional.<br><br>En el campo laboral ha sido Responsable y Administrador de Las Bases de Datos albergadas en los Servidores de la Secretaría"
+			"descripcion": "Licenciado en Informática por el Instituto Tecnológico de Oaxaca y, cuenta con un curso de especialización en Tecnologías de la Información y Redes de Alta Velocidad por el CIIDIR Oaxaca del Instituto Politécnico Nacional.<br><br>En el campo laboral ha sido Responsable y Administrador de Las Bases de Datos albergadas en los Servidores de la Secretaría de la contraloría."
 		},
 		{
 			"id": "lsc6",
 			"nombre": "L.S.C. y M.A. MARÍA ELENA HERNÁNDEZ RAMOS",
 			"foto": "Maria Elena Hernandez Ramos.jpg",
-			"descripcion": "Cuenta con estudios de: Maestría en Administración por el Tecnológico de Monterrey y, Licenciatura en Sistemas Computacionales por la Universidad Mesoamericana.<br><br>En su experiencia laboral ha sido Catedrático y Coordinadora de la Licenciatura en Sistemas Computacionales en la Universidad Mesoamericana, así también, ha laborado para CFE División Sureste como Analista de Sistemas de Cómputo."
+			"descripcion": "Cuenta con estudios de: Maestría en Administración por el Tecnológico de Monterrey y, Licenciatura en Sistemas Computacionales por la Universidad Mesoamericana.<br><br>En su experiencia laboral ha sido Catedrático en la Universidad Mesoamericana, Universidad Mundo Maya, Colegio Nacional de Matemáticas, así también, ha laborado para CFE División Sureste como Analista de Sistemas de Cómputo."
 		},
 		{
 			"id": "lsc7",
@@ -624,7 +624,7 @@
 			"id": "lsc9",
 			"nombre": "Mtra. GEORGINA CHINO GALLARDO",
 			"foto": "86.-Georgina chino.jpg",
-			"descripcion": "Cuenta con estudios de Maestría en Administración y, Licenciada en Informática.<br><br>En su experiencia laboral ha sido Docente en la Universidad Regional del Sureste y la Universidad Mesoamericana."
+			"descripcion": "Cuenta con estudios de Maestría en Administración y, Licenciada en Informática.<br><br>En su experiencia laboral ha sido Docente en la Universidad Regional del Sureste, la Universidad Mesoamericana y el colegio Antonio de León. Actualmente catedrático de la Universidad Nacionalista México."
 		}
 	]
 }

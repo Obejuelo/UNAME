@@ -85,13 +85,11 @@
     <section class="container">
         <div class="container gallery-container">
             <p class="page-description text-center">Universidad Nacionalista México</p>
-
             <div class="tz-gallery">
-
                 <div class="row">
                     <div class="col">
                         <div class="card-columns">
-                        <?php foreach($imagenes as $imagen): ?>
+                        <?php foreach($num_img as $imagen): ?>
                             <div class="card card-img">
                                 <a class="" href="<?php echo RUTA; ?>image/galeria/<?php echo $imagen['imagen']; ?>" >
                                     <img src="<?php echo RUTA; ?>image/galeria/<?php echo $imagen['imagen']; ?>" class="img-fluid card-img-top" alt="<?php echo $imagen['descripcion']; ?>" >
@@ -104,15 +102,10 @@
                         </div>
                     </div>
                 </div>
-
             </div>
-
         </div>
+        <hr>
     </section>
-    
-    <section class="container">
-        
-    </section>
-
+    <?php require 'paginacion.php' ?>
     
     <?php require 'php/footer.php' ?>

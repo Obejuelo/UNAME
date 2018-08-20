@@ -15,7 +15,7 @@ $bd_eventos = array(
 );
 
 $noticias_config = array(
-	'notas_por_pagina' => '6',
+	'notas_por_pagina' => '1',
 	'carpeta_imagenes' => 'image/noticias/',
 	'carpeta_galeria' => 'image/galeria/',
 	'carpeta_eventos'  => 'image/eventos/'

@@ -13,7 +13,7 @@
                     <p class="text-md-center text-lg-left"><i class="fas fa-map-marker-alt ubicacion"></i> Monte Albán Núm. 311 (San José la Noria)</p>
                     <p class="text-md-center text-lg-left"><i class="fas fa-phone"></i> (951) 51 6 09 41</p>
                     <p>
-                        <a class="text-left" href="https://www.facebook.com/secundariaypreparatoriaabiertamexico/" target="_blank"><i class="fab fa-facebook-square" id="foot1"></i> Secundaria y Preparatoria Abierta México</a>
+                        <a class="text-md-center text-lg-left" href="https://www.facebook.com/secundariaypreparatoriaabiertamexico/" target="_blank"><i class="fab fa-facebook-square" id="foot1"></i> Secundaria y Preparatoria Abierta México</a>
                     </p>
                 </div>
             

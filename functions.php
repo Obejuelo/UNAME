@@ -38,6 +38,14 @@ function obtener_nota($nota_por_pagina, $conexion){
 	return $sentencia->fetchAll();
 }
 
+function obtener_img($imagenes, $numero){
+	$inicio = (pagina_actual() > 1) ? pagina_actual() * $numero - $numero : 0;
+	$countImg = ceil(count($imagenes) / $numero);
+	$inicio2 = (pagina_actual() > $countImg) ? 0 : $inicio;
+	$arreglo = array_slice($imagenes, $inicio2, $numero);
+	return $arreglo;
+}
+
 function obtener_noticias($conexion){
 	$sentencia = $conexion->prepare("SELECT * FROM noticias");
 	$sentencia->execute();
