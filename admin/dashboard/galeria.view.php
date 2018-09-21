@@ -20,16 +20,18 @@
                             <h3 class="titulo">Entradas</h3>
                             <div class="contenedo d-flex flex-wrap">
                                 <div class="row justify-content-center mt-5">
-                                    <div class="card-columns">
-                                        <?php foreach($imagenes as $imagen): ?>
-                                        <div class="card">
-                                            <img src="<?php echo RUTA; ?>image/galeria/<?php echo $imagen['imagen']; ?>" alt="" class="img-fluid">
-                                            <div class="dashboard">
-                                                <a href="borrarImg.php?id=<?php echo $imagen['id']; ?>" class="text-danger">eliminar</a>
-                                                <a href="editarImg.php?id=<?php echo $imagen['id']; ?>" class="text-success">editar</a>
+                                    <div class="cont-img">
+                                        <div class="card-columns">
+                                            <?php foreach($imagenes as $imagen): ?>
+                                            <div class="card">
+                                                <img src="<?php echo RUTA; ?>image/galeria/<?php echo $imagen['imagen']; ?>" alt="" class="img-fluid">
+                                                <div class="dashboard">
+                                                    <a href="borrarImg.php?id=<?php echo $imagen['id']; ?>" class="text-danger">eliminar</a>
+                                                    <a href="editarImg.php?id=<?php echo $imagen['id']; ?>" class="text-success">editar</a>
+                                                </div>
                                             </div>
+                                            <?php endforeach; ?>
                                         </div>
-                                        <?php endforeach; ?>
                                     </div>
                                 </div>
                             </div>

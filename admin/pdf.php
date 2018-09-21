@@ -46,12 +46,12 @@ foreach ($usuarios as $usuario) {
 	$id_user++;
 	$tablas .= '<tr class="usuarios">
 					<td>'.$id_user.'</td>
-					<td>'.$usuario['nombre'].'</td>
-					<td>'.$usuario['apellido'].'</td>
+					<td>'.strtolower($usuario['nombre']).'</td>
+					<td>'.strtolower($usuario['apellido']).'</td>
 					<td>'.$usuario['correo'].'</td>
 					<td>'.$usuario['phone'].'</td>
-					<td>'.$usuario['nivel'].'</td>
-					<td>'.$usuario['state'].'</td>
+					<td>'.strtolower($usuario['nivel']).'</td>
+					<td>'.strtolower($usuario['state']).'</td>
 				</tr>';
 }
 
@@ -92,7 +92,7 @@ function obtener_fecha(){
 	return $fecha;
 }
 
-$html2pdf = new Html2Pdf('P', 'A4', 'es', 'true', 'UTF-8');
+$html2pdf = new Html2Pdf('L', 'A4', 'es', 'true', 'UTF-8');
 		$html2pdf->writeHTML($header.'
 			<h1>'.$titulo_completo.'</h1>
 		<div class="table">

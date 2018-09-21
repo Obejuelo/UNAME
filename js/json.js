@@ -135,7 +135,7 @@ function metodoModal(maestro, id, carpeta) {
 
 function modalBach(maestro, id, carpeta) {
     let contenido = document.getElementById(id);
-    maestro.forEach((dato, ) => {
+    maestro.forEach((dato) => {
         contenido.innerHTML += `
 				<div class="col-md-4 col-lg-3 mt-3 claustro">
                    <img class="rounded-circle" src="../image/claustro/${carpeta}/${dato.foto}" alt="perfil" width="90" height="90">

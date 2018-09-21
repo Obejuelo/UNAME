@@ -11,6 +11,7 @@ function limpia_espacios($cadena){
 	return $cadena;
 }
 
+//Conexión a la base de datos
 function conexion($bd_config){
 	try {
 		$conexion = new PDO('mysql:host=localhost;dbname='.$bd_config['basedatos'], $bd_config['usuario'], $bd_config['pass']);
@@ -20,6 +21,16 @@ function conexion($bd_config){
 	}
 }
 
+function capitalize($string)
+{
+    if (mb_detect_encoding($string) === 'UTF-8') {
+        $string = mb_convert_case(utf8_encode($string), MB_CASE_TITLE, 'UTF-8');
+    } else {
+        $string = mb_convert_case($string, MB_CASE_TITLE, 'UTF-8');
+    }
+    return $string;
+}
+
 function id_articulo($id){
 	return (int)limpiarDatos($id);
 }
@@ -27,6 +38,7 @@ function titulo($id){
 	return limpiarDatos($id);
 }
 
+//Funcion para obtener el numero de pagina por Get
 function pagina_actual(){
 	return isset($_GET['p']) ? (int)$_GET['p'] : 1;
 }
@@ -38,6 +50,7 @@ function obtener_nota($nota_por_pagina, $conexion){
 	return $sentencia->fetchAll();
 }
 
+//Funcion utilizada para la paginaciion de las imágenes
 function obtener_img($imagenes, $numero){
 	$inicio = (pagina_actual() > 1) ? pagina_actual() * $numero - $numero : 0;
 	$countImg = ceil(count($imagenes) / $numero);
@@ -46,6 +59,7 @@ function obtener_img($imagenes, $numero){
 	return $arreglo;
 }
 
+//Funcion para obtener todas las noticias de la base de datos
 function obtener_noticias($conexion){
 	$sentencia = $conexion->prepare("SELECT * FROM noticias");
 	$sentencia->execute();
@@ -64,12 +78,14 @@ function obtener_eventos($conexion){
 	return $sentencia->fetchAll();
 }
 
+//Obtiene un evento segun el id que le pasamos
 function obtener_eventos_id($conexion, $id){
 	$sentencia = $conexion->prepare("SELECT * FROM eventos WHERE id != $id");
 	$sentencia->execute();
 	return $sentencia->fetchAll();
 }
 
+//Obtiene y retorna todas las imagenes
 function obtener_imagen($conexion){
 	$sentencia = $conexion->prepare("SELECT * FROM imagenes");
 	$sentencia->execute();
@@ -109,6 +125,7 @@ function numero_paginas($notas_por_pagina, $conexion){
 	return $numero_paginas;
 }
 
+//Funcion para convertir la fecha generada automaticamente en la base de datos
 function fecha($fecha){
 	$timestamp = strtotime($fecha);
 	$meses = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'];
@@ -126,6 +143,7 @@ function comprobarSession(){
 	}
 }
 
+//Funcion para eliminar tildes y caracteres especiales
 function eliminar_tildes($cadena){
  
     //Codificamos la cadena en formato utf8 en caso de que nos de errores

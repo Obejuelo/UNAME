@@ -39,12 +39,12 @@ if ($conexion) {
 $enviado = '';
 $errores = '';
 if ($_SERVER['REQUEST_METHOD'] == 'POST'){
-	$nombre 	= $_POST['nombre'];
-	$apellido 	= $_POST['apellido'];
+	$nombre 	= capitalize($_POST['nombre']);
+	$apellido 	= capitalize($_POST['apellido']);
 	$correo 	= $_POST['email'];
 	$phone 		= $_POST['phone'];
-	$nivel 		= $_POST['nivel'];
-	$state 		= $_POST['state'];
+	$nivel 		= capitalize($_POST['nivel']);
+	$state 		= capitalize($_POST['state']);
 
 	//VALIDAMOS SI EL CORREO EXISTE
 	$stmt = $conexion->prepare('
@@ -73,7 +73,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST'){
 			':state' 	=> $state
 		));
 
-		$enviado = 'Registro exitoso';
+		$enviado = 'Gracias, posteriormente se te enviará un email para culminar tu registro';
 	}
 	
 } 

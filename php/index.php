@@ -84,52 +84,49 @@
             <li data-target="#principal-carousel" data-slide-to="0"></li>
             <li data-target="#principal-carousel" data-slide-to="1"></li>
             <li data-target="#principal-carousel" data-slide-to="2"></li>
+            <li data-target="#principal-carousel" data-slide-to="3"></li>
         </ol>
         <div class="carousel-inner">
-            <div class="carousel-item img-1 active" id="head1">
-                <div class="carousel-caption one">
+
+            <!--CONGRESO-->
+            <div class="carousel-item img-5 active" id="">
+                <div class="row content-image justify-content-center opacity" style="z-index: 1; margin: 0">
+                    <div class="col-lg-11 col-xl-8 align-self-center text" style="z-index: 2">
+                        <p class="h2 text-caption" style="color: #f2f2f2">Congreso Nacional de</p>
+                        <p class="h1 text-caption"><em>FILOSOFÍA</em></p>
+                        <p class="h3 text-caption" style="color: #f2f2f2">Nivel de congreso: Divulgación filosófica</p>
+                        <a class="btn btn-outline-light" href="agenda?id=12&&titulo=Congreso%20Nacional%20de%20Filosof%C3%ADa.">Registrate</a>
+                    </div>
+                </div>
+            </div>
+
+            <!--CONCURSO-->
+            <div class="carousel-item img-4" id="">
+                <div class="row content-image justify-content-center opacity" style="z-index: 1; margin: 0">
+                    <div class="col-lg-11 col-xl-8 align-self-center text" style="z-index: 2">
+                        <p class="h1 text-caption">CONCURSO</p>
+                        <p class="h2 text-caption">Elabora nuestro Himno Institucional</p>
+                        <button class="btn btn-outline-light" data-toggle="modal" data-target="#exampleModal">Ver más</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item img-2" id="head1">
+                <div class="carousel-caption one text">
                     <p class="h2">Tu mejor elección</p>
                     <p class="h3 hashtag"><em>#FamiliaEducativaMexico</em></p>
                     <h4 class="mt-4"></h4>
                 </div>
-                <div class="opacidad">
-                </div>
-            </div>
-            <div class="carousel-item img-2" id="head2">
                 <div class="opacidad"></div>
             </div>
-            <div class="carousel-item img-3" id="head3">
-                <div class="carousel-caption third">
+            <div class="carousel-item img-3" id="head1">
+                <div class="carousel-caption third text">
                     <p class="h2">Estudia sin dejar de trabajar</p>
                     <h4 class="mt-4">¡Asiste a cátedras de lunes a viernes o sábados únicamente!</h4>
                 </div>
                 <div class="opacidad"></div>
             </div>
-           <!--
-            <div class="carousel-item promocion" id="">
-            	<div class="row content-image justify-content-center">
-                    <div class="col-lg-11 col-xl-8 align-self-center">
-                        <img src="image/slider/curso.jpg" alt="lic" class="image-promo img-fluid">
-                    </div>
-                </div>
-            </div>
-
-            <div class="carousel-item promocion2" id="">
-            	<div class="row content-image justify-content-center">
-                    <div class="col-lg-11 col-xl-8 align-self-center">
-                        <img src="image/slider/playera2.png" alt="lic" class="image-promo img-fluid">
-                    </div>
-                </div>
-            </div>
-
-            <div class="carousel-item promocion3" id="">
-            	<div class="row content-image justify-content-center">
-                    <div class="col-lg-11 col-xl-10 align-self-center">
-                        <img src="image/slider/leo2.png" alt="lic" class="image-promo img-fluid">
-                    </div>
-                </div>
-            </div>
-            -->
+            
         </div>
         <a href="#principal-carousel" class="carousel-control-prev" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -139,6 +136,20 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only">siguiente</span>
         </a>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <img src="image/slider/himno1.jpg" alt="himno" class="img-fluid">
+                <img src="image/slider/himno2.jpg" alt="himno" class="img-fluid">
+            </div>
+            <div class="modal-footer" style="text-align: center">
+            <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal" style="width: 80px; margin: auto">Salir</button>
+            </div>
+        </div>
+        </div>
     </div>
     <section class="container-fluid info">
         <div class="container">
@@ -155,7 +166,7 @@
                         <div class="card-body">
                             <h4 class="card-title text-center">Educación Superior</h4>
                             <p class="card-text text-center">La Universidad Nacionalista México, en nivel superior, ofrece la posibilidad de realizar estudios de Licenciatura asistiendo de lunes a viernes o sábados únicamente, y de posgrado, asistiendo un solo día a la semana.</p>
-                            <div class="trans"><a href="oferta/superior" class="btn btn-outline-dark">Ver más</a></div>
+                            <div class="trans"><a href="oferta/superior" class="btn btn-outline-light">Ver más</a></div>
                         </div>
                     </div>
                 </div>
@@ -165,7 +176,7 @@
                         <div class="card-body">
                             <h4 class="card-title text-center">Bachillerato General</h4>
                             <p class="card-text text-center">Nuestro programa de estudios, con preparación profesional en Traductor de Inglés, tiene como finalidad formar íntegralmente personas que transmitan y promuevan los conocimientos científicos y técnicos.</p>
-                            <div class="trans"><a href="oferta/bachillerato" class="btn btn-outline-dark">Ver más</a></div>
+                            <div class="trans"><a href="oferta/bachillerato" class="btn btn-outline-light">Ver más</a></div>
                         </div>
                     </div>
                 </div>
@@ -175,7 +186,7 @@
                         <div class="card-body">
                             <h4 class="card-title text-center">Secundaria y Preparatoria Abierta</h4>
                             <p class="card-text text-center">Quienes quieren superarse y desean estudiar su secundaria o preparatoria, pueden encontrar el apoyo total en nuestra institución, que cuenta con más de 22 años de experiencia y prestigio.</p>
-                            <div class="trans"><a href="oferta/spam" class="btn btn-outline-dark">Ver más</a></div>
+                            <div class="trans"><a href="oferta/spam" class="btn btn-outline-light">Ver más</a></div>
                         </div>
                     </div>
                 </div>
@@ -269,19 +280,5 @@
             </div>
         </div>
     </section>
-    <script>
-    	/*
-        function obtenerDisplay(){
-            var display1 = document.getElementById("head1");
-            var display2 = document.getElementById("head2");
-            var display3 = document.getElementById("head3");
-            let tamaño = window.innerHeight;
-            //console.log(display);
-            display1.style.height = tamaño + "px";
-            display2.style.height = tamaño + "px";
-            display3.style.height = tamaño + "px";
-        }
-        setInterval('obtenerDisplay()', 100);
-        */
-    </script>
+    
     <?php require 'php/footer.php' ?>

@@ -29,7 +29,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     header('Location: '. RUTA . '/admin/index');
 }
 
-$notas = obtener_nota($noticias_config['notas_por_pagina'], $conexion);
+$notas = obtener_noticias($conexion);
+rsort($notas);
 
 require 'dashboard/index.php';
 ?>

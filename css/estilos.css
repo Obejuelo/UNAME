@@ -267,6 +267,18 @@ ol li {
     justify-content: center;
 }
 
+.trans .btn {
+    background: rgba(10, 107, 60, .9); 
+}
+
+.trans .btn:hover{
+    color: #f2f2f2;
+}
+
+.trans .btn:active{
+    background: rgba(10, 107, 60, .7);
+}
+
 .col-6.col-md-2 {
     text-align: center;
 }

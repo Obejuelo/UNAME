@@ -210,6 +210,12 @@ body {
     text-align: center;
 }
 
+/* --- --- CONTENEDOR DE IMAGENES --- --- */
+.cont-img{
+    height: 600px;
+    overflow: auto;
+}
+
 
 /* --- --- MEDIAQUERIES --- --- */
 

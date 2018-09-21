@@ -140,13 +140,13 @@
                             <small class="form-text text-muted mb-3">* campos obligatorios</small>
                             <?php if (!$enviado == ''): ?>
                                 <div class="success my-3" id="mensaje">
-                                    <p class="text-center text-muted"><?php echo $enviado; ?></p>
+                                    <p class="text-center text-muted">Gracias, posteriormente se te enviará un email para culminar tu registro</p>
                                 </div>
                                 <script>
                                     setTimeout(function(){
                                         //document.getElementById('mensaje').remove();
                                         $('#mensaje').slideUp(500);
-                                    }, 4000); 
+                                    }, 10000); 
                                 </script>
                             <?php endif ?>
                             <?php if(!$errores == ''): ?>
@@ -163,6 +163,47 @@
                                     }, 3000); 
                                 </script>
                             <?php endif ?>
+
+<div id="paypal-button"></div>
+<script src="https://www.paypalobjects.com/api/checkout.js"></script>
+<script>
+  paypal.Button.render({
+    // Configure environment
+    env: 'sandbox',
+    client: {
+      sandbox: 'demo_sandbox_client_id',
+      production: 'demo_production_client_id'
+    },
+    // Customize button (optional)
+    locale: 'es_MX',
+    style: {
+      size: 'small',
+      color: 'blue',
+      shape: 'pill',
+    },
+    // Set up a payment
+    payment: function(data, actions) {
+      return actions.payment.create({
+        transactions: [{
+          amount: {
+            total: '0.01',
+            currency: 'USD'
+          }
+        }]
+      });
+    },
+    // Execute the payment
+    onAuthorize: function(data, actions) {
+      return actions.payment.execute().then(function() {
+        // Show a confirmation message to the buyer
+        window.alert('Thank you for your purchase!');
+      });
+    }
+  }, '#paypal-button');
+
+</script>
+
+
                             <div class="button">
                                 <input type="submit" value="Enviar" class="btn btn-dark btn-sm" id="button">
                             </div>
