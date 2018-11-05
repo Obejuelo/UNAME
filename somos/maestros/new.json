@@ -1,0 +1,76 @@
+{
+	"administracion":[
+		{
+			"id": "la1",
+			"nombre": "Lic. Talia Ruiz Durán",
+			"foto": "",
+			"descripcion": "Maestra en Criminología y Licenciada en Criminología, Criminalística y Técnicas Periciales poe el Colegio Libre de Estudios Universitarios.<br><br>En su experiencia laboral, se ha desempeñado como Instructora del curso de profecionalización para policias municipales en el municipio de San Antonino Castillo Velázco, participó tambien como instructora en el curso de Capacitación para Elementos Policiales."
+		},
+    {
+			"id": "la1",
+			"nombre": "Mtro. Jaime Ricardo Lagunas Piñón",
+			"foto": "",
+			"descripcion": "Maestro en Ciencias Computacionales por la Universidad Autónoma de Guadalajara, Licenciado en Informática po el Instituto Tecnológico de Oaxaca.<br><b>En su experiencia laboral se ha desempeñado como: Jefe del Departamento de Políticas de Acceso a la Información, Secretaría de la Contraloría y Transparencia Gubernamental, Webmaster del Gobierno del Estado de Oaxaca, Secretaría de la Contraloría. Tambien se ha desempeñado como docente en la Universidad La Salle Oaxaca, El Instituto de Estudios Superiores de Oaxaca, el Instituto Tecnológico de Oaxaca, la Universidad Autónoma Benito Juárez de Oaxaca."
+		},
+    {
+			"id": "la1",
+			"nombre": "Mtra. Débora Anel Vásquez Reyes",
+			"foto": "",
+			"descripcion": "Maestra en Filosofía de la Ciencia por la Universidad Autónoma de México.<br><br>En su experiencia laboral se ha desempeñado como Ponente en el marco de la segunda escuela de verano en filosofía de las matemáticas, con sede en la LMU-Múnich 2016, con el trabajo: Lógicas relevantes y condicional del lenguaje natural, presentó el libro 'Kant y la obra de arte' en la feria Internacional de Minería 2014 y en la Facultad de Medicina y Letras de la UNAM.<br><br>Se ha desempeñado tambien, como docente en la Universidad Autónoma Benito Juárez de Oaxaca, Universidad La Salle Oaxaca, instituto Seminario Pontíficio de Oaxaca y la Universidad Mesoamericana, Oaxaca."
+		},
+    {
+			"id": "la1",
+			"nombre": "Lic. Abner Romeo Cruz Dávila",
+			"foto": "",
+			"descripcion": "Licenciado en Criminología, Criminalística y Técnicas Periciales en el Colegio Libre de Estudios Universitarios.<br><br>En su experiencia laboral se ha desempeñado como Coordinadora de Cursos y Talleres en Investigación Balística en la empresa 'Waitë Ballistic System' S.A. de C.V (WBS), auxiliar topográfico en 'PROYECTOS TRISKEL, así también como Téctico auxiliar de campo en criminalística.'"
+		},
+    {
+			"id": "la1",
+			"nombre": "L.P.S. Eusebio Hernández Ramírez",
+			"foto": "",
+			"descripcion": "Licenciado en Psicología por el Instituto de Estudios Superiores de oaxaca.<br><br>En su experiencia profesional se ha desempeñado como Jefe del Departamento de Asistencia Socialen el Sistema DIF Oaxaca,jefe del departamento de Programas Institucionles y de Asistencia Social Sistema Dif Oaxaca, se ha desempeñado tambien como catedrático en el Instituto de Estudios Superiores de Oaxaca.<br><br>Actualmente Catedrático de la Universidad Nacionalista México."
+		},
+    {
+			"id": "la1",
+			"nombre": "L.I. Obed Sánchez Velázco",
+			"foto": "",
+			"descripcion": "Licenciado en Informática por el Instituto Tecnológicode Oaxaca.<br><br>En su experiencia profesional se ha desempeñado como Técnico informático Estatal, en la Subdirección Estatal de Geografía. Participó tambien en la actualización de la Cartografía Urbana en el Depto de Actualización Básica del INEGI. Encargado del área de Informática en el Consejo Estatal de Seguridad Pública. Sub-Administrador de informática, adscrito a la Administración General de Tecnología de la Infomación, adscrito al Servicio de Adminisrtración Tributaria (SAT)."
+		},
+    {
+			"id": "la1",
+			"nombre": "L.C.P. Rafael Velázco Pérez",
+			"foto": "",
+			"descripcion": "Licenciado en Contaduría Pública por la Facultad de contaduría y Administración de la UABJO, cuenta tambien con estudios de Maestría de Fiscal por la misma Institución.<br><br>En su experiencia laboral se ha desempeñado como Jefe del Departamento Administrativo Dirección de Registro Civil. Analista en la Unidad Administrativa, Coordinación de Delegaciones de Gobierno. Tambien se ha desempeñado como Catedrático en el area contable de la Universidad Autónoma Benito Juárez de Oaxaca."
+		},
+    {
+			"id": "la1",
+			"nombre": "Ing. Antonio de Jesús Santos Torrentera",
+			"foto": "",
+			"descripcion": "Cuneta con los estudios de Ingeniería Industrial Eléctrica por el Instituto Tecnológico de Oaxaca, Maestría en Ciencias por el mismo Instituto y Maestría en Tecnología Educativa  por la Universidad Virtual de Estudios Superiores de Guadalajara (UNIVES).<br><br>En su experiencia laborl se ha desempeñado como Responsable de los laboratorios de Física del (CBTis No. 26). Catedrático en le Instituto Blaise Pascal, el Instituto de Estudios Superiores del Golfo de México, la Universidad Mesoamericana, el instituto Luis Sarmiento S.C. y la Universidad Anahuac de Oaxaca.<br><br>Actualmente Catedrático de la Universidad Nacionalista México."
+		},
+    {
+			"id": "la1",
+			"nombre": "Lic. Olga Hernández Ramírez",
+			"foto": "",
+			"descripcion": "Cuneta con los estudios de Doctorante en Filosofía por la Universidad Iberoamericana, Campus Santa Fe. Ciudad de México, Maestra en Educación por la Universidad Anahuac México Norte, Licenciada en Filosofía por la Universidad pontificiade México, Licencitura en Ciencias Religiosas por la Universidad La Salle campus D.F.<br><br>En su experiencia laboral, se ha desempeñado como Docente en Licenciaturas y maestrías de la Universidad La Salle Oaxaca. Docente de Maestría en el Instituto de Estudios Superiores en Desarrollo Humano. Docene en la Universidad Anahuac de Oaxaca. Docente de la Faculad de Filosofía del Seminario Pontificio De Santa Cruz de Oaxaca. Docente en el Instituto Carlos Gracida. Docente en la Universidad Regional del Sureste.<br><br>Actualmente catedrático de la Universidad Nacionalista México."
+		},
+    {
+			"id": "la1",
+			"nombre": "M.T.I.E. Carlos Alejandro Díaz Osorio",
+			"foto": "",
+			"descripcion": "Maesrto en Tecnologias De información Empresarial, Ingeniero en Electrónica por el Instituto Tecnológico de Oaxaca.<br><br>En su experiencia se ha desempeñado como Residente Profesional desarrollando el proyecto: 'Implementación de un enlace de contribución de video, en alta definición, sobre una red IP, entre los sitios Televisa Chapultepec y Televisa Cd. Juárez'. Ha tomado diversos cursos como Introducción a SISCO, Conectorización de Fibra Óptica impartidos por el Instituto Tecnológico de Oaxaca."
+		},
+    {
+			"id": "la1",
+			"nombre": "Mtra. María Monserrat Rodríguez Ruiz",
+			"foto": "",
+			"descripcion": "Cuenta con los estudios de Maestrante en enfoques Psicoterapéuticos Cognitivo Humanistas por el Instituto Cognitivo de Salud Mental de México, Maestría en Sexualidad Humana por el Instituto Universitario Carl Rogers, licenciatura en Psicología por la Universidad Regional del Sureste.<br><br>En su experiencia laboral se ha desempeñado como: Responsable del Área de Igualdad de Género de la Dirección para la Mejora de la ConvivenciaEscolar del Instituto Estatal de Educación Pública de Oaxaca. Responsable del Departamento de Atención y Tratamiento de la Dirección para la Mejora de la Convivencia Escolar del IEEPO. Responsable del Área de capacitación en la Coordinación de la Agenda Estatal para la Equidad en Educación Inicial y Básica del IEEPO."
+		},
+    {
+			"id": "la1",
+			"nombre": "Lic. Julissa Ríos Pacheco",
+			"foto": "",
+			"descripcion": "Licenciada en Derecho por la Universidad Autonoma Benito Juárez de Oaxaca.<br><br>Ha tomad diversos cursos y diplomados como: diplomado como Perito en Grafoscopía, Documentoscopía y Dactiloscopía, en la Academia Internacional de Formación en Ciencias Forenses. Diplomado en Ciencias Forenses en la Universidad Benito Juárez de Oaxaca. Especialidad en Grafoscopía, Dactiloscopía y Documentoscopía en el grupo Universitario de Puebla(CLEU). Esecialidad en Civil y Mercantil en el Consejo de la Judicatura, Escuela Judicial, Poder Judicial del Estado de Oaxaca. Diplomado en Docencia Universitaria Módulo I y II en la Universidad Regional del Sureste."
+		}
+	]
+}
