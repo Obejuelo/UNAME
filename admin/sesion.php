@@ -6,8 +6,8 @@ $conexion = conexion($bd_config);
 $usuarios = getUsers($conexion);
 
 $user = $usuarios[0];
- 
-$user_name = $user[1];
+
+$user_name = $user[2];
 $user_pass = $user[3];
 
 $error = '';

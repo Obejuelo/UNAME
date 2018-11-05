@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 
 require 'admin/config.php';
@@ -8,7 +8,7 @@ $conexion = conexion($bd_eventos);
 
 if (!$conexion) {
     header("Locaton: error.php");
-} 
+}
 
 //$notas = obtener_nota($noticias_config['notas_por_pagina'], $conexion);
 $notas = obtener_eventos($conexion);

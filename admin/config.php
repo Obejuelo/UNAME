@@ -1,6 +1,6 @@
-<?php 
+<?php
 
-define('RUTA', 'http://localhost/pagina_unm/');
+define('RUTA', 'http://localhost/UNAME/');
 
 $bd_config = array(
 	'basedatos' => 'bd_unm',
@@ -15,7 +15,7 @@ $bd_eventos = array(
 );
 
 $noticias_config = array(
-	'notas_por_pagina' => '1',
+	'notas_por_pagina' => '15',
 	'carpeta_imagenes' => 'image/noticias/',
 	'carpeta_galeria' => 'image/galeria/',
 	'carpeta_eventos'  => 'image/eventos/'

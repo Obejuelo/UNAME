@@ -126,7 +126,7 @@
                 </div>
                 <div class="opacidad"></div>
             </div>
-            
+
         </div>
         <a href="#principal-carousel" class="carousel-control-prev" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -192,16 +192,16 @@
                 </div>
             </div>
         </div>
-    
+
     </section>
         <!--AGENDA ACADÉMICA-->
-        
+
     <div class="event-container">
         <div class="opacidad"></div>
         <section class="container">
             <div class="row justify-content-center">
                 <div class="col-12"><h2 class="text-center mb-3 diary">Agenda académica</h2></div>
-        
+
             <?php foreach ($notas as $nota): ?>
                 <div class="col-md-6 col-lg-3 mb-5">
                     <div class="card card-eventos eventos">
@@ -215,11 +215,11 @@
                     </div>
                 </div>
             <?php endforeach ?>
-        
+
             </div>
         </section>
     </div>
-    
+
     <section>
         <div class="container convenios mt-3">
             <div class="row mt-5 d-flex justify-content-around">
@@ -272,13 +272,13 @@
             </div>
             <div class="row justify-content-center mt-5">
                 <div class="col-6 col-md-2 mt-4">
-                    
+
                 </div>
                 <div class="col-6 col-md-2 mt-4">
-                    
+
                 </div>
             </div>
         </div>
     </section>
-    
+
     <?php require 'php/footer.php' ?>
