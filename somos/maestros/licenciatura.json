@@ -91,12 +91,6 @@
 			"descripcion": "Cuenta con estudios de Maestría en Fiscal  y Licenciatura en Contaduría Pública por la Universidad Autónoma Benito Juárez de Oaxaca.<br><br>En su experiencia laboral profesional ha sido Catedrático de la Universidad Autónoma Benito Juárez de Oaxaca, del Instituto de Estudios Universitarios; ha desempeñado cargos como el de jefe del Departamento de Impuestos Federales Coordinados en el H. Ayuntamiento de la Ciudad de Oaxaca de Juárez."
 		},
 		{
-			"id": "la16",
-			"nombre": "L. D. ABNER ENOC MARTÍNEZ LÓPEZ",
-			"foto": "Abner_Enoc_Martinez_Lopez.jpg",
-			"descripcion": "Licenciado en Derecho por la Universidad Mesoamericana.<br><br>En su experiencia profesional  se ha desempeñado como Asesor Jurídico en empresas como Impulso Empresarial del Sureste y, Consultores y Asesores  en Innovación Tributaria; actualmente se desempeña como Catedrático de la Universidad Nacionalista México."
-		},
-		{
 			"id": "la17",
 			"nombre": "M.M. CARLO DEIMOS AGUILAR CHIÑAS",
 			"foto": "75.-Carlo Deimos aguilar chinas2.jpg",
@@ -131,6 +125,18 @@
 			"nombre": "Dra. ANA MARÍA MÁRQUEZ ANDRÉS",
 			"foto": "83.-Dra. Ana  maria.jpg",
 			"descripcion": "Cuenta con los siguientes estudios: Doctora en Ciencias en Desarrollo Regional y Tecnológico por el Instituto Tecnológico de Oaxaca. Maestra en Economía Regional por el Centro de Investigaciones Socioeconómicas de la Universidad Autónoma de Coahuila. Licenciada en Economía por la escuela Superior de Economía del Instituto Politécnico Nacional<br><br>Cuenta con experiencia laboral siendo Docente en la Universidad Anáhuac de Oaxaca, el Instituto de Estudios Superiores de Oaxaca, la Facultad de Contaduría y Administración de la UABJO, así como en la Universidad José Vasconcelos de Oaxaca; también ha laborado en la Escuela Superior de Economía del Instituto Politécnico Nacional."
+		},
+		{
+			"id": "la23",
+			"nombre": "L.C.P. Rafael Velázco Pérez",
+			"foto": "",
+			"descripcion": "Licenciado en Contaduría Pública por la Facultad de contaduría y Administración de la UABJO, cuenta tambien con estudios de Maestría de Fiscal por la misma Institución.<br><br>En su experiencia laboral se ha desempeñado como Jefe del Departamento Administrativo Dirección de Registro Civil. Analista en la Unidad Administrativa, Coordinación de Delegaciones de Gobierno. Tambien se ha desempeñado como Catedrático en el area contable de la Universidad Autónoma Benito Juárez de Oaxaca."
+		},
+		{
+			"id": "la24",
+			"nombre": "Ing. Antonio de Jesús Santos Torrentera",
+			"foto": "",
+			"descripcion": "Cuneta con los estudios de Ingeniería Industrial Eléctrica por el Instituto Tecnológico de Oaxaca, Maestría en Ciencias por el mismo Instituto y Maestría en Tecnología Educativa  por la Universidad Virtual de Estudios Superiores de Guadalajara (UNIVES).<br><br>En su experiencia laborl se ha desempeñado como Responsable de los laboratorios de Física del (CBTis No. 26). Catedrático en le Instituto Blaise Pascal, el Instituto de Estudios Superiores del Golfo de México, la Universidad Mesoamericana, el instituto Luis Sarmiento S.C. y la Universidad Anahuac de Oaxaca.<br><br>Actualmente Catedrático de la Universidad Nacionalista México."
 		}
 	],
 	"derecho":[
@@ -201,12 +207,6 @@
 			"descripcion": "Cuenta con estudios de Doctorado en Sociología por la Universidad Nacional Autónoma de México, Maestría en Sociología Política por el Instituto de Investigaciones Dr. José María Luis Mora y, Licenciatura en Sociología por la Facultad de Estudios Superiores Aragón de la Universidad Nacional Autónoma de México.<br><br>En su experiencia laboral profesional ha sido Catedrático de: la Universidad Nacional Autónoma de México, Universidad Autónoma del Estado de México, Universidad Autónoma Metropolitana, Universidad Autónoma de Tamaulipas, Universidad Autónoma de Yucatán. Ha laborado también como : Jefe del Sistema de Archivos Municipales del Municipio de Oaxaca de Juárez, Asesor para Temas Electorales del Gobierno del Estado de México y, Jefe del Departamento de Análisis de la Imagen Institucional de la Secretaría de Gobernación."
 		},
 		{
-			"id": "ld12",
-			"nombre": "L.D. CELSO ALBERTO ROBLES VILLATORO",
-			"foto": "celso villatoro.jpg",
-			"descripcion": "Cuenta con estudios de Licenciatura en Derecho por la Universidad Autónoma Benito Juárez de Oaxaca.<br><br>En su experiencia laboral profesional ha sido Catedrático de La Universidad La Salle, ha laborado también en las Notarías Públicas Núm. 48, 124 y 111 en el Estado de Oaxaca."
-		},
-		{
 			"id": "ld13",
 			"nombre": "L.D. ARMANDO CAMARGO BAUTISTA",
 			"foto": "Armando Camargo.jpg",
@@ -262,9 +262,27 @@
 		},
 		{
 			"id": "ld22",
-			"nombre": "Ing. JOSÉ ISAÍAS QUEVEDO CENTENO",
-			"foto": "jose isaias.jpg",
-			"descripcion": "Cuenta con estudios como Ingeniero Mecánico por el Instituto Tecnológico de Oaxaca.<br><br>En su experiencia profesional ha sido Docente del Colegio Libre de Estudios Universitarios de Oaxaca, Ha laborado tambén como elemento de la Policía Estatal comisionado en la Agencia Estatal de Investigaciones de la Fiscalía General del Estado; se ha desempeñado como Perito en las Siguientes empresas: Aseguradora AXXA, QUALITAS SEGUROS y, LA LATINOAMERICANA."
+			"nombre": "L.I. Obed Sánchez Velázco",
+			"foto": "",
+			"descripcion": "Licenciado en Informática por el Instituto Tecnológicode Oaxaca.<br><br>En su experiencia profesional se ha desempeñado como Técnico informático Estatal, en la Subdirección Estatal de Geografía. Participó tambien en la actualización de la Cartografía Urbana en el Depto de Actualización Básica del INEGI. Encargado del área de Informática en el Consejo Estatal de Seguridad Pública. Sub-Administrador de informática, adscrito a la Administración General de Tecnología de la Infomación, adscrito al Servicio de Adminisrtración Tributaria (SAT)."
+		},
+		{
+			"id": "ld23",
+			"nombre": "Lic. Julissa Ríos Pacheco",
+			"foto": "",
+			"descripcion": "Licenciada en Derecho por la Universidad Autonoma Benito Juárez de Oaxaca.<br><br>Ha tomad diversos cursos y diplomados como: diplomado como Perito en Grafoscopía, Documentoscopía y Dactiloscopía, en la Academia Internacional de Formación en Ciencias Forenses. Diplomado en Ciencias Forenses en la Universidad Benito Juárez de Oaxaca. Especialidad en Grafoscopía, Dactiloscopía y Documentoscopía en el grupo Universitario de Puebla(CLEU). Esecialidad en Civil y Mercantil en el Consejo de la Judicatura, Escuela Judicial, Poder Judicial del Estado de Oaxaca. Diplomado en Docencia Universitaria Módulo I y II en la Universidad Regional del Sureste."
+		},
+		{
+			"id": "ld24",
+			"nombre": "Lic. Talia Ruiz Durán",
+			"foto": "",
+			"descripcion": "Maestra en Criminología y Licenciada en Criminología, Criminalística y Técnicas Periciales poe el Colegio Libre de Estudios Universitarios.<br><br>En su experiencia laboral, se ha desempeñado como Instructora del curso de profecionalización para policias municipales en el municipio de San Antonino Castillo Velázco, participó tambien como instructora en el curso de Capacitación para Elementos Policiales."
+		},
+		{
+			"id": "ld25",
+			"nombre": "Lic. Abner Romeo Cruz Dávila",
+			"foto": "",
+			"descripcion": "Licenciado en Criminología, Criminalística y Técnicas Periciales en el Colegio Libre de Estudios Universitarios.<br><br>En su experiencia laboral se ha desempeñado como Coordinadora de Cursos y Talleres en Investigación Balística en la empresa 'Waitë Ballistic System' S.A. de C.V (WBS), auxiliar topográfico en 'PROYECTOS TRISKEL, así también como Téctico auxiliar de campo en criminalística.'"
 		}
 	],
 	"fisica":[
@@ -291,12 +309,6 @@
 			"nombre": "L.E.F. JORGE SÁNCHEZ MENDOZA ",
 			"foto": "jorge sanchez mendoza.jpg",
 			"descripcion": "Cuenta con estudios de Licenciatura en Educación Física por el Centro Regional de Educación Normal de Oaxaca.<br><br>Cuenta con experiencia laboral siendo Catedrático para el Instituto Estatal de Educación Pública de Oaxaca. Actualmente docente de la Universidad nacinalista México"
-		},
-		{
-			"id": "lef5",
-			"nombre": "L.E.F. y M.D.E.F. ALBERTO CRUZ SANTIAGO",
-			"foto": "Alberto C Santiago.jpg",
-			"descripcion": "Cuenta con estudios de Maestría en Docencia de la Educación Física por la Escuela Normal Superior de Ciudad Madero, Tam., A.C. y, Licenciado en Educación Física por el Centro Regional de Educación Normal de Oaxaca.<br><br>Cuenta con experiencia laboral siendo Catedrático de Educación Física en Escuelas Primarias como la Rural Federal “Ignacio Manuel Altamirano” de San Pedro Coatlán, Miahuatlán, Oaxaca."
 		},
 		{
 			"id": "lef6",
@@ -343,22 +355,10 @@
 			"descripcion": "Egresado de la Universidad del Centro de México con el título de Licenciado en Filosofía; cuenta con estudios en la Escuela Normal Superior de México y el Centro de Reflexión Teológica (Sacerdotes Jesuitas). <br><br>Concluye la Maestría en Ciencias de la Educación obteniendo el grado de Maestro por el Instituto de Estudios Universitarios, Oax. Cuenta con el Doctorado en Ciencias de la Educación por el Instituto de Ciencias de la Educación de la UABJO. <br><br>Ha tomado varios cursos entre los que destaca un curso de Bioética In Facolta Di Bioética en El Ateneo Pontificio Regina Apostolorum, Roma, Italia. Experiencia en Instituciones y empresas. <br><br>Trabajó en el Programa de Educación Inicial, como supervisor de Módulo en Ayutla Mixes y Tlaxiaco. <br><br>En su desempeño profesional ha ejercido la docencia en varias instituciones entre las que se encuentran la Escuela Preparatoria Lázaro Cárdenas del Río impartiendo materias de Etimologías Grecolatinas, Ética y Literatura Hispanoamericana y en el Colegio Nacionalista México prestó sus servicios como asesor en el Sistema de Preparatoria Abierta en materias correspondientes al Área de Humanidades. <br><br>También ha sido catedrático en la Facultad de Filosofía del Seminario Pontificio de la Santa Cruz impartiendo las materias de Teoría del Conocimiento, Antropología Filosófica, Filosofía de la Religión, Filosofía de la Ciencia y Hermenéutica; en el Instituto de Ciencias de la Educación de la UABJO impartiendo las asignaturas de Epistemología de las Ciencias Sociales, Introducción a la Epistemología y Epistemología de la Educación; en la Universidad Anáhuac de Oaxaca, en el área de Humanidades y en  la Universidad Nacionalista México imparte la asignatura de Ética a  nivel Licenciatura. Con conocimientos en italiano, latín y griego."
 		},
 		{
-			"id": "lf2",
-			"nombre": "L.E. y M.C.E. VÍCTOR VÁSQUEZ IBÁÑEZ",
-			"foto": "Victor Vasquez Ibanez.jpg",
-			"descripcion": "Licenciado en Filosofía egresado de la Benemérita Universidad Autónoma de Puebla. Maestría en Ciencias Educativas por la Universidad Regional del Sureste. <br><br>Asistió a cursos, conferencias para formación complementaria entre las cuales se encuentra “Conferencia inaugural” que significa educar frente a la complejidad del conocimiento, una propuesta desde la filosofía. <br><br>Asistencia al congreso internacional “Diversidad y formación docente”; desafíos para la transformación educativa en el Instituto Multidisciplinario de Especialización de Oaxaca. <br><br>Asistencia al XII Congreso Nacional Mexicano, “La Filosofía frente a los desafíos del siglo XXI” en la Universidad de Guadalajara. <br><br>Docente y Asesor de Tesis en el Seminario Pontificio de la Santa Cruz, en la Universidad Mundo Maya, en el Instituto de Estudios Superiores del Golfo de México, en la Universidad La Salle, y en la Universidad Anahuac. <br><br>Actualmente catedrático en la Universidad Nacionalista México."
-		},
-		{
 			"id": "lf3",
 			"nombre": "L.F. y M.E. NEFTALLÍ CARMONA GONZÁLEZ",
 			"foto": "NeftaliCarmona Gonzalez.jpg",
 			"descripcion": "Cuenta con estudios de Maestría en Ciencias Educativas por la Universidad Regional del Sureste, Licenciatura en Filosofía en el Seminario Pontificio de la Santa Cruz y, Licenciatura en Psicología por la Universidad Regional del Sureste.<br><br>Cuenta con experiencia laboral siendo Catedrático de las Universidades: Universidad Regional del Sureste, Universidad del Golfo de México y, Universidad del mundo Maya; ha laborado también como Coordinador Académico de la Universidad Regional del Sureste."
-		},
-		{
-			"id": "lf4",
-			"nombre": "Lic. Fil. JUAN MANUEL AARÓN SIERRA GARCÍA",
-			"foto": "juan manuel aaron.jpg",
-			"descripcion": "Cuenta con estudios de Licenciatura en Filosofía por la Universidad Panamericana.<br><br>Cuenta con experiencia laboral siendo Catedrático del Instituto Carlos Gracida A.C. y del Seminario Pontificio de la Santa Cruz."
 		},
 		{
 			"id": "lf5",
@@ -371,6 +371,18 @@
 			"nombre": "M.T. JOSÉ DE JESÚS JIJÓN SANTIAGO",
 			"foto": "jose de jesus.jpg",
 			"descripcion": "Cuenta con estudios de Licenciatura en Filosofía por IF, Guadalajara y, Bachillerato en Sagrada Teología en IFFTIM, México-Pontifica Universidad Xaveriana, Bogotá.<br><br>En su experiancia laboral profesional ha sido Coordinador-Director de la Universidad la Salle, Campus Oaxaca, también a pertenecido a la Sociedad del Verbo Divino como Religioso-Misionero."
+		},
+		{
+			"id": "lf7",
+			"nombre": "Lic. Olga Hernández Ramírez",
+			"foto": "",
+			"descripcion": "Cuneta con los estudios de Doctorante en Filosofía por la Universidad Iberoamericana, Campus Santa Fe. Ciudad de México, Maestra en Educación por la Universidad Anahuac México Norte, Licenciada en Filosofía por la Universidad pontificiade México, Licencitura en Ciencias Religiosas por la Universidad La Salle campus D.F.<br><br>En su experiencia laboral, se ha desempeñado como Docente en Licenciaturas y maestrías de la Universidad La Salle Oaxaca. Docente de Maestría en el Instituto de Estudios Superiores en Desarrollo Humano. Docene en la Universidad Anahuac de Oaxaca. Docente de la Faculad de Filosofía del Seminario Pontificio De Santa Cruz de Oaxaca. Docente en el Instituto Carlos Gracida. Docente en la Universidad Regional del Sureste.<br><br>Actualmente catedrático de la Universidad Nacionalista México."
+		},
+		{
+			"id": "lf8",
+			"nombre": "Mtra. Débora Anel Vásquez Reyes",
+			"foto": "",
+			"descripcion": "Maestra en Filosofía de la Ciencia por la Universidad Autónoma de México.<br><br>En su experiencia laboral se ha desempeñado como Ponente en el marco de la segunda escuela de verano en filosofía de las matemáticas, con sede en la LMU-Múnich 2016, con el trabajo: Lógicas relevantes y condicional del lenguaje natural, presentó el libro 'Kant y la obra de arte' en la feria Internacional de Minería 2014 y en la Facultad de Medicina y Letras de la UNAM.<br><br>Se ha desempeñado tambien, como docente en la Universidad Autónoma Benito Juárez de Oaxaca, Universidad La Salle Oaxaca, instituto Seminario Pontíficio de Oaxaca y la Universidad Mesoamericana, Oaxaca."
 		}
 	],
 	"nutricion": [
@@ -509,12 +521,6 @@
 			"descripcion": "Cuenta con los siguientes estudios: Maestra en Educación y Doctora en Investigación Educativa.<br><br>Cuenta con experiencia en el Centro Veracruzano de Investigación y Posgrado como docente de la Maestría de Educación y Mercadotecnia. Docente y Asesora del documento recepcional de la Escuela Normal Superior Federal de Oaxaca(ENSFO) y, Docente de posgrado por la Universidad Mundo maya."
 		},
 		{
-			"id": "lp11",
-			"nombre": "M.E. TATIANA HERNÁNDEZ SAAVEDRA",
-			"foto": "90.-TATIANA HERNANDEZ2.jpg",
-			"descripcion": "Estudió su Licenciatura en Ciencias de la Educación, así como Maestría en Administración en la Facultad de Contaduría y Administración de la Universidad Autónoma Benito Juárez de Oaxaca.<br><br>Cuenta con experiencia como docente en el Instituto de Investigación en Humanidades de la UABJO, Universidad José Vasconcelos de Oaxaca, Escuela Secundaria Niños Unidos al Progreso y, Escuela Preparatoria Número 7 de la UABJO."
-		},
-		{
 			"id": "lp12",
 			"nombre": "Dra. IRMA ELENA ARANDA VÁSQUEZ",
 			"foto": "Lic. C.D. y M.E. IRMA ELENA ARANDA VASQUEZ.jpg",
@@ -535,22 +541,10 @@
 			"descripcion": "Licenciado en Psicología por la Facultad de Psicología de la Benemérita Universidad Autónoma de Puebla, en esta misma institución cursó el Diplomado Internacional en Terapia Familiar y de Pareja y el Diplomado Internacional de Hipnosis y Terapia Ericksoniana. <br><br>En la práctica profesional ha sido Coordinador del Programa de Prevención de Riesgos Psicosociales del DIF de Cacahoatan, Chiapas, Colaborador y Prestador de Servicio Social en el Servicio Clínico de Psicología de la BUAP y  Organizador del Primer Foro Estatal sobre Violencia Intrafamiliar, por mencionar algunos. Se ha desempeñado como catedrático en la Licenciatura en Comunicación de la Universidad Mesoamericana."
 		},
 		{
-			"id": "lps2",
-			"nombre": "Lic. Psic. ILIANA LOPEZ ANGELES",
-			"foto": "iliana.jpg",
-			"descripcion": "Cuenta con estudios de Maestría en Terapia Familiar por la Universidad Autónoma de Tlaxcala y Licenciada en Psicología por la Universidad Mesoamericana.<br><br>En su experiencia profesional ha colaborado para la Subdelegación Médica del ISSSTE, así como el Centro de Oncología y Radioterapia de Oaxaca."
-		},
-		{
 			"id": "lps3",
 			"nombre": "Lic.Psic. ROSARIO GUADALUPE SÁNCHEZ PACHECO",
 			"foto": "rosario guadalupe.jpg",
 			"descripcion": "Licenciada en Psicología, Opción Clínica por la Universidad Regional del Sureste Oaxaca. <br><br>Especialidad en Orientación Psicopedagógica. Diplomado en Actualización en Psicopatología, en Programación Neurolingüistica, en Políticas e Instrumentos para la Seguridad Pública especializado en prevención del abuso sexual infantil. <br><br>Ha colaborado en la Procuraduría General de Justicia del Estado de Oaxaca como Perita Psicóloga y Psicoterapeuta en casos de violencia sexual en la Agencia Especializada en Delitos Sexuales. Actualmente catedrática en la Universidad Nacionalista México."
-		},
-		{
-			"id": "lps4",
-			"nombre": "Mtra. Psic. ALMA ALBERTA MARTÍNEZ CASTILLO",
-			"foto": "Alma Martinez Castillo.jpg",
-			"descripcion": "Cuenta con estudios de Maestría en Psicología por la Facultad de Ciencias de la Conducta, Toluca, Méx. y, Licenciatura en Psicología Social por la Universidad Autónoma Metropolitana, Iztapalapa, México DF.<br><br>Ha sido Docente en la Universidad de la Sierra Sur, Universidad Estatal del Valle de Toluca y Universidad Insurgentes, Toluca, Edo. Méx."
 		},
 		{
 			"id": "lps5",
@@ -569,6 +563,18 @@
 			"nombre": "M.F. RENÉ HERNÁNDEZ ALONSO",
 			"foto": "RENE HERNANDEZ ALONSO.jpg",
 			"descripcion": "Cuenta con estudios de Maestría en Educación Básica por el Instituto Multidisciplinario de Especialización, Maestría en Psicoterapia Cognitivo Conductual con Enfoque Humanista por el Instituto Cognitivo Conductual de Salud Mental de México y Licenciatura en Psicología Clínica por el Instituto de Estudios Superiores de Oaxaca.<br><br>En su experiencia laboral profesional ha sido Catedrático del Instituto de Estudios Superiores de Oaxaca, así como del Instituto Multidisciplinario de Especialización."
+		},
+		{
+			"id": "lps8",
+			"nombre": "Mtra. María Monserrat Rodríguez Ruiz",
+			"foto": "",
+			"descripcion": "Cuenta con los estudios de Maestrante en enfoques Psicoterapéuticos Cognitivo Humanistas por el Instituto Cognitivo de Salud Mental de México, Maestría en Sexualidad Humana por el Instituto Universitario Carl Rogers, licenciatura en Psicología por la Universidad Regional del Sureste.<br><br>En su experiencia laboral se ha desempeñado como: Responsable del Área de Igualdad de Género de la Dirección para la Mejora de la ConvivenciaEscolar del Instituto Estatal de Educación Pública de Oaxaca. Responsable del Departamento de Atención y Tratamiento de la Dirección para la Mejora de la Convivencia Escolar del IEEPO. Responsable del Área de capacitación en la Coordinación de la Agenda Estatal para la Equidad en Educación Inicial y Básica del IEEPO."
+		},
+		{
+			"id": "lps9",
+			"nombre": "L.P.S. Eusebio Hernández Ramírez",
+			"foto": "",
+			"descripcion": "Licenciado en Psicología por el Instituto de Estudios Superiores de oaxaca.<br><br>En su experiencia profesional se ha desempeñado como Jefe del Departamento de Asistencia Socialen el Sistema DIF Oaxaca,jefe del departamento de Programas Institucionles y de Asistencia Social Sistema Dif Oaxaca, se ha desempeñado tambien como catedrático en el Instituto de Estudios Superiores de Oaxaca.<br><br>Actualmente Catedrático de la Universidad Nacionalista México."
 		}
 	],
 	"sistemas":[
@@ -597,35 +603,28 @@
 			"descripcion": "Ingeniería en Tecnología de la Información y Telecomunicaciones en la Universidad Anáhuac de Oaxaca. Catedrático en al Área de Ingeniería de Computación en el Instituto de Estudios Superiores del Estado de Oaxaca. <br><br>Analista en el área del Instituto de Tecnología de la Información y Telecomunicaciones, Ciudad Administrativa, en las labores de la Administración de la Red, junto con el proyecto de red para todos dando servicio de red de voz y datos a hospitales, escuelas y lugares gubernamentales. <br><br>Catedrático en el área de Informática en la Universidad Mesoamericana de Oaxaca. <br><br>Actualmente Catedrático en el área de Ingeniería de Sistemas Computacionales en la Universidad Nacionalista México en el Estado de Oaxaca."
 		},
 		{
-			"id": "lsc5",
-			"nombre": "L.I. GUSTAVO HAMLET OROPEZA ARÉVALO",
-			"foto": "hamlet.jpg",
-			"descripcion": "Licenciado en Informática por el Instituto Tecnológico de Oaxaca y, cuenta con un curso de especialización en Tecnologías de la Información y Redes de Alta Velocidad por el CIIDIR Oaxaca del Instituto Politécnico Nacional.<br><br>En el campo laboral ha sido Responsable y Administrador de Las Bases de Datos albergadas en los Servidores de la Secretaría de la contraloría."
-		},
-		{
 			"id": "lsc6",
 			"nombre": "L.S.C. y M.A. MARÍA ELENA HERNÁNDEZ RAMOS",
 			"foto": "Maria Elena Hernandez Ramos.jpg",
 			"descripcion": "Cuenta con estudios de: Maestría en Administración por el Tecnológico de Monterrey y, Licenciatura en Sistemas Computacionales por la Universidad Mesoamericana.<br><br>En su experiencia laboral ha sido Catedrático en la Universidad Mesoamericana, Universidad Mundo Maya, Colegio Nacional de Matemáticas, así también, ha laborado para CFE División Sureste como Analista de Sistemas de Cómputo."
 		},
 		{
-			"id": "lsc7",
-			"nombre": "Ing. RICARDO RAMOS VARGAS",
-			"foto": "Ricardo ramos.jpg",
-			"descripcion": "Cuenta con estudios de Ingeniería en Tecnologías de la Información y Telecomunicaciones por la Universidad Anáhuac, Oaxaca.<br><br>Cuenta con experiencia laboral siendo Docente en el Instituto Cumbres, Oaxaca; también se ha desempeñado como Coordinador del Grupo de Excelencia Académica de la Universidad Anáhuac."
-		},
-		{
-			"id": "lsc8",
-			"nombre": "L.L.E. RICARDO DANIEL GUTÍERREZ LUIS",
-			"foto": "85.-Ricardo Daniel.jpg",
-			"descripcion": "Cuenta con experiencia laboral siendo Catedrático en: La Universidad Autónoma Benito Juárez de Oaxaca, Centro Educativo Anderson, Universidad Vasconcelos e Instituto Universitario de Oaxaca."
-		},
-		{
 			"id": "lsc9",
 			"nombre": "Mtra. GEORGINA CHINO GALLARDO",
 			"foto": "86.-Georgina chino.jpg",
 			"descripcion": "Cuenta con estudios de Maestría en Administración y, Licenciada en Informática.<br><br>En su experiencia laboral ha sido Docente en la Universidad Regional del Sureste, la Universidad Mesoamericana y el colegio Antonio de León. Actualmente catedrático de la Universidad Nacionalista México."
+		},
+		{
+			"id": "lsc10",
+			"nombre": "M.T.I.E. Carlos Alejandro Díaz Osorio",
+			"foto": "",
+			"descripcion": "Maesrto en Tecnologias De información Empresarial, Ingeniero en Electrónica por el Instituto Tecnológico de Oaxaca.<br><br>En su experiencia se ha desempeñado como Residente Profesional desarrollando el proyecto: 'Implementación de un enlace de contribución de video, en alta definición, sobre una red IP, entre los sitios Televisa Chapultepec y Televisa Cd. Juárez'. Ha tomado diversos cursos como Introducción a SISCO, Conectorización de Fibra Óptica impartidos por el Instituto Tecnológico de Oaxaca."
+		},
+		{
+			"id": "lsc11",
+			"nombre": "Mtro. Jaime Ricardo Lagunas Piñón",
+			"foto": "",
+			"descripcion": "Maestro en Ciencias Computacionales por la Universidad Autónoma de Guadalajara, Licenciado en Informática po el Instituto Tecnológico de Oaxaca.<br><b>En su experiencia laboral se ha desempeñado como: Jefe del Departamento de Políticas de Acceso a la Información, Secretaría de la Contraloría y Transparencia Gubernamental, Webmaster del Gobierno del Estado de Oaxaca, Secretaría de la Contraloría. Tambien se ha desempeñado como docente en la Universidad La Salle Oaxaca, El Instituto de Estudios Superiores de Oaxaca, el Instituto Tecnológico de Oaxaca, la Universidad Autónoma Benito Juárez de Oaxaca."
 		}
 	]
 }
-

@@ -1,0 +1,76 @@
+{
+  "bajas":[
+    {
+			"id": "ld12",
+			"nombre": "L.D. CELSO ALBERTO ROBLES VILLATORO",
+			"foto": "celso villatoro.jpg",
+			"descripcion": "Cuenta con estudios de Licenciatura en Derecho por la Universidad Autónoma Benito Juárez de Oaxaca.<br><br>En su experiencia laboral profesional ha sido Catedrático de La Universidad La Salle, ha laborado también en las Notarías Públicas Núm. 48, 124 y 111 en el Estado de Oaxaca."
+		},
+    {
+			"id": "ld22",
+			"nombre": "Ing. JOSÉ ISAÍAS QUEVEDO CENTENO",
+			"foto": "jose isaias.jpg",
+			"descripcion": "Cuenta con estudios como Ingeniero Mecánico por el Instituto Tecnológico de Oaxaca.<br><br>En su experiencia profesional ha sido Docente del Colegio Libre de Estudios Universitarios de Oaxaca, Ha laborado tambén como elemento de la Policía Estatal comisionado en la Agencia Estatal de Investigaciones de la Fiscalía General del Estado; se ha desempeñado como Perito en las Siguientes empresas: Aseguradora AXXA, QUALITAS SEGUROS y, LA LATINOAMERICANA."
+		},
+    {
+			"id": "la16",
+			"nombre": "L. D. ABNER ENOC MARTÍNEZ LÓPEZ",
+			"foto": "Abner_Enoc_Martinez_Lopez.jpg",
+			"descripcion": "Licenciado en Derecho por la Universidad Mesoamericana.<br><br>En su experiencia profesional  se ha desempeñado como Asesor Jurídico en empresas como Impulso Empresarial del Sureste y, Consultores y Asesores  en Innovación Tributaria; actualmente se desempeña como Catedrático de la Universidad Nacionalista México."
+		},
+    {
+			"id": "lsc5",
+			"nombre": "L.I. GUSTAVO HAMLET OROPEZA ARÉVALO",
+			"foto": "hamlet.jpg",
+			"descripcion": "Licenciado en Informática por el Instituto Tecnológico de Oaxaca y, cuenta con un curso de especialización en Tecnologías de la Información y Redes de Alta Velocidad por el CIIDIR Oaxaca del Instituto Politécnico Nacional.<br><br>En el campo laboral ha sido Responsable y Administrador de Las Bases de Datos albergadas en los Servidores de la Secretaría de la contraloría."
+		},
+    {
+			"id": "lsc7",
+			"nombre": "Ing. RICARDO RAMOS VARGAS",
+			"foto": "Ricardo ramos.jpg",
+			"descripcion": "Cuenta con estudios de Ingeniería en Tecnologías de la Información y Telecomunicaciones por la Universidad Anáhuac, Oaxaca.<br><br>Cuenta con experiencia laboral siendo Docente en el Instituto Cumbres, Oaxaca; también se ha desempeñado como Coordinador del Grupo de Excelencia Académica de la Universidad Anáhuac."
+		},
+    {
+			"id": "lsc8",
+			"nombre": "L.L.E. RICARDO DANIEL GUTÍERREZ LUIS",
+			"foto": "85.-Ricardo Daniel.jpg",
+			"descripcion": "Cuenta con experiencia laboral siendo Catedrático en: La Universidad Autónoma Benito Juárez de Oaxaca, Centro Educativo Anderson, Universidad Vasconcelos e Instituto Universitario de Oaxaca."
+		},
+    {
+			"id": "lf2",
+			"nombre": "L.E. y M.C.E. VÍCTOR VÁSQUEZ IBÁÑEZ",
+			"foto": "Victor Vasquez Ibanez.jpg",
+			"descripcion": "Licenciado en Filosofía egresado de la Benemérita Universidad Autónoma de Puebla. Maestría en Ciencias Educativas por la Universidad Regional del Sureste. <br><br>Asistió a cursos, conferencias para formación complementaria entre las cuales se encuentra “Conferencia inaugural” que significa educar frente a la complejidad del conocimiento, una propuesta desde la filosofía. <br><br>Asistencia al congreso internacional “Diversidad y formación docente”; desafíos para la transformación educativa en el Instituto Multidisciplinario de Especialización de Oaxaca. <br><br>Asistencia al XII Congreso Nacional Mexicano, “La Filosofía frente a los desafíos del siglo XXI” en la Universidad de Guadalajara. <br><br>Docente y Asesor de Tesis en el Seminario Pontificio de la Santa Cruz, en la Universidad Mundo Maya, en el Instituto de Estudios Superiores del Golfo de México, en la Universidad La Salle, y en la Universidad Anahuac. <br><br>Actualmente catedrático en la Universidad Nacionalista México."
+		},
+    {
+			"id": "lf4",
+			"nombre": "Lic. Fil. JUAN MANUEL AARÓN SIERRA GARCÍA",
+			"foto": "juan manuel aaron.jpg",
+			"descripcion": "Cuenta con estudios de Licenciatura en Filosofía por la Universidad Panamericana.<br><br>Cuenta con experiencia laboral siendo Catedrático del Instituto Carlos Gracida A.C. y del Seminario Pontificio de la Santa Cruz."
+		},
+    {
+			"id": "lps2",
+			"nombre": "Lic. Psic. ILIANA LOPEZ ANGELES",
+			"foto": "iliana.jpg",
+			"descripcion": "Cuenta con estudios de Maestría en Terapia Familiar por la Universidad Autónoma de Tlaxcala y Licenciada en Psicología por la Universidad Mesoamericana.<br><br>En su experiencia profesional ha colaborado para la Subdelegación Médica del ISSSTE, así como el Centro de Oncología y Radioterapia de Oaxaca."
+		},
+    {
+			"id": "lps4",
+			"nombre": "Mtra. Psic. ALMA ALBERTA MARTÍNEZ CASTILLO",
+			"foto": "Alma Martinez Castillo.jpg",
+			"descripcion": "Cuenta con estudios de Maestría en Psicología por la Facultad de Ciencias de la Conducta, Toluca, Méx. y, Licenciatura en Psicología Social por la Universidad Autónoma Metropolitana, Iztapalapa, México DF.<br><br>Ha sido Docente en la Universidad de la Sierra Sur, Universidad Estatal del Valle de Toluca y Universidad Insurgentes, Toluca, Edo. Méx."
+		},
+    {
+			"id": "lp11",
+			"nombre": "M.E. TATIANA HERNÁNDEZ SAAVEDRA",
+			"foto": "90.-TATIANA HERNANDEZ2.jpg",
+			"descripcion": "Estudió su Licenciatura en Ciencias de la Educación, así como Maestría en Administración en la Facultad de Contaduría y Administración de la Universidad Autónoma Benito Juárez de Oaxaca.<br><br>Cuenta con experiencia como docente en el Instituto de Investigación en Humanidades de la UABJO, Universidad José Vasconcelos de Oaxaca, Escuela Secundaria Niños Unidos al Progreso y, Escuela Preparatoria Número 7 de la UABJO."
+		},
+    {
+			"id": "lef5",
+			"nombre": "L.E.F. y M.D.E.F. ALBERTO CRUZ SANTIAGO",
+			"foto": "Alberto C Santiago.jpg",
+			"descripcion": "Cuenta con estudios de Maestría en Docencia de la Educación Física por la Escuela Normal Superior de Ciudad Madero, Tam., A.C. y, Licenciado en Educación Física por el Centro Regional de Educación Normal de Oaxaca.<br><br>Cuenta con experiencia laboral siendo Catedrático de Educación Física en Escuelas Primarias como la Rural Federal “Ignacio Manuel Altamirano” de San Pedro Coatlán, Miahuatlán, Oaxaca."
+		}
+  ]
+}
