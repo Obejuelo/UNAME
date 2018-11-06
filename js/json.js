@@ -178,7 +178,7 @@ document.addEventListener('DOMContentLoaded', () => {
     fetch('maestros/bach.json')
         .then(res => res.json())
         .then(data => {
-            console.log(data.administracion);
+            // console.log(data.administracion);
             mostrarMaestrosBach(data.administracion);
         })
         .catch(error => console.log(error));
@@ -193,7 +193,7 @@ document.addEventListener('DOMContentLoaded', () => {
     fetch('maestros/maestros.json')
         .then(res => res.json())
         .then(data => {
-            console.log(data);
+            // console.log(data);
             mostrarMaestrias(data);
         })
         .catch(error => console.log(error));
