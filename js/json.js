@@ -55,6 +55,7 @@ function cargarJson() {
 }
 cargarJson();
 */
+
 //Nos conectamos con el archivo .JSON de lo s maestros utilizando AJAX aun soportado por IE
 mostrarMaestros();
 

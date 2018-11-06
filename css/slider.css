@@ -3,11 +3,11 @@ NAME: SLIDE-IMG-RESPONSIVE;
 AUTHOR: OBED HERNÁNDEZ;
 */
 
-.img-1 {background: url('../image/slider/graduacion.jpg') no-repeat;}
-.img-2 {background: url('../image/slider/crim.jpg') no-repeat;}
-.img-3 {background: url('../image/slider/colegio.jpg') no-repeat;}
-.img-4 {background: url('../image/slider/fondo.jpg') no-repeat; animation: zoomImg 14s infinite;}
-.img-5 {background: url('../image/slider/fondo-congreso.jpg') no-repeat; animation: zoomImg 14s infinite;}
+.img-1 {background: url('../image/slider/graduacion.jpg') #00363a red no-repeat;}
+.img-2 {background: url('../image/slider/crim.jpg') #006064 no-repeat;}
+.img-3 {background: url('../image/slider/colegio.jpg') #428e92 no-repeat;}
+.img-4 {background: url('../image/slider/fondo.jpg') #00363a no-repeat; animation: zoomImg 14s infinite;}
+.img-5 {background: url('../image/slider/fondo-congreso.jpg') #006064 no-repeat; animation: zoomImg 14s infinite;}
 
 
 /* ===========PROMOCIONES=============== */
@@ -81,14 +81,14 @@ AUTHOR: OBED HERNÁNDEZ;
     height: 100vh;
     min-height: 100vh;
     background: rgba(0,0,0, .4) url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mOUbRGQBAACQwDMNp7y0QAAAABJRU5ErkJggg==') repeat;
-    
+
 }
 #head1{
-    animation: zoomImg 14s infinite;
+    animation: zoomImg 14s infinite ease-out;
 }
 
 .text{
-    animation: zoomText 14s infinite;
+    animation: zoomText 14s infinite ease-out;
 }
 
 .text-caption{
@@ -118,11 +118,22 @@ AUTHOR: OBED HERNÁNDEZ;
     animation: 3s fadeInUp 1;
 }
 
+.fa-angle-double-down {
+  font-size: 2.5em;
+  font-weight: 500;
+  color:rgba(255,255,255,.3);
+  animation: doubleDown 2s infinite ease-out;
+}
+
+.carousel-item .h2{font-size: 1em; font-weight: 300;}
+.carousel-item .h1{font-size: 2em; font-weight: 300;}
+.carousel-item .h3{font-size: .8em; font-weight: 300;}
+
 .slide {
     padding: 0;
 }
 
-.hashtag {
+.carousel-item .hashtag {
     color: #f2f2f2;
 }
 
@@ -242,18 +253,29 @@ AUTHOR: OBED HERNÁNDEZ;
     to{opacity: 1;}
 }
 
+@keyframes doubleDown {
+  0%{
+    color: rgba(255,255,255,.3);
+    transform: translateY(0);
+  }
+  35%{
+    color: rgba(255,255,255,.6);
+    transform: translateY(15px);
+  }
+  100%{
+    color: rgba(255,255,255,.3);
+    transform: translateY(0);
+  }
+}
 
 /*-----------------MEDIA SCREN PARA RESPONSIVE DESING-----------------------*/
 
 @media screen and (min-width: 575px) {}
 
 @media screen and (min-width: 767px) {
-    .carousel-caption .h2 {
-        font-size: 2.7em;
-    }
-    .carousel-caption .h3 {
-        font-size: 2em;
-    }
+    .carousel-item .h2{font-size: 2.1em; font-weight: 300;}
+    .carousel-item .h1{font-size: 3em; font-weight: 300;}
+    .carousel-item .h3{font-size: 1.5em; font-weight: 300;}
 }
 
 @media screen and (min-width: 991px) {}

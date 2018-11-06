@@ -11,6 +11,7 @@ window.addEventListener("scroll", function() {
         posicion.className = "navbar navbar-expand-lg fixed-top navegacion navbar-light bg-light";
         unm.style.color = "#000";
         uname.style.color = "#000";
+        uname.style.transition = "all .5s";
     }
     let nuevo = st;
     if (nuevo <= lastScrollTop) {
@@ -93,6 +94,22 @@ document.addEventListener('DOMContentLoaded', function() {
         //console.log(ancho);
     }, 10);
 });
+
+//Double down
+let down = document.querySelector('.down');
+let body = document.querySelector('.info');
+(function(){
+  window.addEventListener("scroll", function(e) {
+    let st = window.pageYOffset || document.documentElement.scrollTop;
+    if (st >= 50) {
+      down.style.opacity = '0';
+      down.style.transition = 'opacity .5s';
+    } else {
+      down.style.opacity = '1';
+      down.style.transition = 'opacity 1s linear';
+    }
+  })
+})();
 
 //ACTIVE
 getActive();

@@ -81,10 +81,9 @@
 
     <div class="carousel slide carousel-fade" id="principal-carousel" data-ride="carousel">
         <ol class="carousel-indicators">
-            <li data-target="#principal-carousel" data-slide-to="0"></li>
-            <li data-target="#principal-carousel" data-slide-to="1"></li>
-            <li data-target="#principal-carousel" data-slide-to="2"></li>
-            <li data-target="#principal-carousel" data-slide-to="3"></li>
+          <div class="down" style="background: none">
+            <i class="fas fa-angle-double-down"></i>
+          </div>
         </ol>
         <div class="carousel-inner">
 
