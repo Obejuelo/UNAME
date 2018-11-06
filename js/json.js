@@ -14,9 +14,9 @@
 				<div class="col-md-4 col-lg-3 mt-3 claustro">
                    <img class="rounded-circle" src="../image/claustro/${carpeta}/${dato.foto}" alt="perfil" width="90" height="90">
                    <p>${dato.nombre}</p>
-                   <p><a class="btn btn-secondary btn-sm" href="#" role="button" data-toggle="modal" data-target="#${dato.id}">Ver más &raquo;</a></p>                              
+                   <p><a class="btn btn-secondary btn-sm" href="#" role="button" data-toggle="modal" data-target="#${dato.id}">Ver más &raquo;</a></p>
                    <div class="modal fade" id="${dato.id}" tabindex="-1" role="dialog" aria-labelledby="${dato.id}" aria-hidden="true">
-                       <div class="modal-dialog">                                      
+                       <div class="modal-dialog">
                            <div class="modal-content d-flex align-items-center">
                                <div class="modal-body modal-claus">
                                    <p class="text-justify text-muted">${dato.descripcion}</p>
@@ -26,7 +26,7 @@
                                </div>
                            </div>
                        </div>
-                   </div>   
+                   </div>
                </div>
 			`;
 		})
@@ -116,7 +116,7 @@ function metodoModal(maestro, id, carpeta) {
         contenido.innerHTML += '<div class="col-md-4 col-lg-3 mt-3 claustro">' +
             '<img class="rounded-circle" src="../image/claustro/' + carpeta + '/' + dato.foto + '" alt="perfil" width="90" height="90">' +
             '<p>' + dato.nombre + '</p>' +
-            '<p><a class="btn btn-secondary btn-sm" href="#" role="button" data-toggle="modal" data-target="#' + dato.id + '">Ver más &raquo;</a></p>' +
+            '<p><a class="btn btn-secondary btn-sm" href="#" role="button" data-toggle="modal" data-target="#' + dato.id + '">Ver más</a></p>' +
             '<div class="modal fade" id="' + dato.id + '" tabindex="-1" role="dialog" aria-labelledby="' + dato.id + '" aria-hidden="true">' +
             '<div class="modal-dialog">' +
             '<div class="modal-content d-flex align-items-center">' +
@@ -140,9 +140,9 @@ function modalBach(maestro, id, carpeta) {
 				<div class="col-md-4 col-lg-3 mt-3 claustro">
                    <img class="rounded-circle" src="../image/claustro/${carpeta}/${dato.foto}" alt="perfil" width="90" height="90">
                    <p>${dato.nombre}</p>
-                   <p><a class="btn btn-secondary btn-sm" href="#" role="button" data-toggle="modal" data-target="#${dato.id}">Ver más &raquo;</a></p>                              
+                   <p><a class="btn btn-secondary btn-sm" href="#" role="button" data-toggle="modal" data-target="#${dato.id}">Ver más</a></p>
                    <div class="modal fade" id="${dato.id}" tabindex="-1" role="dialog" aria-labelledby="${dato.id}" aria-hidden="true">
-                       <div class="modal-dialog">                                      
+                       <div class="modal-dialog">
                            <div class="modal-content d-flex align-items-center">
                                <div class="modal-body modal-claus">
                                    <p class="text-justify text-muted">${dato.descripcion}</p>
@@ -152,7 +152,7 @@ function modalBach(maestro, id, carpeta) {
                                </div>
                            </div>
                        </div>
-                   </div>   
+                   </div>
                </div>
 			`;
     })
