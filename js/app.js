@@ -22,7 +22,7 @@ window.addEventListener("scroll", function() {
     }
 }, false);
 
-//FUNCION PARA CAMBIAR DE COLOR LOS ICONOS DE REDES SOCIALES CUANDO SE HAGA SCROLL
+//EVENTO PARA CAMBIAR DE COLOR LOS ICONOS DE REDES SOCIALES CUANDO SE HAGA SCROLL
 window.addEventListener("scroll", function() {
     let icono1 = document.getElementById('icono1');
     let icono2 = document.getElementById('icono2');
@@ -44,7 +44,7 @@ window.addEventListener("scroll", function() {
     }
 });
 
-//FUNCION PARA CAMBIAR EL COLOR DEL NAV CUANDO SE DE CLICK EN DISPOSITIVOS MOVILES
+//EVENTO PARA CAMBIAR EL COLOR DEL NAV CUANDO SE DE CLICK EN DISPOSITIVOS MOVILES
 let click = 0;
 let botonMenu = document.getElementById('show-menu');
 botonMenu.addEventListener('click', function() {
@@ -63,10 +63,10 @@ function retardo() {
 }
 
 //QUERY PARA QUE EL SLIDE NO PAUSE AL PASAR EL PUNTERO
-//$('.carousel').carousel({
+// $('.carousel').carousel({
 //    interval: 6000,
 //    pause: false
-//});
+// });
 
 //Funcion para que el nav se oculte cuando se haga scrool hacia abajo y se muestre cuando sea hacia arriba
 var scrool = 200;

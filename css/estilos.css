@@ -268,7 +268,7 @@ ol li {
 }
 
 .trans .btn {
-    background: rgba(10, 107, 60, .9); 
+    background: rgba(10, 107, 60, .9);
 }
 
 .trans .btn:hover{
@@ -555,7 +555,56 @@ textarea {
     border-radius: 8px;
 }
 
+.conteo{
+  text-align: center;
+}
 
+.conteo p{
+  display: inline;
+  font-size: .8em;
+}
+
+#dias, #horas, #minutos, #segundos{
+  font-size: 1.2em;
+  font-weight: bold;
+  color: rgba(10, 107, 60, .9);
+}
+
+.conteo .inicio{
+  font-size: 3.5em;
+  font-weight: bold;
+  color: rgba(10, 107, 60, .9);
+}
+
+.fires{
+  position: relative;
+  width:100%;
+  display: none;
+  justify-content: space-around;
+  top: -30px;
+}
+
+.fires .fire {
+  width: 1px;
+  height: 1px;
+  border-radius: 50%;
+}
+
+.fires .fire:nth-child(1){background: #29b6f6; animation: fire 2.5s 3 ease-out 1s; position: relative; top: -30px}
+.fires .fire:nth-child(2){background: #ff1744; animation: fire2 2.5s 3 ease-out 2.3s; position: relative;}
+.fires .fire:nth-child(3){background: #00b248; animation: fire 2.5s 3 ease-out 2s; position: relative; top: -10px}
+.fires .fire:nth-child(4){background: #ffeb3b; animation: fire2 2.5s 3 ease-out 1.3s; position: relative; top: 10px}
+.fires .fire:nth-child(5){background: #009688; animation: fire 2.5s 3 ease-out 1.6s; position: relative; top: -30px}
+
+@keyframes fire {
+  from {transform: scale(1);opacity: 1}
+  to {transform: scale(100);opacity: 0}
+}
+
+@keyframes fire2 {
+  from {transform: scale(1);opacity: 1}
+  to {transform: scale(150);opacity: 0}
+}
 /*|||||||||||||||INSTALACIONES||||||||||||||||||*/
 
 #headingOne .btn,
@@ -659,6 +708,15 @@ textarea {
     }
     .card-nota {
         height: 500px;
+    }
+    .conteo p{
+      display: inline;
+      font-size: 1.5em;
+    }
+    #dias, #horas, #minutos, #segundos{
+      font-size: 3.5em;
+      font-weight: bold;
+      color: rgba(10, 107, 60, .9);
     }
 }
 

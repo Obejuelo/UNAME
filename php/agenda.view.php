@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="css/slider.css">
     <script src="js/fontawesome-all.min.js"></script>
 </head>
-<body>  
+<body>
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top navegacion" id="posicion">
         <div class="container">
             <a href="/pagina_unm/" class="navbar-brand"><img src="image/unm.png" alt="" class="img-nav"></a>
@@ -82,13 +82,29 @@
             <div class="col-12 align-bach"><p class="h1 text-center">AGENDA ACADÉMICA</p></div>
         </div>
     </div>
-    
+
     <section class="container mt-1">
         <div class="row justify-content-center">
             <div class="col-md-8 event-view">
                 <img src="<?php echo RUTA; ?>/image/eventos/<?php echo $nota['img']; ?>" alt="" class="img-fluid img-single">
                 <p class="h3 text-center mb-4"><?php echo $nota['titulo']; ?></p>
                 <p class="text-center text-secondary"><?php echo nl2br($nota['texto']); ?></p>
+                <!-- CONTEO REGRESIVO -->
+                <div class="conteo">
+                  <h3>Faltan</h3>
+                  <p id="dias"></p><p> dias, </p>
+                  <p id="horas"></p><p> Horas, </p>
+                  <p id="minutos"></p><p> minutos, </p>
+                  <p id="segundos"></p><p> segundos, </p>
+                </div>
+                <div class="fires">
+                  <div class="fire"></div>
+                  <div class="fire"></div>
+                  <div class="fire"></div>
+                  <div class="fire"></div>
+                  <div class="fire"></div>
+                </div>
+
             </div>
             <div class="col-md-4">
                 <div class="row justify-content-center">
@@ -146,7 +162,7 @@
                                     setTimeout(function(){
                                         //document.getElementById('mensaje').remove();
                                         $('#mensaje').slideUp(500);
-                                    }, 10000); 
+                                    }, 10000);
                                 </script>
                             <?php endif ?>
                             <?php if(!$errores == ''): ?>
@@ -160,50 +176,9 @@
                                         $('#email').addClass('is-invalid');
                                         //$('#nombre').addClass('is-valid');
                                         //$('#last').addClass('is-valid');
-                                    }, 3000); 
+                                    }, 3000);
                                 </script>
                             <?php endif ?>
-
-<div id="paypal-button"></div>
-<script src="https://www.paypalobjects.com/api/checkout.js"></script>
-<script>
-  paypal.Button.render({
-    // Configure environment
-    env: 'sandbox',
-    client: {
-      sandbox: 'demo_sandbox_client_id',
-      production: 'demo_production_client_id'
-    },
-    // Customize button (optional)
-    locale: 'es_MX',
-    style: {
-      size: 'small',
-      color: 'blue',
-      shape: 'pill',
-    },
-    // Set up a payment
-    payment: function(data, actions) {
-      return actions.payment.create({
-        transactions: [{
-          amount: {
-            total: '0.01',
-            currency: 'USD'
-          }
-        }]
-      });
-    },
-    // Execute the payment
-    onAuthorize: function(data, actions) {
-      return actions.payment.execute().then(function() {
-        // Show a confirmation message to the buyer
-        window.alert('Thank you for your purchase!');
-      });
-    }
-  }, '#paypal-button');
-
-</script>
-
-
                             <div class="button">
                                 <input type="submit" value="Enviar" class="btn btn-dark btn-sm" id="button">
                             </div>
@@ -229,7 +204,7 @@
                     </div>
                     <a href="agenda?id=<?php echo $nota['id']; ?>&&titulo=<?php echo $nota['titulo']; ?>" class="btn btn-dark btn-sm boton-evento">Ver Más</a>
                 </div>
-                
+
             </div>
         <?php endforeach ?>
 
@@ -259,7 +234,7 @@ email.addEventListener('blur', function(){
         $(email).removeClass('is-invalid');
         $(email).addClass('is-valid');
     }
-    
+
 });
 
 function validacion(elemento){
@@ -272,6 +247,86 @@ function validacion(elemento){
         $(elemento).addClass('is-valid');
     }
 }
+
+(function(){
+  let time = document.querySelector('.conteo');
+  let diasP = document.getElementById('dias');
+  let horasP = document.getElementById('horas');
+  let minutosP = document.getElementById('minutos');
+  let segundosP = document.getElementById('segundos');
+  let fires = document.querySelector('.fires');
+  let form = document.querySelector('.event-form');
+
+  let dif=-1;
+  let dias=-1;
+  let horas=-1;
+  let minutos=-1;
+  let segundos=-1;
+
+  function conteo(){
+    let fecha = new Date('2018','10','16','16','00','00');
+    let actual = new (Date);
+
+    if(fecha > actual){
+      dif = (fecha.getTime() - actual.getTime())/1000;
+      dias = Math.floor(dif/86400)
+      dif = dif-(86400*dias)
+      horas = Math.floor(dif/3600)
+      dif = dif-(3600*horas)
+      minutos = Math.floor(dif/60)
+      dif = dif-(60*minutos)
+      segundos = Math.floor(dif)
+
+      if(segundos < 10){
+        segundos = `0${segundos}`;;
+      }
+      if(minutos < 10){
+        minutos = `0${minutos}`;;
+      }
+      if(horas < 10){
+        horas = `0${horas}`;;
+      }
+
+      diasP.innerHTML = `${dias}`;
+      horasP.innerHTML = `${horas}`;
+      minutosP.innerHTML = `${minutos}`;
+      segundosP.innerHTML = `${segundos}`;
+
+    } else {
+      time.innerHTML = '<p class="inicio">Comenzamos</p>';
+      fires.style.display = 'flex';
+      form.style.display = 'none';
+    }
+  }
+  setInterval(conteo,1000);
+
+})();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 </script>
