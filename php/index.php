@@ -88,7 +88,7 @@
         <div class="carousel-inner">
 
             <!--CONGRESO-->
-            <div class="carousel-item img-5 active" id="">
+            <!-- <div class="carousel-item img-5 active" id="">
                 <div class="row content-image justify-content-center opacity" style="z-index: 1; margin: 0">
                     <div class="col-lg-11 col-xl-8 align-self-center text" style="z-index: 2">
                         <p class="h2 text-caption" style="color: #f2f2f2">Congreso Nacional de</p>
@@ -97,10 +97,10 @@
                         <a class="btn btn-outline-light" href="agenda?id=12&&titulo=Congreso%20Nacional%20de%20Filosof%C3%ADa.">Registrate</a>
                     </div>
                 </div>
-            </div>
+            </div> -->
 
             <!--CONCURSO-->
-            <div class="carousel-item img-4" id="">
+            <div class="carousel-item img-4 active" id="">
                 <div class="row content-image justify-content-center opacity" style="z-index: 1; margin: 0">
                     <div class="col-lg-11 col-xl-8 align-self-center text" style="z-index: 2">
                         <p class="h1 text-caption">CONCURSO</p>
@@ -195,7 +195,7 @@
     </section>
         <!--AGENDA ACADÉMICA-->
 
-    <div class="event-container">
+    <!-- <div class="event-container">
         <div class="opacidad"></div>
         <section class="container">
             <div class="row justify-content-center">
@@ -217,7 +217,7 @@
 
             </div>
         </section>
-    </div>
+    </div> -->
 
     <section>
         <div class="container convenios mt-3">

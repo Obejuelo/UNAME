@@ -257,14 +257,10 @@ function validacion(elemento){
   let fires = document.querySelector('.fires');
   let form = document.querySelector('.event-form');
 
-  let dif=-1;
-  let dias=-1;
-  let horas=-1;
-  let minutos=-1;
-  let segundos=-1;
+  let dif=0, dias=0, horas=0, minutos=0, segundos=0;
 
   function conteo(){
-    let fecha = new Date('2018','10','16','16','00','00');
+    let fecha = new Date('2018','10','9','15','30','00');
     let actual = new (Date);
 
     if(fecha > actual){
@@ -277,15 +273,9 @@ function validacion(elemento){
       dif = dif-(60*minutos)
       segundos = Math.floor(dif)
 
-      if(segundos < 10){
-        segundos = `0${segundos}`;;
-      }
-      if(minutos < 10){
-        minutos = `0${minutos}`;;
-      }
-      if(horas < 10){
-        horas = `0${horas}`;;
-      }
+      if(segundos < 10) {segundos = `0${segundos}`;}
+      if(minutos < 10) {minutos = `0${minutos}`;}
+      if(horas < 10) {horas = `0${horas}`;}
 
       diasP.innerHTML = `${dias}`;
       horasP.innerHTML = `${horas}`;
@@ -299,7 +289,6 @@ function validacion(elemento){
     }
   }
   setInterval(conteo,1000);
-
 })();
 
 
